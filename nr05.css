@@ -1,0 +1,7789 @@
+/*HERO NR05*/
+.hero-nr {
+    padding: 120px 0;
+    background: linear-gradient(180deg, #ffffff 0%, #f9fbfa 60%, #f4f8f6 100%);
+}
+
+.hero-nr .container {
+    width: min(1400px, 92%);
+    margin: auto;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 45px;
+    font-size: 15px;
+}
+
+.breadcrumb a {
+    color: #5d7288;
+    text-decoration: none;
+}
+
+.breadcrumb span {
+    color: #0bc366;
+    font-weight: 700;
+}
+
+.hero-nr-grid {
+    display: grid;
+    grid-template-columns: 1fr .9fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 13px 26px;
+    background: #eef8f2;
+    color: #0aa35d;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.hero-nr-content h1 {
+    margin-top: 30px;
+    font-size: 66px;
+    line-height: 1.05;
+    color: #0b3c66;
+}
+
+.hero-nr-content h1 span {
+    display: block;
+    margin-top: 18px;
+    font-size: 34px;
+    color: #157d48;
+    line-height: 1.35;
+}
+
+.hero-nr-content p {
+    margin-top: 35px;
+    font-size: 21px;
+    line-height: 1.9;
+    color: #5b6977;
+}
+
+.hero-beneficios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin-top: 45px;
+}
+
+.hero-beneficio {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 18px 22px;
+    background: white;
+    border-radius: 18px;
+    border: 1px solid #e5efea;
+    color: #123d6d;
+    font-weight: 600;
+}
+
+.hero-beneficio i {
+    color: #0aa35d;
+    font-size: 20px;
+}
+
+.btn-nr {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 50px;
+    background: #0ba44b;
+    color: white;
+    text-decoration: none;
+    padding: 18px 36px;
+    border-radius: 15px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.btn-nr:hover {
+    background: #087d39;
+    transform: translateY(-4px);
+}
+
+.hero-image-box {
+    overflow: hidden;
+    border-radius: 28px;
+    border: 2px solid #0ba44b;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, .12);
+}
+
+.hero-image-box img {
+    width: 100%;
+    height: 720px;
+    object-fit: cover;
+    display: block;
+}
+
+/* =========================================
+   ETAPA 2 — SOBRE O TREINAMENTO NR 05
+========================================= */
+
+.nr05-sobre {
+    padding: 110px 0;
+    background: #f7f9fc;
+}
+
+.nr05-sobre-container {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+}
+
+/* -----------------------------------------
+   TÍTULO
+----------------------------------------- */
+.nr05-sobre-titulo {
+    max-width: 850px;
+    margin: 0 auto 65px;
+    text-align: center;
+}
+
+.nr05-label {
+    display: inline-block;
+    padding: 9px 20px;
+    border-radius: 40px;
+    background: #e9f8ef;
+    color: #0a8f47;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+
+.nr05-sobre-titulo h2 {
+    margin-top: 22px;
+    color: #0c2f5b;
+    font-size: 46px;
+    line-height: 1.15;
+    font-weight: 800;
+}
+
+.nr05-sobre-titulo h2 strong {
+    color: #0ba44b;
+}
+
+.nr05-sobre-titulo p {
+    max-width: 780px;
+    margin: 22px auto 0;
+    color: #66768c;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* -----------------------------------------
+   GRID DE INFORMAÇÕES
+----------------------------------------- */
+
+.nr05-info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+/* -----------------------------------------
+   CARD
+----------------------------------------- */
+
+.nr05-info-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #e8edef;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .05);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.nr05-info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, .09);
+}
+
+/* -----------------------------------------
+   ÍCONE
+----------------------------------------- */
+
+.nr05-info-icon {
+    flex-shrink: 0;
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: #eaf7f0;
+    color: #0ba44b;
+    font-size: 23px;
+}
+
+/* -----------------------------------------
+   CONTEÚDO DO CARD
+----------------------------------------- */
+.nr05-info-card span {
+    display: block;
+    margin-bottom: 8px;
+    color: #0ba44b;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+
+.nr05-info-card h3 {
+    margin: 0;
+    color: #0c2f5b;
+    font-size: 21px;
+    line-height: 1.3;
+}
+
+.nr05-info-card p {
+    margin: 10px 0 0;
+    color: #66768c;
+    font-size: 15px;
+    line-height: 1.65;
+}
+
+/* -----------------------------------------
+   DESTAQUE DA MODALIDADE
+----------------------------------------- */
+
+.nr05-modalidade-destaque {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 30px;
+    padding: 32px;
+    border-radius: 22px;
+    background: linear-gradient(135deg, #edf9f2 0%, #ffffff 100%);
+    border: 1px solid #dceee4;
+}
+
+/* ÍCONE */
+
+.nr05-modalidade-icon {
+    flex-shrink: 0;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    background: #0ba44b;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+/* TEXTO */
+
+.nr05-modalidade-texto span {
+    display: block;
+    margin-bottom: 5px;
+    color: #0ba44b;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+
+.nr05-modalidade-texto h3 {
+    margin: 0;
+    color: #0c2f5b;
+    font-size: 25px;
+}
+
+.nr05-modalidade-texto p {
+    max-width: 850px;
+    margin: 8px 0 0;
+    color: #66768c;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* CTA */
+
+.nr05-sobre-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 55px;
+    padding: 35px 40px;
+    background: #134f99;
+    box-shadow: 0 20px 50px rgba(18, 46, 80, 0.049);
+}
+
+.nr05-sobre-cta h3 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.nr05-sobre-cta p {
+    margin: 8px 0 0;
+    color: #dbe5ee;
+    font-size: 15px;
+}
+
+/* BOTÃO */
+
+.nr05-btn-cta {
+    flex-shrink: 0;
+    display: inline-flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 28px;
+    border-radius: 13px;
+    background: #0ba44b;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.nr05-btn-cta:hover {
+    background: #087d39;
+    transform: translateY(-3px);
+}
+
+.nr05-btn-cta i {
+    font-size: 19px;
+}
+
+/* =========================================
+   RESPONSIVIDADE
+========================================= */
+
+@media (max-width: 900px) {
+    .nr05-sobre {
+        padding: 80px 0;
+    }
+
+    .nr05-sobre-titulo h2 {
+        font-size: 38px;
+    }
+
+    .nr05-info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .nr05-sobre-cta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-nr {
+        padding: 55px 0 70px;
+    }
+
+    .hro-nr .container {
+        width: min(92%, 500px);
+    }
+
+    .hero-nr-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .hero-nr-content {
+        width: 100%;
+    }
+
+    .hero-nr-content h1 {
+        font-size: 42px;
+        line-height: 1.08;
+    }
+
+    .hero-nr-content h1 span {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    .hero-nr-content p {
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    /* IMAGEM */
+
+    .hero-nr-image {
+        width: 100%;
+        order: 2;
+    }
+
+    .hero-nr-image-box {
+        width: 100%;
+        aspect-ratio: 10/7;
+        border-radius: 22px;
+        overflow: hidden;
+    }
+
+    .hero-image-box img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+        object-position: center 35%;
+    }
+
+    /* BOTÃO DO HERO */
+
+    .btn-nr {
+        display: flex;
+        width: fit-content;
+        max-width: 100%;
+        margin: 40px auto 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    /* =========================================
+       SOBRE O TREINAMENTO
+    ========================================= */
+
+    .nr05-sobre {
+        padding: 65px 0;
+    }
+
+    .nr05-sobre-container {
+        width: min(92%, 500px);
+    }
+
+    .nr05-sobre-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr05-sobre-titulo h2 {
+        font-size: 32px;
+    }
+
+    .nr05-sobre-titulo p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    /* =========================================
+       CARDS
+    ========================================= */
+
+    .nr05-info-card {
+        padding: 24px;
+        gap: 16px;
+    }
+
+    .nr05-info-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 19px;
+    }
+
+    .nr05-info-card h3 {
+        font-size: 18px;
+    }
+
+    /* =========================================
+       DESTAQUE
+    ========================================= */
+
+    .nr05-modalidade-destaque {
+        align-items: flex-start;
+        padding: 25px;
+        gap: 18px;
+    }
+
+    .nr05-modalidade-icon {
+        width: 52px;
+        height: 52px;
+        font-size: 20px;
+    }
+
+    .nr05-modalidade-texto h3 {
+        font-size: 21px;
+    }
+
+    /* =========================================
+       CTA — MOBILE
+    ========================================= */
+
+    .nr05-sobre-cta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 28px 25px;
+        box-sizing: border-box;
+    }
+
+    .nr05-sobre-cta h3 {
+        font-size: 21px;
+    }
+
+    .nr05-sobre-cta p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    /* BOTÃO */
+
+    .nr05-btn-cta {
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        align-self: stretch;
+        justify-content: center;
+        padding: 16px 20px;
+        white-space: normal;
+        text-align: center;
+    }
+}
+
+/* =========================================
+   ETAPA 3 — CONTEÚDO PROGRAMÁTICO NR 05
+========================================= */
+
+.nr05-conteudo {
+    padding: 110px 0;
+    background: #ffffff;
+}
+
+.nr05-conteudo-container {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+}
+
+/* =========================================
+   CABEÇALHO DA SEÇÃO
+========================================= */
+
+.nr05-conteudo-titulo {
+    max-width: 850px;
+    margin: 0 auto 65px;
+    text-align: center;
+}
+
+.nr05-conteudo-titulo .nr05-label {
+    display: inline-block;
+    padding: 9px 20px;
+    border-radius: 40px;
+    background: #e9f8ef;
+    color: #0a8f47;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+
+.nr05-conteudo-titulo h2 {
+    margin-top: 22px;
+    color: #0c2f5b;
+    font-size: clamp(34px, 4vw, 46px);
+    line-height: 1.15;
+    font-weight: 800;
+}
+
+.nr05-conteudo-titulo h2 strong {
+    color: #0ba44b;
+}
+
+.nr05-conteudo-titulo p {
+    max-width: 780px;
+    margin: 22px auto 0;
+    color: #66768c;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* =========================================
+   GRID DOS MÓDULOS
+========================================= */
+
+.nr05-modulos {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+}
+
+/* =========================================
+   CARD DO MÓDULO
+========================================= */
+
+.nr05-modulo {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #e5ece9;
+    border-radius: 22px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, .05);
+    transition:
+        transform .3s ease,
+        box-shadow .3se ease,
+        border-color .3s ease;
+}
+
+.nr05-modulo:hover {
+    transform: translateY(-6px);
+    border-color: #cfe5d9;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, .09);
+}
+
+/* =========================================
+   ÍCONE
+========================================= */
+
+.nr05-modulo-icon {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-bottom: 22px;
+    border-radius: 16px;
+    background: #eaf7f0;
+    color: #0ba44b;
+    font-size: 22px;
+}
+
+/* =========================================
+   CONTEÚDO DO CARD
+========================================= */
+
+.nr05-modulo-conteudo span {
+    display: block;
+    margin-bottom: 8px;
+    color: #0ba44b;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .1em;
+}
+
+.nr05-modulo-conteudo h3 {
+    margin: 0;
+    color: #0c2f5b;
+    font-size: 21px;
+    line-height: 1.35;
+    font-weight: 800;
+}
+
+.nr05-modulo-conteudo p {
+    margin: 13px 0 0;
+    color: #66768c;
+    font-size: 15px;
+    line-height: 1.65;
+}
+
+/* =========================================
+   ACESSIBILIDADE — FOCO PELO TECLADO
+========================================= */
+
+.nr05-modulo:focus-within {
+    border-color: #0ba44b;
+    box-shadow:
+        0 0 0 4px rgba(11, 164, 75, .10, ),
+        0 15px 40px rgba(0, 0, 0, .07);
+}
+
+/* =========================================
+   TABLETS / NOTEBOOKS MENORES
+   Até 1100px
+========================================= */
+
+
+@media (max-width: 1100px) {
+    .nr05-conteudo {
+        padding: 90px 0;
+    }
+
+    .nr05-modulos {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 22px;
+    }
+
+    .nr05-modulo {
+        padding: 26px;
+    }
+}
+
+/* =========================================
+   TABLETS
+   Até 900px
+========================================= */
+
+@media (max-width: 900px) {
+    .nr05-conteudo {
+        padding: 80px 0;
+    }
+
+    .nr05-conteudo-container {
+        width: min(92%, 700px);
+    }
+
+    .nr05-conteudo-titulo {
+        margin-bottom: 50px;
+    }
+
+    .nr05-conteudo-titulo h2 {
+        font-size: 38px;
+    }
+
+    .nr05-conteudo-titulo p {
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    .nr05-modulos {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .nr05-modulo {
+        padding: 25px;
+    }
+}
+
+/* =========================================
+   CELULARES
+   Até 600px
+========================================= */
+
+@media (max-width: 600px) {
+    .nr05-conteudo {
+        padding: 65px 0;
+    }
+
+    .nr05-conteudo-container {
+        width: min(92%, 500px);
+    }
+
+    .nr05-conteudo-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr05-conteudo-titulo .nr05-label {
+        font-size: 11px;
+        padding: 8px 16px;
+    }
+
+    .nr05-conteudo-titulo h2 {
+        margin-top: 18px;
+        font-size: 31px;
+        line-height: 1.2;
+    }
+
+    .nr05-conteudo-titulo p {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .nr05-modulos {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .nr05-modulo {
+        padding: 24px;
+        border-radius: 20px;
+    }
+
+    .nr05-modulo-icon {
+        width: 52px;
+        height: 52px;
+        margin-bottom: 18px;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+
+    .nr05-modulo-conteudo h3 {
+        font-size: 19px;
+    }
+
+    .nr05-modulo-conteudo p {
+        font-size: 15px;
+        line-height: 1.65;
+    }
+}
+
+/* =========================================
+   CELULARES PEQUENOS
+   Até 400px
+========================================= */
+
+@media (max-width: 400px) {
+    .nr05-conteudo {
+        padding: 55px 0;
+    }
+
+    .nr05-conteudo-container {
+        width: calc(100% - 32px);
+    }
+
+    .nr05-conteudo-titulo {
+        margin-bottom: 35px;
+    }
+
+    .nr05-conteudo-titulo h2 {
+        font-size: 28px;
+    }
+
+    .nr05-conteudo-titulo p {
+        font-size: 15px;
+    }
+
+    .nr05-modulo {
+        padding: 22px;
+        border-radius: 18px;
+    }
+
+    .nr05-modulo-conteudo h3 {
+        font-size: 18px;
+    }
+}
+
+/* =========================================
+   REDUÇÃO DE MOVIMENTO
+   ACESSIBILIDADE
+========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+    .nr05-modulo {
+        transition: none;
+    }
+
+    .nr05-modulo:hover {
+        transform: none;
+    }
+}
+
+
+/* =========================================
+   ETAPA 4 — LEGISLAÇÃO E NORMAS
+========================================= */
+
+.nr05-legislacao {
+    padding: 110px 0;
+    background: #f7f9fc;
+}
+
+.nr05-legislacao-container {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+}
+
+/* =========================================
+   CABEÇALHO
+========================================= */
+
+.nr05-legislacao-titulo {
+    max-width: 850px;
+    margin: 0 auto 65px;
+    text-align: center;
+}
+
+.nr05-legislacao-titulo h2 {
+    margin-top: 22px;
+    color: #0c2f5b;
+    font-size: clamp(34px, 4vw, 46px);
+    line-height: 1.15;
+    font-weight: 800;
+}
+
+.nr05-legislacao-titulo h2 strong {
+    color: #0ba44b;
+}
+
+.nr05-legislacao-titulo p {
+    max-width: 780px;
+    margin: 22px auto 0;
+    color: #66768c;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* =========================================
+   GRID
+========================================= */
+
+.nr05-legislacao-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+}
+
+/* =========================================
+   CARD
+========================================= */
+
+.nr05-legislacao-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 32px;
+    background: #ffffff;
+    border: 1px solid #e5ece9;
+    border-radius: 22px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .05);
+    transition: 
+        transform .3s ease,
+        box-shadow .3s ease,
+        border-color .3s ease;
+}
+
+.nr05-legislacao-card:hover {
+    transform: translateY(-6px);
+    border-color: #cfe5d9;
+    box-shadow: 0 22px 50px rgba(0, 0, 0, .09);
+}
+
+/* CARD PRINCIPAL */
+
+.nr05-legislacao-card.destaque {
+    border: 1px solid #bfe2ce;
+    background: 
+        linear-gradient(
+            145deg,
+            #ffffff 0%,
+            #f4fbf7 100%
+        );
+}
+
+/* =========================================
+   ÍCONE
+========================================= */
+
+.nr05-legislacao-icon {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-bottom: 25px;
+    border-radius: 16px;
+    background: #eaf7f0;
+    color: #0ba44b;
+    font-size: 22px;
+}
+
+/* =========================================
+   CONTEÚDO
+========================================= */
+
+.nr05-legislacao-conteudo span {
+    display: block;
+    margin-bottom: 8px;
+    color: #0ba44b;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .1em;
+}
+
+.nr05-legislacao-conteudo h3 {
+    margin: 0;
+    color: #0c2f5b;
+    font-size: 25px;
+    line-height: 1.3;
+    font-weight: 800;
+}
+
+.nr05-legislacao-conteudo h4 {
+    margin: 8px 0 0;
+    color: #315575;
+    font-size: 17px;
+    line-height: 1.45;
+    font-weight: 600;
+}
+
+.nr05-legislacao-conteudo p {
+    margin: 15px 0 0;
+    color: #66768c;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* =========================================
+   STATUS
+========================================= */
+
+.nr05-legislacao-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 25px;
+    padding-top: 18px;
+    border-top: 1px solid #e8efeb;
+    color: #537064;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.nr05-legislacao-status i {
+    color: #0ba44b;
+    font-size: 15px;
+}
+
+/* =========================================
+   AVISO
+========================================= */
+
+.nr05-legislacao-aviso {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    padding: 28px 30px;
+    background: #ffffff;
+    border: 1px solid #e1e9e5;
+    border-radius: 20px;
+}
+
+.nr05-legislacao-aviso-icon {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    background: #eef5fb;
+    color: #0c5b91;
+    font-size: 20px;
+}
+
+.nr05-legislacao-aviso h3 {
+    margin: 0;
+    color: #0c2f5b;
+    font-size: 19px;
+}
+
+.nr05-legislacao-aviso p {
+    margin: 8px 0 0;
+    color: #66768c;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* =========================================
+   FONTE OFICIAL
+========================================= */
+
+.nr05-legislacao-fonte {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.nr05-legislacao-fonte a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #0b8f4b;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.nr05-legislacao-fonte a:hover {
+    text-decoration: underline;
+}
+
+.nr05-legislacao-fonte i {
+    font-size: 14px;
+}
+
+/* =========================================
+   NOTEBOOK / TABLET GRANDE
+========================================= */
+
+@media (max-width: 1000px) {
+    .nr05-legislacao {
+        padding: 90px 0;
+    }
+
+    .nr05-legislacao-grid {
+        gap: 20px;
+    }
+
+    .nr05-legislacao-card {
+        padding: 27px;
+    }
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 800px) {
+    .nr05-legislacao {
+        padding: 80px 0;
+    }
+
+    .nr05-legislacao-container {
+        width: min(92%, 700px);
+    }
+
+    .nr05-legislacao-titulo {
+        margin-bottom: 50px;
+    }
+
+    .nr05-legislacao-titulo p {
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    .nr05-legislacao-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* =========================================
+   CELULAR
+========================================= */
+
+@media (max-width: 600px) {
+    .nr05-legislacao {
+        padding: 65px 0;
+    }
+
+    .nr05-legislacao-container {
+        width: min(92%, 500px);
+    }
+
+    .nr05-legislacao-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr05-legislacao-titulo h2 {
+        font-size: 31px;
+    }
+
+    .nr05-legislacao-titulo p {
+        margin-top: 18px;
+        font-size: 16px;
+    }
+
+    .nr05-legislacao-card {
+        padding: 24px;
+        border-radius: 20px;
+    }
+
+    .nr05-legislacao-icon {
+        width: 52px;
+        height: 52px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+
+    .nr05-legislacao-conteudo h3 {
+        font-size: 21px;
+    }
+
+    .nr05-legislacao-conteudo h4 {
+        font-size: 16px;
+    }
+
+    .nr05-legislacao-conteudo p {
+        font-size: 15px;
+    }
+
+    .nr05-legislacao-aviso {
+        flex-direction: column;
+        padding: 24px;
+        gap: 16px;
+    }
+
+    .nr05-legislacao-aviso h3 {
+        font-size: 18px;
+    }
+
+    .nr05-legislacao-fonte a {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+}
+
+/* =========================================
+   CELULARES PEQUENOS
+========================================= */
+
+@media (max-width: 400px) {
+    .nr05-legislacao {
+        padding: 55px 0;
+    }
+
+    .nr05-legislacao-container {
+        width: calc(100% - 32px);
+    }
+
+    .nr05-legislacao-titulo h2 {
+        font-size: 28px;
+    }
+
+    .nr05-legislacao-titulo p {
+        font-size: 15px;
+    }
+
+    .nr05-legislacao-card {
+        padding: 21px;
+    }
+
+    .nr05-legislacao-conteudo h3 {
+        font-size: 19px;
+    }
+
+    .nr05-legislacao-conteudo p {
+        font-size: 14px;
+    }
+}
+
+/* =========================================
+   ETAPA 5 — COMO FUNCIONA
+========================================= */
+
+.nr05-como-funciona {
+    padding: 110px 0;
+    background: #ffffff;
+}
+
+.nr05-como-container {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+}
+
+/* =========================================
+   CABEÇALHO
+========================================= */
+
+.nr05-como-titulo {
+    max-width: 850px;
+    margin: 0 auto 70px;
+    text-align: center;
+}
+
+.nr05-como-titulo h2 {
+    margin-top: 22px;
+    color: #0c2f5b;
+    font-size: clamp(34px, 4vw, 46px);
+    line-height: 1.15;
+    font-weight: 800;
+}
+
+.nr05-como-titulo h2 strong {
+    color: #0ba44b;
+}
+
+.nr05-como-titulo p {
+    max-width: 780px;
+    margin: 22px auto 0;
+    color: #66768c;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* =========================================
+   ETAPAS
+========================================= */
+
+.nr05-etapas {
+    display: grid;
+    grid-template-columns: 
+        minmax(0, 1fr)
+        50px
+        minmax(0, 1fr)
+        50px
+        minmax(0, 1fr);
+    align-items: center;
+    gap: 15px;
+}
+
+/* =========================================
+   CARD DA ETAPA
+========================================= */
+
+.nr05-etapa {
+    position: relative;
+    min-width: 0;
+    padding: 32px;
+    background: #f8faf9;
+    border: 1px solid #e4ece8;
+    border-radius: 24px;
+    transition: 
+    transform .3s ease,
+    box-shadow .3s ease,
+    border-color .3s ease;
+}
+
+.nr05-etapa:hover {
+    transform: translateY(-6px);
+    border-color: #cce4d6;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, .07);
+}
+
+/* =========================================
+   NÚMERO
+========================================= */
+
+.nr05-etapa-numero {
+    position: absolute;
+    top: 22px;
+    right: 25px;
+    color: #dceee4;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+/* =========================================
+   ÍCONE
+========================================= */
+
+.nr05-etapa-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    border-radius: 17px;
+    background: #e8f7ef;
+    color: #0ba44b;
+    font-size: 23px;
+}
+
+/* =========================================
+   CONTEÚDO
+========================================= */
+
+.nr05-etapa-conteudo span {
+    display: block;
+    margin-bottom: 8px;
+    color: #0ba44b;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .1em;
+}
+
+.nr05-etapa-conteudo h3 {
+    margin: 0;
+    color: #0c2f5b;
+    font-size: 23px;
+    line-height: 1.3;
+    font-weight: 800;
+}
+
+.nr05-etapa-conteudo p {
+    margin: 14px 0 0;
+    color: #66768c;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* =========================================
+   CONECTORES
+========================================= */
+
+.nr05-etapa-conector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0ba44b;
+    font-size: 20px;
+}
+
+/* =========================================
+   DESTAQUE FINAL
+========================================= */
+
+.nr05-como-destaque {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-top: 35px;
+    padding: 30px 35px;
+    border-radius: 22px;
+    background: 
+        linear-gradient(
+            135deg, 
+            #edf9f2 0%,
+            #ffffff 100%
+        );
+    border: 1px solid #d8ece0;    
+}
+
+.nr05-como-destaque-icon {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #0ba44b;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.nr05-como-destaque span {
+    display: block;
+    margin-bottom: 5px;
+    color: #0ba44b;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .1em;
+}
+
+.nr05-como-destaque h3 {
+    margin: 0;
+    color: #0c2f5b;
+    font-size: 24px;
+}
+
+.nr05-como-destaque p {
+    margin: 7px 0 0;
+    color: #66768c;
+    font-size: 15px;
+    line-height: 1.65;
+}
+
+/* =========================================
+   NOTEBOOK / TABLET GRANDE
+========================================= */
+
+@media (max-width: 1100px) {
+    .nr05-como-funciona {
+        padding: 90px 0;
+    }
+
+    .nr05-etapas {
+        grid-template-columns: 
+            minmax(0, 1fr)
+            35px
+            minmax(0, 1fr)
+            35px
+            minmax(0, 1fr);
+        gap: 10px;
+    }
+
+    .nr05-etapa {
+        padding: 27px;
+    }
+
+    .nr05-etapa-conteudo h3 {
+        font-size: 21px;
+    }
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 850px) {
+    .nr05-como-funciona {
+        padding: 80px 0;
+    }
+
+    .nr05-como-container {
+        width: min(92%, 700px);
+    }
+
+    .nr05-como-titulo {
+        margin-bottom: 50px;
+    }
+
+    .nr05-como-titulo p {
+        font-size: 17px;
+    }
+
+    .nr05-etapas {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .nr05-etapa-conector {
+        height: 20px;
+        transform: rotate(90deg);
+    }
+
+    .nr05-etapa {
+        padding: 28px;
+    }
+}
+
+/* =========================================
+   CELULAR
+========================================= */
+
+@media (max-width: 600px) {
+    .nr05-como-funciona {
+        padding: 65px 0;
+    }
+
+    .nr05-como-container {
+        width: min(92%, 500px);
+    }
+
+    .nr05-como-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr05-como-titulo h2 {
+        font-size: 31px;
+    }
+
+    .nr05-como-titulo p {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .nr05-etapas {
+        gap: 12px;
+    }
+
+    .nr05-etapa {
+        padding: 24px;
+        border-radius: 20px;
+    }
+
+    .nr05-etapa-numero {
+        top: 19px;
+        right: 20px;
+        font-size: 32px;
+    }
+
+    .nr05-etapa-icon {
+        width: 52px;
+        height: 52px;
+        margin-bottom: 18px;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+
+    .nr05-etapa-conteudo h3 {
+        font-size: 19px;
+    }
+
+    .nr05-etapa-conteudo p {
+        font-size: 15px;
+        line-height: 1.65;
+    }
+
+    .nr05-etapa-conector {
+        height: 18px;
+        font-size: 17px;
+    }
+
+    .nr05-como-destaque {
+        align-items: flex-start;
+        gap: 17px;
+        margin-top: 28px;
+        padding: 25px;
+    }
+
+    .nr05-como-destaque-icon {
+        width: 52px;
+        height: 52px;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+
+    .nr05-como-destaque h3 {
+        font-size: 21px;
+    }
+
+    .nr05-como-destaque p {
+        font-size: 15px;
+        line-height: 1.65;
+    }
+}
+
+/* =========================================
+   CELULARES PEQUENOS
+========================================= */
+
+@media (max-width: 400px) {
+    .nr05-como-funciona {
+        padding: 55px 0;
+    }
+
+    .nr05-como-container {
+        width: calc(100% - 32px);
+    }
+
+    .nr05-como-titulo h2 {
+        font-size: 15px;
+    }
+
+    .nr05-como-titulo p {
+        font-size: 15px;
+    }
+
+    .nr05-etapa {
+        padding: 22px;
+    }
+
+    .nr05-etapa-conteudo h3 {
+        font-size: 18px;
+    }
+
+    .nr05-etapa-conteudo p {
+        font-size: 14px;
+    }
+
+    .nr05-como-destaque {
+        padding: 22px;
+    }
+}
+
+/* =========================================
+   ACESSIBILIDADE
+========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+    .nr05-etapa {
+        transition: none;
+    }
+
+    .nr05-etapa:hover {
+        transform: none;
+    }
+}
+
+/* =========================================
+   ETAPA 6 — CERTIFICAÇÃO
+========================================= */
+
+.nr05-certificacao {
+    padding: 110px 0;
+
+    background:
+        linear-gradient(
+            180deg,
+            #f7f9fc 0%,
+            #ffffff 100%
+        );
+}
+
+.nr05-certificacao-container {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+}
+
+
+/* =========================================
+   CABEÇALHO
+========================================= */
+
+.nr05-certificacao-titulo {
+    max-width: 850px;
+
+    margin: 0 auto 65px;
+
+    text-align: center;
+}
+
+.nr05-certificacao-titulo h2 {
+    margin-top: 22px;
+
+    color: #0c2f5b;
+
+    font-size: clamp(34px, 4vw, 46px);
+
+    line-height: 1.15;
+
+    font-weight: 800;
+}
+
+.nr05-certificacao-titulo h2 strong {
+    color: #0ba44b;
+}
+
+.nr05-certificacao-titulo p {
+    max-width: 780px;
+
+    margin: 22px auto 0;
+
+    color: #66768c;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   GRID
+========================================= */
+
+.nr05-certificacao-grid {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        minmax(0, .9fr);
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+
+/* =========================================
+   INFORMAÇÕES
+========================================= */
+
+.nr05-certificacao-info {
+    min-width: 0;
+}
+
+.nr05-certificacao-intro {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+.nr05-certificacao-icon {
+    width: 62px;
+    height: 62px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 17px;
+
+    background: #e8f7ef;
+
+    color: #0ba44b;
+
+    font-size: 24px;
+}
+
+.nr05-certificacao-intro span {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: #0ba44b;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: .1em;
+}
+
+.nr05-certificacao-intro h3 {
+    margin: 0;
+
+    color: #0c2f5b;
+
+    font-size: 25px;
+
+    line-height: 1.3;
+}
+
+
+/* =========================================
+   TEXTO
+========================================= */
+
+.nr05-certificacao-texto {
+    max-width: 650px;
+
+    margin: 28px 0 0;
+
+    color: #66768c;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   LISTA
+========================================= */
+
+.nr05-certificacao-lista {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 16px;
+
+    margin: 30px 0 0;
+
+    padding: 0;
+
+    list-style: none;
+}
+
+.nr05-certificacao-lista li {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    min-width: 0;
+
+    color: #123d6d;
+
+    font-size: 15px;
+
+    font-weight: 600;
+}
+
+.nr05-certificacao-lista i {
+    flex-shrink: 0;
+
+    color: #0ba44b;
+
+    font-size: 17px;
+}
+
+
+/* =========================================
+   NOTA
+========================================= */
+
+.nr05-certificacao-nota {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    margin-top: 30px;
+
+    padding: 18px 20px;
+
+    border-radius: 15px;
+
+    background: #f1f6fb;
+
+    border: 1px solid #dfe9f1;
+}
+
+.nr05-certificacao-nota i {
+    flex-shrink: 0;
+
+    margin-top: 3px;
+
+    color: #0c5b91;
+}
+
+.nr05-certificacao-nota p {
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   VISUAL DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-visual {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 0;
+
+    padding: 30px;
+
+    border-radius: 28px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #edf8f2 0%,
+            #f8fbfa 100%
+        );
+
+    border: 1px solid #dcebe3;
+}
+
+
+/* =========================================
+   PAPEL
+========================================= */
+
+.nr05-certificado-papel {
+    position: relative;
+
+    width: 100%;
+
+    max-width: 470px;
+
+    aspect-ratio: 1.414 / 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px;
+
+    box-sizing: border-box;
+
+    background: #ffffff;
+
+    border: 8px solid #eef3f0;
+
+    outline: 1px solid #cfded6;
+
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, .12);
+
+    text-align: center;
+}
+
+
+/* =========================================
+   MARCA
+========================================= */
+
+.nr05-certificado-marca {
+    position: absolute;
+
+    top: 22px;
+    left: 25px;
+
+    color: #0c2f5b;
+
+    font-size: 13px;
+
+    font-weight: 900;
+
+    letter-spacing: .12em;
+}
+
+
+/* =========================================
+   TÍTULO DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-label {
+    color: #0ba44b;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: .2em;
+}
+
+.nr05-certificado-papel h3 {
+    margin: 10px 0;
+
+    color: #0c2f5b;
+
+    font-size: 42px;
+
+    line-height: 1;
+
+    font-weight: 900;
+}
+
+.nr05-certificado-papel p {
+    max-width: 300px;
+
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   LINHA DECORATIVA
+========================================= */
+
+.nr05-certificado-linha {
+    width: 80px;
+
+    height: 2px;
+
+    margin-top: 22px;
+
+    background: #0ba44b;
+}
+
+
+/* =========================================
+   AVISO VISUAL
+========================================= */
+
+.nr05-certificado-exemplo {
+    position: absolute;
+
+    right: 18px;
+    bottom: 14px;
+
+    color: #9aa9b5;
+
+    font-size: 9px;
+
+    text-transform: uppercase;
+
+    letter-spacing: .08em;
+}
+
+
+/* =========================================
+   NOTEBOOK / TABLET
+========================================= */
+
+@media (max-width: 1000px) {
+
+    .nr05-certificacao {
+        padding: 90px 0;
+    }
+
+    .nr05-certificacao-grid {
+        gap: 45px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 25px;
+    }
+
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 800px) {
+
+    .nr05-certificacao {
+        padding: 80px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 700px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 50px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 17px;
+    }
+
+    .nr05-certificacao-grid {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .nr05-certificacao-info {
+        max-width: 700px;
+
+        margin: 0 auto;
+    }
+
+    .nr05-certificado-visual {
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+}
+
+
+/* =========================================
+   CELULAR
+========================================= */
+
+@media (max-width: 600px) {
+
+    .nr05-certificacao {
+        padding: 65px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 500px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 31px;
+    }
+
+    .nr05-certificacao-titulo p {
+        margin-top: 18px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-intro {
+        align-items: flex-start;
+
+        gap: 16px;
+    }
+
+    .nr05-certificacao-icon {
+        width: 52px;
+        height: 52px;
+
+        border-radius: 15px;
+
+        font-size: 20px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 21px;
+    }
+
+    .nr05-certificacao-texto {
+        margin-top: 22px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-lista {
+        grid-template-columns: 1fr;
+
+        gap: 13px;
+
+        margin-top: 25px;
+    }
+
+    .nr05-certificacao-nota {
+        margin-top: 25px;
+
+        padding: 16px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 20px;
+
+        border-radius: 22px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 25px;
+
+        border-width: 6px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 34px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 13px;
+    }
+
+}
+
+
+/* =========================================
+   CELULARES PEQUENOS
+========================================= */
+
+@media (max-width: 400px) {
+
+    .nr05-certificacao {
+        padding: 55px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: calc(100% - 32px);
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 28px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 15px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 19px;
+    }
+
+    .nr05-certificacao-texto {
+        font-size: 15px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 15px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 20px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 30px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 12px;
+    }
+
+    .nr05-certificado-marca {
+        top: 15px;
+        left: 18px;
+
+        font-size: 10px;
+    }
+
+}
+
+
+/* =========================================
+   ETAPA 6 — CERTIFICAÇÃO
+========================================= */
+
+.nr05-certificacao {
+    padding: 110px 0;
+
+    background:
+        linear-gradient(
+            180deg,
+            #f7f9fc 0%,
+            #ffffff 100%
+        );
+}
+
+.nr05-certificacao-container {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+}
+
+
+/* =========================================
+   CABEÇALHO
+========================================= */
+
+.nr05-certificacao-titulo {
+    max-width: 850px;
+
+    margin: 0 auto 65px;
+
+    text-align: center;
+}
+
+.nr05-certificacao-titulo h2 {
+    margin-top: 22px;
+
+    color: #0c2f5b;
+
+    font-size: clamp(34px, 4vw, 46px);
+
+    line-height: 1.15;
+
+    font-weight: 800;
+}
+
+.nr05-certificacao-titulo h2 strong {
+    color: #0ba44b;
+}
+
+.nr05-certificacao-titulo p {
+    max-width: 780px;
+
+    margin: 22px auto 0;
+
+    color: #66768c;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   GRID
+========================================= */
+
+.nr05-certificacao-grid {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        minmax(0, .9fr);
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+
+/* =========================================
+   INFORMAÇÕES
+========================================= */
+
+.nr05-certificacao-info {
+    min-width: 0;
+}
+
+.nr05-certificacao-intro {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+.nr05-certificacao-icon {
+    width: 62px;
+    height: 62px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 17px;
+
+    background: #e8f7ef;
+
+    color: #0ba44b;
+
+    font-size: 24px;
+}
+
+.nr05-certificacao-intro span {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: #0ba44b;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: .1em;
+}
+
+.nr05-certificacao-intro h3 {
+    margin: 0;
+
+    color: #0c2f5b;
+
+    font-size: 25px;
+
+    line-height: 1.3;
+}
+
+
+/* =========================================
+   TEXTO
+========================================= */
+
+.nr05-certificacao-texto {
+    max-width: 650px;
+
+    margin: 28px 0 0;
+
+    color: #66768c;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   LISTA
+========================================= */
+
+.nr05-certificacao-lista {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 16px;
+
+    margin: 30px 0 0;
+
+    padding: 0;
+
+    list-style: none;
+}
+
+.nr05-certificacao-lista li {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    min-width: 0;
+
+    color: #123d6d;
+
+    font-size: 15px;
+
+    font-weight: 600;
+}
+
+.nr05-certificacao-lista i {
+    flex-shrink: 0;
+
+    color: #0ba44b;
+
+    font-size: 17px;
+}
+
+
+/* =========================================
+   NOTA
+========================================= */
+
+.nr05-certificacao-nota {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    margin-top: 30px;
+
+    padding: 18px 20px;
+
+    border-radius: 15px;
+
+    background: #f1f6fb;
+
+    border: 1px solid #dfe9f1;
+}
+
+.nr05-certificacao-nota i {
+    flex-shrink: 0;
+
+    margin-top: 3px;
+
+    color: #0c5b91;
+}
+
+.nr05-certificacao-nota p {
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   VISUAL DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-visual {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 0;
+
+    padding: 30px;
+
+    border-radius: 28px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #edf8f2 0%,
+            #f8fbfa 100%
+        );
+
+    border: 1px solid #dcebe3;
+}
+
+
+/* =========================================
+   PAPEL
+========================================= */
+
+.nr05-certificado-papel {
+    position: relative;
+
+    width: 100%;
+
+    max-width: 470px;
+
+    aspect-ratio: 1.414 / 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px;
+
+    box-sizing: border-box;
+
+    background: #ffffff;
+
+    border: 8px solid #eef3f0;
+
+    outline: 1px solid #cfded6;
+
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, .12);
+
+    text-align: center;
+}
+
+
+/* =========================================
+   MARCA
+========================================= */
+
+.nr05-certificado-marca {
+    position: absolute;
+
+    top: 22px;
+    left: 25px;
+
+    color: #0c2f5b;
+
+    font-size: 13px;
+
+    font-weight: 900;
+
+    letter-spacing: .12em;
+}
+
+
+/* =========================================
+   TÍTULO DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-label {
+    color: #0ba44b;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: .2em;
+}
+
+.nr05-certificado-papel h3 {
+    margin: 10px 0;
+
+    color: #0c2f5b;
+
+    font-size: 42px;
+
+    line-height: 1;
+
+    font-weight: 900;
+}
+
+.nr05-certificado-papel p {
+    max-width: 300px;
+
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   LINHA DECORATIVA
+========================================= */
+
+.nr05-certificado-linha {
+    width: 80px;
+
+    height: 2px;
+
+    margin-top: 22px;
+
+    background: #0ba44b;
+}
+
+
+/* =========================================
+   AVISO VISUAL
+========================================= */
+
+.nr05-certificado-exemplo {
+    position: absolute;
+
+    right: 18px;
+    bottom: 14px;
+
+    color: #9aa9b5;
+
+    font-size: 9px;
+
+    text-transform: uppercase;
+
+    letter-spacing: .08em;
+}
+
+
+/* =========================================
+   NOTEBOOK / TABLET
+========================================= */
+
+@media (max-width: 1000px) {
+
+    .nr05-certificacao {
+        padding: 90px 0;
+    }
+
+    .nr05-certificacao-grid {
+        gap: 45px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 25px;
+    }
+
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 800px) {
+
+    .nr05-certificacao {
+        padding: 80px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 700px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 50px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 17px;
+    }
+
+    .nr05-certificacao-grid {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .nr05-certificacao-info {
+        max-width: 700px;
+
+        margin: 0 auto;
+    }
+
+    .nr05-certificado-visual {
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+}
+
+
+/* =========================================
+   CELULAR
+========================================= */
+
+@media (max-width: 600px) {
+
+    .nr05-certificacao {
+        padding: 65px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 500px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 31px;
+    }
+
+    .nr05-certificacao-titulo p {
+        margin-top: 18px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-intro {
+        align-items: flex-start;
+
+        gap: 16px;
+    }
+
+    .nr05-certificacao-icon {
+        width: 52px;
+        height: 52px;
+
+        border-radius: 15px;
+
+        font-size: 20px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 21px;
+    }
+
+    .nr05-certificacao-texto {
+        margin-top: 22px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-lista {
+        grid-template-columns: 1fr;
+
+        gap: 13px;
+
+        margin-top: 25px;
+    }
+
+    .nr05-certificacao-nota {
+        margin-top: 25px;
+
+        padding: 16px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 20px;
+
+        border-radius: 22px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 25px;
+
+        border-width: 6px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 34px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 13px;
+    }
+
+}
+
+
+/* =========================================
+   CELULARES PEQUENOS
+========================================= */
+
+@media (max-width: 400px) {
+
+    .nr05-certificacao {
+        padding: 55px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: calc(100% - 32px);
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 28px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 15px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 19px;
+    }
+
+    .nr05-certificacao-texto {
+        font-size: 15px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 15px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 20px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 30px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 12px;
+    }
+
+    .nr05-certificado-marca {
+        top: 15px;
+        left: 18px;
+
+        font-size: 10px;
+    }
+
+}
+
+
+/* =========================================
+   ETAPA 6 — CERTIFICAÇÃO
+========================================= */
+
+.nr05-certificacao {
+    padding: 110px 0;
+
+    background:
+        linear-gradient(
+            180deg,
+            #f7f9fc 0%,
+            #ffffff 100%
+        );
+}
+
+.nr05-certificacao-container {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+}
+
+
+/* =========================================
+   CABEÇALHO
+========================================= */
+
+.nr05-certificacao-titulo {
+    max-width: 850px;
+
+    margin: 0 auto 65px;
+
+    text-align: center;
+}
+
+.nr05-certificacao-titulo h2 {
+    margin-top: 22px;
+
+    color: #0c2f5b;
+
+    font-size: clamp(34px, 4vw, 46px);
+
+    line-height: 1.15;
+
+    font-weight: 800;
+}
+
+.nr05-certificacao-titulo h2 strong {
+    color: #0ba44b;
+}
+
+.nr05-certificacao-titulo p {
+    max-width: 780px;
+
+    margin: 22px auto 0;
+
+    color: #66768c;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   GRID
+========================================= */
+
+.nr05-certificacao-grid {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        minmax(0, .9fr);
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+
+/* =========================================
+   INFORMAÇÕES
+========================================= */
+
+.nr05-certificacao-info {
+    min-width: 0;
+}
+
+.nr05-certificacao-intro {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+.nr05-certificacao-icon {
+    width: 62px;
+    height: 62px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 17px;
+
+    background: #e8f7ef;
+
+    color: #0ba44b;
+
+    font-size: 24px;
+}
+
+.nr05-certificacao-intro span {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: #0ba44b;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: .1em;
+}
+
+.nr05-certificacao-intro h3 {
+    margin: 0;
+
+    color: #0c2f5b;
+
+    font-size: 25px;
+
+    line-height: 1.3;
+}
+
+
+/* =========================================
+   TEXTO
+========================================= */
+
+.nr05-certificacao-texto {
+    max-width: 650px;
+
+    margin: 28px 0 0;
+
+    color: #66768c;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   LISTA
+========================================= */
+
+.nr05-certificacao-lista {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 16px;
+
+    margin: 30px 0 0;
+
+    padding: 0;
+
+    list-style: none;
+}
+
+.nr05-certificacao-lista li {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    min-width: 0;
+
+    color: #123d6d;
+
+    font-size: 15px;
+
+    font-weight: 600;
+}
+
+.nr05-certificacao-lista i {
+    flex-shrink: 0;
+
+    color: #0ba44b;
+
+    font-size: 17px;
+}
+
+
+/* =========================================
+   NOTA
+========================================= */
+
+.nr05-certificacao-nota {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    margin-top: 30px;
+
+    padding: 18px 20px;
+
+    border-radius: 15px;
+
+    background: #f1f6fb;
+
+    border: 1px solid #dfe9f1;
+}
+
+.nr05-certificacao-nota i {
+    flex-shrink: 0;
+
+    margin-top: 3px;
+
+    color: #0c5b91;
+}
+
+.nr05-certificacao-nota p {
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   VISUAL DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-visual {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 0;
+
+    padding: 30px;
+
+    border-radius: 28px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #edf8f2 0%,
+            #f8fbfa 100%
+        );
+
+    border: 1px solid #dcebe3;
+}
+
+
+/* =========================================
+   PAPEL
+========================================= */
+
+.nr05-certificado-papel {
+    position: relative;
+
+    width: 100%;
+
+    max-width: 470px;
+
+    aspect-ratio: 1.414 / 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px;
+
+    box-sizing: border-box;
+
+    background: #ffffff;
+
+    border: 8px solid #eef3f0;
+
+    outline: 1px solid #cfded6;
+
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, .12);
+
+    text-align: center;
+}
+
+
+/* =========================================
+   MARCA
+========================================= */
+
+.nr05-certificado-marca {
+    position: absolute;
+
+    top: 22px;
+    left: 25px;
+
+    color: #0c2f5b;
+
+    font-size: 13px;
+
+    font-weight: 900;
+
+    letter-spacing: .12em;
+}
+
+
+/* =========================================
+   TÍTULO DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-label {
+    color: #0ba44b;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: .2em;
+}
+
+.nr05-certificado-papel h3 {
+    margin: 10px 0;
+
+    color: #0c2f5b;
+
+    font-size: 42px;
+
+    line-height: 1;
+
+    font-weight: 900;
+}
+
+.nr05-certificado-papel p {
+    max-width: 300px;
+
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   LINHA DECORATIVA
+========================================= */
+
+.nr05-certificado-linha {
+    width: 80px;
+
+    height: 2px;
+
+    margin-top: 22px;
+
+    background: #0ba44b;
+}
+
+
+/* =========================================
+   AVISO VISUAL
+========================================= */
+
+.nr05-certificado-exemplo {
+    position: absolute;
+
+    right: 18px;
+    bottom: 14px;
+
+    color: #9aa9b5;
+
+    font-size: 9px;
+
+    text-transform: uppercase;
+
+    letter-spacing: .08em;
+}
+
+
+/* =========================================
+   NOTEBOOK / TABLET
+========================================= */
+
+@media (max-width: 1000px) {
+
+    .nr05-certificacao {
+        padding: 90px 0;
+    }
+
+    .nr05-certificacao-grid {
+        gap: 45px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 25px;
+    }
+
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 800px) {
+
+    .nr05-certificacao {
+        padding: 80px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 700px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 50px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 17px;
+    }
+
+    .nr05-certificacao-grid {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .nr05-certificacao-info {
+        max-width: 700px;
+
+        margin: 0 auto;
+    }
+
+    .nr05-certificado-visual {
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+}
+
+
+/* =========================================
+   CELULAR
+========================================= */
+
+@media (max-width: 600px) {
+
+    .nr05-certificacao {
+        padding: 65px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 500px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 31px;
+    }
+
+    .nr05-certificacao-titulo p {
+        margin-top: 18px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-intro {
+        align-items: flex-start;
+
+        gap: 16px;
+    }
+
+    .nr05-certificacao-icon {
+        width: 52px;
+        height: 52px;
+
+        border-radius: 15px;
+
+        font-size: 20px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 21px;
+    }
+
+    .nr05-certificacao-texto {
+        margin-top: 22px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-lista {
+        grid-template-columns: 1fr;
+
+        gap: 13px;
+
+        margin-top: 25px;
+    }
+
+    .nr05-certificacao-nota {
+        margin-top: 25px;
+
+        padding: 16px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 20px;
+
+        border-radius: 22px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 25px;
+
+        border-width: 6px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 34px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 13px;
+    }
+
+}
+
+
+/* =========================================
+   CELULARES PEQUENOS
+========================================= */
+
+@media (max-width: 400px) {
+
+    .nr05-certificacao {
+        padding: 55px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: calc(100% - 32px);
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 28px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 15px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 19px;
+    }
+
+    .nr05-certificacao-texto {
+        font-size: 15px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 15px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 20px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 30px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 12px;
+    }
+
+    .nr05-certificado-marca {
+        top: 15px;
+        left: 18px;
+
+        font-size: 10px;
+    }
+
+}
+
+
+/* =========================================
+   ETAPA 6 — CERTIFICAÇÃO
+========================================= */
+
+.nr05-certificacao {
+    padding: 110px 0;
+
+    background:
+        linear-gradient(
+            180deg,
+            #f7f9fc 0%,
+            #ffffff 100%
+        );
+}
+
+.nr05-certificacao-container {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+}
+
+
+/* =========================================
+   CABEÇALHO
+========================================= */
+
+.nr05-certificacao-titulo {
+    max-width: 850px;
+
+    margin: 0 auto 65px;
+
+    text-align: center;
+}
+
+.nr05-certificacao-titulo h2 {
+    margin-top: 22px;
+
+    color: #0c2f5b;
+
+    font-size: clamp(34px, 4vw, 46px);
+
+    line-height: 1.15;
+
+    font-weight: 800;
+}
+
+.nr05-certificacao-titulo h2 strong {
+    color: #0ba44b;
+}
+
+.nr05-certificacao-titulo p {
+    max-width: 780px;
+
+    margin: 22px auto 0;
+
+    color: #66768c;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   GRID
+========================================= */
+
+.nr05-certificacao-grid {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        minmax(0, .9fr);
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+
+/* =========================================
+   INFORMAÇÕES
+========================================= */
+
+.nr05-certificacao-info {
+    min-width: 0;
+}
+
+.nr05-certificacao-intro {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+.nr05-certificacao-icon {
+    width: 62px;
+    height: 62px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 17px;
+
+    background: #e8f7ef;
+
+    color: #0ba44b;
+
+    font-size: 24px;
+}
+
+.nr05-certificacao-intro span {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: #0ba44b;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: .1em;
+}
+
+.nr05-certificacao-intro h3 {
+    margin: 0;
+
+    color: #0c2f5b;
+
+    font-size: 25px;
+
+    line-height: 1.3;
+}
+
+
+/* =========================================
+   TEXTO
+========================================= */
+
+.nr05-certificacao-texto {
+    max-width: 650px;
+
+    margin: 28px 0 0;
+
+    color: #66768c;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   LISTA
+========================================= */
+
+.nr05-certificacao-lista {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 16px;
+
+    margin: 30px 0 0;
+
+    padding: 0;
+
+    list-style: none;
+}
+
+.nr05-certificacao-lista li {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    min-width: 0;
+
+    color: #123d6d;
+
+    font-size: 15px;
+
+    font-weight: 600;
+}
+
+.nr05-certificacao-lista i {
+    flex-shrink: 0;
+
+    color: #0ba44b;
+
+    font-size: 17px;
+}
+
+
+/* =========================================
+   NOTA
+========================================= */
+
+.nr05-certificacao-nota {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    margin-top: 30px;
+
+    padding: 18px 20px;
+
+    border-radius: 15px;
+
+    background: #f1f6fb;
+
+    border: 1px solid #dfe9f1;
+}
+
+.nr05-certificacao-nota i {
+    flex-shrink: 0;
+
+    margin-top: 3px;
+
+    color: #0c5b91;
+}
+
+.nr05-certificacao-nota p {
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   VISUAL DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-visual {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 0;
+
+    padding: 30px;
+
+    border-radius: 28px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #edf8f2 0%,
+            #f8fbfa 100%
+        );
+
+    border: 1px solid #dcebe3;
+}
+
+
+/* =========================================
+   PAPEL
+========================================= */
+
+.nr05-certificado-papel {
+    position: relative;
+
+    width: 100%;
+
+    max-width: 470px;
+
+    aspect-ratio: 1.414 / 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px;
+
+    box-sizing: border-box;
+
+    background: #ffffff;
+
+    border: 8px solid #eef3f0;
+
+    outline: 1px solid #cfded6;
+
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, .12);
+
+    text-align: center;
+}
+
+
+/* =========================================
+   MARCA
+========================================= */
+
+.nr05-certificado-marca {
+    position: absolute;
+
+    top: 22px;
+    left: 25px;
+
+    color: #0c2f5b;
+
+    font-size: 13px;
+
+    font-weight: 900;
+
+    letter-spacing: .12em;
+}
+
+
+/* =========================================
+   TÍTULO DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-label {
+    color: #0ba44b;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: .2em;
+}
+
+.nr05-certificado-papel h3 {
+    margin: 10px 0;
+
+    color: #0c2f5b;
+
+    font-size: 42px;
+
+    line-height: 1;
+
+    font-weight: 900;
+}
+
+.nr05-certificado-papel p {
+    max-width: 300px;
+
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   LINHA DECORATIVA
+========================================= */
+
+.nr05-certificado-linha {
+    width: 80px;
+
+    height: 2px;
+
+    margin-top: 22px;
+
+    background: #0ba44b;
+}
+
+
+/* =========================================
+   AVISO VISUAL
+========================================= */
+
+.nr05-certificado-exemplo {
+    position: absolute;
+
+    right: 18px;
+    bottom: 14px;
+
+    color: #9aa9b5;
+
+    font-size: 9px;
+
+    text-transform: uppercase;
+
+    letter-spacing: .08em;
+}
+
+
+/* =========================================
+   NOTEBOOK / TABLET
+========================================= */
+
+@media (max-width: 1000px) {
+
+    .nr05-certificacao {
+        padding: 90px 0;
+    }
+
+    .nr05-certificacao-grid {
+        gap: 45px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 25px;
+    }
+
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 800px) {
+
+    .nr05-certificacao {
+        padding: 80px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 700px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 50px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 17px;
+    }
+
+    .nr05-certificacao-grid {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .nr05-certificacao-info {
+        max-width: 700px;
+
+        margin: 0 auto;
+    }
+
+    .nr05-certificado-visual {
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+}
+
+
+/* =========================================
+   CELULAR
+========================================= */
+
+@media (max-width: 600px) {
+
+    .nr05-certificacao {
+        padding: 65px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 500px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 31px;
+    }
+
+    .nr05-certificacao-titulo p {
+        margin-top: 18px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-intro {
+        align-items: flex-start;
+
+        gap: 16px;
+    }
+
+    .nr05-certificacao-icon {
+        width: 52px;
+        height: 52px;
+
+        border-radius: 15px;
+
+        font-size: 20px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 21px;
+    }
+
+    .nr05-certificacao-texto {
+        margin-top: 22px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-lista {
+        grid-template-columns: 1fr;
+
+        gap: 13px;
+
+        margin-top: 25px;
+    }
+
+    .nr05-certificacao-nota {
+        margin-top: 25px;
+
+        padding: 16px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 20px;
+
+        border-radius: 22px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 25px;
+
+        border-width: 6px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 34px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 13px;
+    }
+
+}
+
+
+/* =========================================
+   CELULARES PEQUENOS
+========================================= */
+
+@media (max-width: 400px) {
+
+    .nr05-certificacao {
+        padding: 55px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: calc(100% - 32px);
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 28px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 15px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 19px;
+    }
+
+    .nr05-certificacao-texto {
+        font-size: 15px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 15px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 20px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 30px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 12px;
+    }
+
+    .nr05-certificado-marca {
+        top: 15px;
+        left: 18px;
+
+        font-size: 10px;
+    }
+
+}
+
+
+/* =========================================
+   ETAPA 6 — CERTIFICAÇÃO
+========================================= */
+
+.nr05-certificacao {
+    padding: 110px 0;
+
+    background:
+        linear-gradient(
+            180deg,
+            #f7f9fc 0%,
+            #ffffff 100%
+        );
+}
+
+.nr05-certificacao-container {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+}
+
+
+/* =========================================
+   CABEÇALHO
+========================================= */
+
+.nr05-certificacao-titulo {
+    max-width: 850px;
+
+    margin: 0 auto 65px;
+
+    text-align: center;
+}
+
+.nr05-certificacao-titulo h2 {
+    margin-top: 22px;
+
+    color: #0c2f5b;
+
+    font-size: clamp(34px, 4vw, 46px);
+
+    line-height: 1.15;
+
+    font-weight: 800;
+}
+
+.nr05-certificacao-titulo h2 strong {
+    color: #0ba44b;
+}
+
+.nr05-certificacao-titulo p {
+    max-width: 780px;
+
+    margin: 22px auto 0;
+
+    color: #66768c;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   GRID
+========================================= */
+
+.nr05-certificacao-grid {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        minmax(0, .9fr);
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+
+/* =========================================
+   INFORMAÇÕES
+========================================= */
+
+.nr05-certificacao-info {
+    min-width: 0;
+}
+
+.nr05-certificacao-intro {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+.nr05-certificacao-icon {
+    width: 62px;
+    height: 62px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 17px;
+
+    background: #e8f7ef;
+
+    color: #0ba44b;
+
+    font-size: 24px;
+}
+
+.nr05-certificacao-intro span {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: #0ba44b;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: .1em;
+}
+
+.nr05-certificacao-intro h3 {
+    margin: 0;
+
+    color: #0c2f5b;
+
+    font-size: 25px;
+
+    line-height: 1.3;
+}
+
+
+/* =========================================
+   TEXTO
+========================================= */
+
+.nr05-certificacao-texto {
+    max-width: 650px;
+
+    margin: 28px 0 0;
+
+    color: #66768c;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   LISTA
+========================================= */
+
+.nr05-certificacao-lista {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 16px;
+
+    margin: 30px 0 0;
+
+    padding: 0;
+
+    list-style: none;
+}
+
+.nr05-certificacao-lista li {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    min-width: 0;
+
+    color: #123d6d;
+
+    font-size: 15px;
+
+    font-weight: 600;
+}
+
+.nr05-certificacao-lista i {
+    flex-shrink: 0;
+
+    color: #0ba44b;
+
+    font-size: 17px;
+}
+
+
+/* =========================================
+   NOTA
+========================================= */
+
+.nr05-certificacao-nota {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    margin-top: 30px;
+
+    padding: 18px 20px;
+
+    border-radius: 15px;
+
+    background: #f1f6fb;
+
+    border: 1px solid #dfe9f1;
+}
+
+.nr05-certificacao-nota i {
+    flex-shrink: 0;
+
+    margin-top: 3px;
+
+    color: #0c5b91;
+}
+
+.nr05-certificacao-nota p {
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   VISUAL DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-visual {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 0;
+
+    padding: 30px;
+
+    border-radius: 28px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #edf8f2 0%,
+            #f8fbfa 100%
+        );
+
+    border: 1px solid #dcebe3;
+}
+
+
+/* =========================================
+   PAPEL
+========================================= */
+
+.nr05-certificado-papel {
+    position: relative;
+
+    width: 100%;
+
+    max-width: 470px;
+
+    aspect-ratio: 1.414 / 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px;
+
+    box-sizing: border-box;
+
+    background: #ffffff;
+
+    border: 8px solid #eef3f0;
+
+    outline: 1px solid #cfded6;
+
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, .12);
+
+    text-align: center;
+}
+
+
+/* =========================================
+   MARCA
+========================================= */
+
+.nr05-certificado-marca {
+    position: absolute;
+
+    top: 22px;
+    left: 25px;
+
+    color: #0c2f5b;
+
+    font-size: 13px;
+
+    font-weight: 900;
+
+    letter-spacing: .12em;
+}
+
+
+/* =========================================
+   TÍTULO DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-label {
+    color: #0ba44b;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: .2em;
+}
+
+.nr05-certificado-papel h3 {
+    margin: 10px 0;
+
+    color: #0c2f5b;
+
+    font-size: 42px;
+
+    line-height: 1;
+
+    font-weight: 900;
+}
+
+.nr05-certificado-papel p {
+    max-width: 300px;
+
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   LINHA DECORATIVA
+========================================= */
+
+.nr05-certificado-linha {
+    width: 80px;
+
+    height: 2px;
+
+    margin-top: 22px;
+
+    background: #0ba44b;
+}
+
+
+/* =========================================
+   AVISO VISUAL
+========================================= */
+
+.nr05-certificado-exemplo {
+    position: absolute;
+
+    right: 18px;
+    bottom: 14px;
+
+    color: #9aa9b5;
+
+    font-size: 9px;
+
+    text-transform: uppercase;
+
+    letter-spacing: .08em;
+}
+
+
+/* =========================================
+   NOTEBOOK / TABLET
+========================================= */
+
+@media (max-width: 1000px) {
+
+    .nr05-certificacao {
+        padding: 90px 0;
+    }
+
+    .nr05-certificacao-grid {
+        gap: 45px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 25px;
+    }
+
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 800px) {
+
+    .nr05-certificacao {
+        padding: 80px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 700px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 50px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 17px;
+    }
+
+    .nr05-certificacao-grid {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .nr05-certificacao-info {
+        max-width: 700px;
+
+        margin: 0 auto;
+    }
+
+    .nr05-certificado-visual {
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+}
+
+
+/* =========================================
+   CELULAR
+========================================= */
+
+@media (max-width: 600px) {
+
+    .nr05-certificacao {
+        padding: 65px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 500px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 31px;
+    }
+
+    .nr05-certificacao-titulo p {
+        margin-top: 18px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-intro {
+        align-items: flex-start;
+
+        gap: 16px;
+    }
+
+    .nr05-certificacao-icon {
+        width: 52px;
+        height: 52px;
+
+        border-radius: 15px;
+
+        font-size: 20px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 21px;
+    }
+
+    .nr05-certificacao-texto {
+        margin-top: 22px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-lista {
+        grid-template-columns: 1fr;
+
+        gap: 13px;
+
+        margin-top: 25px;
+    }
+
+    .nr05-certificacao-nota {
+        margin-top: 25px;
+
+        padding: 16px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 20px;
+
+        border-radius: 22px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 25px;
+
+        border-width: 6px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 34px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 13px;
+    }
+
+}
+
+
+/* =========================================
+   CELULARES PEQUENOS
+========================================= */
+
+@media (max-width: 400px) {
+
+    .nr05-certificacao {
+        padding: 55px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: calc(100% - 32px);
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 28px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 15px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 19px;
+    }
+
+    .nr05-certificacao-texto {
+        font-size: 15px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 15px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 20px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 30px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 12px;
+    }
+
+    .nr05-certificado-marca {
+        top: 15px;
+        left: 18px;
+
+        font-size: 10px;
+    }
+
+}
+
+
+/* =========================================
+   ETAPA 6 — CERTIFICAÇÃO
+========================================= */
+
+.nr05-certificacao {
+    padding: 110px 0;
+
+    background:
+        linear-gradient(
+            180deg,
+            #f7f9fc 0%,
+            #ffffff 100%
+        );
+}
+
+.nr05-certificacao-container {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+}
+
+
+/* =========================================
+   CABEÇALHO
+========================================= */
+
+.nr05-certificacao-titulo {
+    max-width: 850px;
+
+    margin: 0 auto 65px;
+
+    text-align: center;
+}
+
+.nr05-certificacao-titulo h2 {
+    margin-top: 22px;
+
+    color: #0c2f5b;
+
+    font-size: clamp(34px, 4vw, 46px);
+
+    line-height: 1.15;
+
+    font-weight: 800;
+}
+
+.nr05-certificacao-titulo h2 strong {
+    color: #0ba44b;
+}
+
+.nr05-certificacao-titulo p {
+    max-width: 780px;
+
+    margin: 22px auto 0;
+
+    color: #66768c;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   GRID
+========================================= */
+
+.nr05-certificacao-grid {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        minmax(0, .9fr);
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+
+/* =========================================
+   INFORMAÇÕES
+========================================= */
+
+.nr05-certificacao-info {
+    min-width: 0;
+}
+
+.nr05-certificacao-intro {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+.nr05-certificacao-icon {
+    width: 62px;
+    height: 62px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 17px;
+
+    background: #e8f7ef;
+
+    color: #0ba44b;
+
+    font-size: 24px;
+}
+
+.nr05-certificacao-intro span {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: #0ba44b;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: .1em;
+}
+
+.nr05-certificacao-intro h3 {
+    margin: 0;
+
+    color: #0c2f5b;
+
+    font-size: 25px;
+
+    line-height: 1.3;
+}
+
+
+/* =========================================
+   TEXTO
+========================================= */
+
+.nr05-certificacao-texto {
+    max-width: 650px;
+
+    margin: 28px 0 0;
+
+    color: #66768c;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   LISTA
+========================================= */
+
+.nr05-certificacao-lista {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 16px;
+
+    margin: 30px 0 0;
+
+    padding: 0;
+
+    list-style: none;
+}
+
+.nr05-certificacao-lista li {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    min-width: 0;
+
+    color: #123d6d;
+
+    font-size: 15px;
+
+    font-weight: 600;
+}
+
+.nr05-certificacao-lista i {
+    flex-shrink: 0;
+
+    color: #0ba44b;
+
+    font-size: 17px;
+}
+
+
+/* =========================================
+   NOTA
+========================================= */
+
+.nr05-certificacao-nota {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    margin-top: 30px;
+
+    padding: 18px 20px;
+
+    border-radius: 15px;
+
+    background: #f1f6fb;
+
+    border: 1px solid #dfe9f1;
+}
+
+.nr05-certificacao-nota i {
+    flex-shrink: 0;
+
+    margin-top: 3px;
+
+    color: #0c5b91;
+}
+
+.nr05-certificacao-nota p {
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   VISUAL DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-visual {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 0;
+
+    padding: 30px;
+
+    border-radius: 28px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #edf8f2 0%,
+            #f8fbfa 100%
+        );
+
+    border: 1px solid #dcebe3;
+}
+
+
+/* =========================================
+   PAPEL
+========================================= */
+
+.nr05-certificado-papel {
+    position: relative;
+
+    width: 100%;
+
+    max-width: 470px;
+
+    aspect-ratio: 1.414 / 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px;
+
+    box-sizing: border-box;
+
+    background: #ffffff;
+
+    border: 8px solid #eef3f0;
+
+    outline: 1px solid #cfded6;
+
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, .12);
+
+    text-align: center;
+}
+
+
+/* =========================================
+   MARCA
+========================================= */
+
+.nr05-certificado-marca {
+    position: absolute;
+
+    top: 22px;
+    left: 25px;
+
+    color: #0c2f5b;
+
+    font-size: 13px;
+
+    font-weight: 900;
+
+    letter-spacing: .12em;
+}
+
+
+/* =========================================
+   TÍTULO DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-label {
+    color: #0ba44b;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: .2em;
+}
+
+.nr05-certificado-papel h3 {
+    margin: 10px 0;
+
+    color: #0c2f5b;
+
+    font-size: 42px;
+
+    line-height: 1;
+
+    font-weight: 900;
+}
+
+.nr05-certificado-papel p {
+    max-width: 300px;
+
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   LINHA DECORATIVA
+========================================= */
+
+.nr05-certificado-linha {
+    width: 80px;
+
+    height: 2px;
+
+    margin-top: 22px;
+
+    background: #0ba44b;
+}
+
+
+/* =========================================
+   AVISO VISUAL
+========================================= */
+
+.nr05-certificado-exemplo {
+    position: absolute;
+
+    right: 18px;
+    bottom: 14px;
+
+    color: #9aa9b5;
+
+    font-size: 9px;
+
+    text-transform: uppercase;
+
+    letter-spacing: .08em;
+}
+
+
+/* =========================================
+   NOTEBOOK / TABLET
+========================================= */
+
+@media (max-width: 1000px) {
+
+    .nr05-certificacao {
+        padding: 90px 0;
+    }
+
+    .nr05-certificacao-grid {
+        gap: 45px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 25px;
+    }
+
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 800px) {
+
+    .nr05-certificacao {
+        padding: 80px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 700px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 50px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 17px;
+    }
+
+    .nr05-certificacao-grid {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .nr05-certificacao-info {
+        max-width: 700px;
+
+        margin: 0 auto;
+    }
+
+    .nr05-certificado-visual {
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+}
+
+
+/* =========================================
+   CELULAR
+========================================= */
+
+@media (max-width: 600px) {
+
+    .nr05-certificacao {
+        padding: 65px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 500px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 31px;
+    }
+
+    .nr05-certificacao-titulo p {
+        margin-top: 18px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-intro {
+        align-items: flex-start;
+
+        gap: 16px;
+    }
+
+    .nr05-certificacao-icon {
+        width: 52px;
+        height: 52px;
+
+        border-radius: 15px;
+
+        font-size: 20px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 21px;
+    }
+
+    .nr05-certificacao-texto {
+        margin-top: 22px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-lista {
+        grid-template-columns: 1fr;
+
+        gap: 13px;
+
+        margin-top: 25px;
+    }
+
+    .nr05-certificacao-nota {
+        margin-top: 25px;
+
+        padding: 16px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 20px;
+
+        border-radius: 22px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 25px;
+
+        border-width: 6px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 34px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 13px;
+    }
+
+}
+
+
+/* =========================================
+   CELULARES PEQUENOS
+========================================= */
+
+@media (max-width: 400px) {
+
+    .nr05-certificacao {
+        padding: 55px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: calc(100% - 32px);
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 28px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 15px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 19px;
+    }
+
+    .nr05-certificacao-texto {
+        font-size: 15px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 15px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 20px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 30px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 12px;
+    }
+
+    .nr05-certificado-marca {
+        top: 15px;
+        left: 18px;
+
+        font-size: 10px;
+    }
+
+}
+
+
+/* =========================================
+   ETAPA 6 — CERTIFICAÇÃO
+========================================= */
+
+.nr05-certificacao {
+    padding: 110px 0;
+
+    background:
+        linear-gradient(
+            180deg,
+            #f7f9fc 0%,
+            #ffffff 100%
+        );
+}
+
+.nr05-certificacao-container {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+}
+
+
+/* =========================================
+   CABEÇALHO
+========================================= */
+
+.nr05-certificacao-titulo {
+    max-width: 850px;
+
+    margin: 0 auto 65px;
+
+    text-align: center;
+}
+
+.nr05-certificacao-titulo h2 {
+    margin-top: 22px;
+
+    color: #0c2f5b;
+
+    font-size: clamp(34px, 4vw, 46px);
+
+    line-height: 1.15;
+
+    font-weight: 800;
+}
+
+.nr05-certificacao-titulo h2 strong {
+    color: #0ba44b;
+}
+
+.nr05-certificacao-titulo p {
+    max-width: 780px;
+
+    margin: 22px auto 0;
+
+    color: #66768c;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   GRID
+========================================= */
+
+.nr05-certificacao-grid {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        minmax(0, .9fr);
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+
+/* =========================================
+   INFORMAÇÕES
+========================================= */
+
+.nr05-certificacao-info {
+    min-width: 0;
+}
+
+.nr05-certificacao-intro {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+.nr05-certificacao-icon {
+    width: 62px;
+    height: 62px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 17px;
+
+    background: #e8f7ef;
+
+    color: #0ba44b;
+
+    font-size: 24px;
+}
+
+.nr05-certificacao-intro span {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: #0ba44b;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: .1em;
+}
+
+.nr05-certificacao-intro h3 {
+    margin: 0;
+
+    color: #0c2f5b;
+
+    font-size: 25px;
+
+    line-height: 1.3;
+}
+
+
+/* =========================================
+   TEXTO
+========================================= */
+
+.nr05-certificacao-texto {
+    max-width: 650px;
+
+    margin: 28px 0 0;
+
+    color: #66768c;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   LISTA
+========================================= */
+
+.nr05-certificacao-lista {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 16px;
+
+    margin: 30px 0 0;
+
+    padding: 0;
+
+    list-style: none;
+}
+
+.nr05-certificacao-lista li {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    min-width: 0;
+
+    color: #123d6d;
+
+    font-size: 15px;
+
+    font-weight: 600;
+}
+
+.nr05-certificacao-lista i {
+    flex-shrink: 0;
+
+    color: #0ba44b;
+
+    font-size: 17px;
+}
+
+
+/* =========================================
+   NOTA
+========================================= */
+
+.nr05-certificacao-nota {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    margin-top: 30px;
+
+    padding: 18px 20px;
+
+    border-radius: 15px;
+
+    background: #f1f6fb;
+
+    border: 1px solid #dfe9f1;
+}
+
+.nr05-certificacao-nota i {
+    flex-shrink: 0;
+
+    margin-top: 3px;
+
+    color: #0c5b91;
+}
+
+.nr05-certificacao-nota p {
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   VISUAL DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-visual {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 0;
+
+    padding: 30px;
+
+    border-radius: 28px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #edf8f2 0%,
+            #f8fbfa 100%
+        );
+
+    border: 1px solid #dcebe3;
+}
+
+
+/* =========================================
+   PAPEL
+========================================= */
+
+.nr05-certificado-papel {
+    position: relative;
+
+    width: 100%;
+
+    max-width: 470px;
+
+    aspect-ratio: 1.414 / 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px;
+
+    box-sizing: border-box;
+
+    background: #ffffff;
+
+    border: 8px solid #eef3f0;
+
+    outline: 1px solid #cfded6;
+
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, .12);
+
+    text-align: center;
+}
+
+
+/* =========================================
+   MARCA
+========================================= */
+
+.nr05-certificado-marca {
+    position: absolute;
+
+    top: 22px;
+    left: 25px;
+
+    color: #0c2f5b;
+
+    font-size: 13px;
+
+    font-weight: 900;
+
+    letter-spacing: .12em;
+}
+
+
+/* =========================================
+   TÍTULO DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-label {
+    color: #0ba44b;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: .2em;
+}
+
+.nr05-certificado-papel h3 {
+    margin: 10px 0;
+
+    color: #0c2f5b;
+
+    font-size: 42px;
+
+    line-height: 1;
+
+    font-weight: 900;
+}
+
+.nr05-certificado-papel p {
+    max-width: 300px;
+
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   LINHA DECORATIVA
+========================================= */
+
+.nr05-certificado-linha {
+    width: 80px;
+
+    height: 2px;
+
+    margin-top: 22px;
+
+    background: #0ba44b;
+}
+
+
+/* =========================================
+   AVISO VISUAL
+========================================= */
+
+.nr05-certificado-exemplo {
+    position: absolute;
+
+    right: 18px;
+    bottom: 14px;
+
+    color: #9aa9b5;
+
+    font-size: 9px;
+
+    text-transform: uppercase;
+
+    letter-spacing: .08em;
+}
+
+
+/* =========================================
+   NOTEBOOK / TABLET
+========================================= */
+
+@media (max-width: 1000px) {
+
+    .nr05-certificacao {
+        padding: 90px 0;
+    }
+
+    .nr05-certificacao-grid {
+        gap: 45px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 25px;
+    }
+
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 800px) {
+
+    .nr05-certificacao {
+        padding: 80px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 700px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 50px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 17px;
+    }
+
+    .nr05-certificacao-grid {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .nr05-certificacao-info {
+        max-width: 700px;
+
+        margin: 0 auto;
+    }
+
+    .nr05-certificado-visual {
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+}
+
+
+/* =========================================
+   CELULAR
+========================================= */
+
+@media (max-width: 600px) {
+
+    .nr05-certificacao {
+        padding: 65px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 500px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 31px;
+    }
+
+    .nr05-certificacao-titulo p {
+        margin-top: 18px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-intro {
+        align-items: flex-start;
+
+        gap: 16px;
+    }
+
+    .nr05-certificacao-icon {
+        width: 52px;
+        height: 52px;
+
+        border-radius: 15px;
+
+        font-size: 20px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 21px;
+    }
+
+    .nr05-certificacao-texto {
+        margin-top: 22px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-lista {
+        grid-template-columns: 1fr;
+
+        gap: 13px;
+
+        margin-top: 25px;
+    }
+
+    .nr05-certificacao-nota {
+        margin-top: 25px;
+
+        padding: 16px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 20px;
+
+        border-radius: 22px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 25px;
+
+        border-width: 6px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 34px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 13px;
+    }
+
+}
+
+
+/* =========================================
+   CELULARES PEQUENOS
+========================================= */
+
+@media (max-width: 400px) {
+
+    .nr05-certificacao {
+        padding: 55px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: calc(100% - 32px);
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 28px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 15px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 19px;
+    }
+
+    .nr05-certificacao-texto {
+        font-size: 15px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 15px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 20px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 30px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 12px;
+    }
+
+    .nr05-certificado-marca {
+        top: 15px;
+        left: 18px;
+
+        font-size: 10px;
+    }
+
+}
+
+
+/* =========================================
+   ETAPA 6 — CERTIFICAÇÃO
+========================================= */
+
+.nr05-certificacao {
+    padding: 110px 0;
+
+    background:
+        linear-gradient(
+            180deg,
+            #f7f9fc 0%,
+            #ffffff 100%
+        );
+}
+
+.nr05-certificacao-container {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+}
+
+
+/* =========================================
+   CABEÇALHO
+========================================= */
+
+.nr05-certificacao-titulo {
+    max-width: 850px;
+
+    margin: 0 auto 65px;
+
+    text-align: center;
+}
+
+.nr05-certificacao-titulo h2 {
+    margin-top: 22px;
+
+    color: #0c2f5b;
+
+    font-size: clamp(34px, 4vw, 46px);
+
+    line-height: 1.15;
+
+    font-weight: 800;
+}
+
+.nr05-certificacao-titulo h2 strong {
+    color: #0ba44b;
+}
+
+.nr05-certificacao-titulo p {
+    max-width: 780px;
+
+    margin: 22px auto 0;
+
+    color: #66768c;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   GRID
+========================================= */
+
+.nr05-certificacao-grid {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        minmax(0, .9fr);
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+
+/* =========================================
+   INFORMAÇÕES
+========================================= */
+
+.nr05-certificacao-info {
+    min-width: 0;
+}
+
+.nr05-certificacao-intro {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+.nr05-certificacao-icon {
+    width: 62px;
+    height: 62px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 17px;
+
+    background: #e8f7ef;
+
+    color: #0ba44b;
+
+    font-size: 24px;
+}
+
+.nr05-certificacao-intro span {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: #0ba44b;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: .1em;
+}
+
+.nr05-certificacao-intro h3 {
+    margin: 0;
+
+    color: #0c2f5b;
+
+    font-size: 25px;
+
+    line-height: 1.3;
+}
+
+
+/* =========================================
+   TEXTO
+========================================= */
+
+.nr05-certificacao-texto {
+    max-width: 650px;
+
+    margin: 28px 0 0;
+
+    color: #66768c;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   LISTA
+========================================= */
+
+.nr05-certificacao-lista {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 16px;
+
+    margin: 30px 0 0;
+
+    padding: 0;
+
+    list-style: none;
+}
+
+.nr05-certificacao-lista li {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    min-width: 0;
+
+    color: #123d6d;
+
+    font-size: 15px;
+
+    font-weight: 600;
+}
+
+.nr05-certificacao-lista i {
+    flex-shrink: 0;
+
+    color: #0ba44b;
+
+    font-size: 17px;
+}
+
+
+/* =========================================
+   NOTA
+========================================= */
+
+.nr05-certificacao-nota {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    margin-top: 30px;
+
+    padding: 18px 20px;
+
+    border-radius: 15px;
+
+    background: #f1f6fb;
+
+    border: 1px solid #dfe9f1;
+}
+
+.nr05-certificacao-nota i {
+    flex-shrink: 0;
+
+    margin-top: 3px;
+
+    color: #0c5b91;
+}
+
+.nr05-certificacao-nota p {
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   VISUAL DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-visual {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 0;
+
+    padding: 30px;
+
+    border-radius: 28px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #edf8f2 0%,
+            #f8fbfa 100%
+        );
+
+    border: 1px solid #dcebe3;
+}
+
+
+/* =========================================
+   PAPEL
+========================================= */
+
+.nr05-certificado-papel {
+    position: relative;
+
+    width: 100%;
+
+    max-width: 470px;
+
+    aspect-ratio: 1.414 / 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px;
+
+    box-sizing: border-box;
+
+    background: #ffffff;
+
+    border: 8px solid #eef3f0;
+
+    outline: 1px solid #cfded6;
+
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, .12);
+
+    text-align: center;
+}
+
+
+/* =========================================
+   MARCA
+========================================= */
+
+.nr05-certificado-marca {
+    position: absolute;
+
+    top: 22px;
+    left: 25px;
+
+    color: #0c2f5b;
+
+    font-size: 13px;
+
+    font-weight: 900;
+
+    letter-spacing: .12em;
+}
+
+
+/* =========================================
+   TÍTULO DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-label {
+    color: #0ba44b;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: .2em;
+}
+
+.nr05-certificado-papel h3 {
+    margin: 10px 0;
+
+    color: #0c2f5b;
+
+    font-size: 42px;
+
+    line-height: 1;
+
+    font-weight: 900;
+}
+
+.nr05-certificado-papel p {
+    max-width: 300px;
+
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   LINHA DECORATIVA
+========================================= */
+
+.nr05-certificado-linha {
+    width: 80px;
+
+    height: 2px;
+
+    margin-top: 22px;
+
+    background: #0ba44b;
+}
+
+
+/* =========================================
+   AVISO VISUAL
+========================================= */
+
+.nr05-certificado-exemplo {
+    position: absolute;
+
+    right: 18px;
+    bottom: 14px;
+
+    color: #9aa9b5;
+
+    font-size: 9px;
+
+    text-transform: uppercase;
+
+    letter-spacing: .08em;
+}
+
+
+/* =========================================
+   NOTEBOOK / TABLET
+========================================= */
+
+@media (max-width: 1000px) {
+
+    .nr05-certificacao {
+        padding: 90px 0;
+    }
+
+    .nr05-certificacao-grid {
+        gap: 45px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 25px;
+    }
+
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 800px) {
+
+    .nr05-certificacao {
+        padding: 80px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 700px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 50px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 17px;
+    }
+
+    .nr05-certificacao-grid {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .nr05-certificacao-info {
+        max-width: 700px;
+
+        margin: 0 auto;
+    }
+
+    .nr05-certificado-visual {
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+}
+
+
+/* =========================================
+   CELULAR
+========================================= */
+
+@media (max-width: 600px) {
+
+    .nr05-certificacao {
+        padding: 65px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 500px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 31px;
+    }
+
+    .nr05-certificacao-titulo p {
+        margin-top: 18px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-intro {
+        align-items: flex-start;
+
+        gap: 16px;
+    }
+
+    .nr05-certificacao-icon {
+        width: 52px;
+        height: 52px;
+
+        border-radius: 15px;
+
+        font-size: 20px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 21px;
+    }
+
+    .nr05-certificacao-texto {
+        margin-top: 22px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-lista {
+        grid-template-columns: 1fr;
+
+        gap: 13px;
+
+        margin-top: 25px;
+    }
+
+    .nr05-certificacao-nota {
+        margin-top: 25px;
+
+        padding: 16px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 20px;
+
+        border-radius: 22px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 25px;
+
+        border-width: 6px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 34px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 13px;
+    }
+
+}
+
+
+/* =========================================
+   CELULARES PEQUENOS
+========================================= */
+
+@media (max-width: 400px) {
+
+    .nr05-certificacao {
+        padding: 55px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: calc(100% - 32px);
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 28px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 15px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 19px;
+    }
+
+    .nr05-certificacao-texto {
+        font-size: 15px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 15px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 20px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 30px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 12px;
+    }
+
+    .nr05-certificado-marca {
+        top: 15px;
+        left: 18px;
+
+        font-size: 10px;
+    }
+
+}
+
+
+/* =========================================
+   ETAPA 6 — CERTIFICAÇÃO
+========================================= */
+
+.nr05-certificacao {
+    padding: 110px 0;
+
+    background:
+        linear-gradient(
+            180deg,
+            #f7f9fc 0%,
+            #ffffff 100%
+        );
+}
+
+.nr05-certificacao-container {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+}
+
+
+/* =========================================
+   CABEÇALHO
+========================================= */
+
+.nr05-certificacao-titulo {
+    max-width: 850px;
+
+    margin: 0 auto 65px;
+
+    text-align: center;
+}
+
+.nr05-certificacao-titulo h2 {
+    margin-top: 22px;
+
+    color: #0c2f5b;
+
+    font-size: clamp(34px, 4vw, 46px);
+
+    line-height: 1.15;
+
+    font-weight: 800;
+}
+
+.nr05-certificacao-titulo h2 strong {
+    color: #0ba44b;
+}
+
+.nr05-certificacao-titulo p {
+    max-width: 780px;
+
+    margin: 22px auto 0;
+
+    color: #66768c;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   GRID
+========================================= */
+
+.nr05-certificacao-grid {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        minmax(0, .9fr);
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+
+/* =========================================
+   INFORMAÇÕES
+========================================= */
+
+.nr05-certificacao-info {
+    min-width: 0;
+}
+
+.nr05-certificacao-intro {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+.nr05-certificacao-icon {
+    width: 62px;
+    height: 62px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 17px;
+
+    background: #e8f7ef;
+
+    color: #0ba44b;
+
+    font-size: 24px;
+}
+
+.nr05-certificacao-intro span {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: #0ba44b;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: .1em;
+}
+
+.nr05-certificacao-intro h3 {
+    margin: 0;
+
+    color: #0c2f5b;
+
+    font-size: 25px;
+
+    line-height: 1.3;
+}
+
+
+/* =========================================
+   TEXTO
+========================================= */
+
+.nr05-certificacao-texto {
+    max-width: 650px;
+
+    margin: 28px 0 0;
+
+    color: #66768c;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   LISTA
+========================================= */
+
+.nr05-certificacao-lista {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 16px;
+
+    margin: 30px 0 0;
+
+    padding: 0;
+
+    list-style: none;
+}
+
+.nr05-certificacao-lista li {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    min-width: 0;
+
+    color: #123d6d;
+
+    font-size: 15px;
+
+    font-weight: 600;
+}
+
+.nr05-certificacao-lista i {
+    flex-shrink: 0;
+
+    color: #0ba44b;
+
+    font-size: 17px;
+}
+
+
+/* =========================================
+   NOTA
+========================================= */
+
+.nr05-certificacao-nota {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    margin-top: 30px;
+
+    padding: 18px 20px;
+
+    border-radius: 15px;
+
+    background: #f1f6fb;
+
+    border: 1px solid #dfe9f1;
+}
+
+.nr05-certificacao-nota i {
+    flex-shrink: 0;
+
+    margin-top: 3px;
+
+    color: #0c5b91;
+}
+
+.nr05-certificacao-nota p {
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   VISUAL DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-visual {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 0;
+
+    padding: 30px;
+
+    border-radius: 28px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #edf8f2 0%,
+            #f8fbfa 100%
+        );
+
+    border: 1px solid #dcebe3;
+}
+
+
+/* =========================================
+   PAPEL
+========================================= */
+
+.nr05-certificado-papel {
+    position: relative;
+
+    width: 100%;
+
+    max-width: 470px;
+
+    aspect-ratio: 1.414 / 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px;
+
+    box-sizing: border-box;
+
+    background: #ffffff;
+
+    border: 8px solid #eef3f0;
+
+    outline: 1px solid #cfded6;
+
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, .12);
+
+    text-align: center;
+}
+
+
+/* =========================================
+   MARCA
+========================================= */
+
+.nr05-certificado-marca {
+    position: absolute;
+
+    top: 22px;
+    left: 25px;
+
+    color: #0c2f5b;
+
+    font-size: 13px;
+
+    font-weight: 900;
+
+    letter-spacing: .12em;
+}
+
+
+/* =========================================
+   TÍTULO DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-label {
+    color: #0ba44b;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: .2em;
+}
+
+.nr05-certificado-papel h3 {
+    margin: 10px 0;
+
+    color: #0c2f5b;
+
+    font-size: 42px;
+
+    line-height: 1;
+
+    font-weight: 900;
+}
+
+.nr05-certificado-papel p {
+    max-width: 300px;
+
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   LINHA DECORATIVA
+========================================= */
+
+.nr05-certificado-linha {
+    width: 80px;
+
+    height: 2px;
+
+    margin-top: 22px;
+
+    background: #0ba44b;
+}
+
+
+/* =========================================
+   AVISO VISUAL
+========================================= */
+
+.nr05-certificado-exemplo {
+    position: absolute;
+
+    right: 18px;
+    bottom: 14px;
+
+    color: #9aa9b5;
+
+    font-size: 9px;
+
+    text-transform: uppercase;
+
+    letter-spacing: .08em;
+}
+
+
+/* =========================================
+   NOTEBOOK / TABLET
+========================================= */
+
+@media (max-width: 1000px) {
+
+    .nr05-certificacao {
+        padding: 90px 0;
+    }
+
+    .nr05-certificacao-grid {
+        gap: 45px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 25px;
+    }
+
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 800px) {
+
+    .nr05-certificacao {
+        padding: 80px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 700px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 50px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 17px;
+    }
+
+    .nr05-certificacao-grid {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .nr05-certificacao-info {
+        max-width: 700px;
+
+        margin: 0 auto;
+    }
+
+    .nr05-certificado-visual {
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+}
+
+
+/* =========================================
+   CELULAR
+========================================= */
+
+@media (max-width: 600px) {
+
+    .nr05-certificacao {
+        padding: 65px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 500px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 31px;
+    }
+
+    .nr05-certificacao-titulo p {
+        margin-top: 18px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-intro {
+        align-items: flex-start;
+
+        gap: 16px;
+    }
+
+    .nr05-certificacao-icon {
+        width: 52px;
+        height: 52px;
+
+        border-radius: 15px;
+
+        font-size: 20px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 21px;
+    }
+
+    .nr05-certificacao-texto {
+        margin-top: 22px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-lista {
+        grid-template-columns: 1fr;
+
+        gap: 13px;
+
+        margin-top: 25px;
+    }
+
+    .nr05-certificacao-nota {
+        margin-top: 25px;
+
+        padding: 16px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 20px;
+
+        border-radius: 22px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 25px;
+
+        border-width: 6px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 34px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 13px;
+    }
+
+}
+
+
+/* =========================================
+   CELULARES PEQUENOS
+========================================= */
+
+@media (max-width: 400px) {
+
+    .nr05-certificacao {
+        padding: 55px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: calc(100% - 32px);
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 28px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 15px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 19px;
+    }
+
+    .nr05-certificacao-texto {
+        font-size: 15px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 15px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 20px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 30px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 12px;
+    }
+
+    .nr05-certificado-marca {
+        top: 15px;
+        left: 18px;
+
+        font-size: 10px;
+    }
+
+}
+
+
+/* =========================================
+   ETAPA 6 — CERTIFICAÇÃO
+========================================= */
+
+.nr05-certificacao {
+    padding: 110px 0;
+
+    background:
+        linear-gradient(
+            180deg,
+            #f7f9fc 0%,
+            #ffffff 100%
+        );
+}
+
+.nr05-certificacao-container {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+}
+
+
+/* =========================================
+   CABEÇALHO
+========================================= */
+
+.nr05-certificacao-titulo {
+    max-width: 850px;
+
+    margin: 0 auto 65px;
+
+    text-align: center;
+}
+
+.nr05-certificacao-titulo h2 {
+    margin-top: 22px;
+
+    color: #0c2f5b;
+
+    font-size: clamp(34px, 4vw, 46px);
+
+    line-height: 1.15;
+
+    font-weight: 800;
+}
+
+.nr05-certificacao-titulo h2 strong {
+    color: #0ba44b;
+}
+
+.nr05-certificacao-titulo p {
+    max-width: 780px;
+
+    margin: 22px auto 0;
+
+    color: #66768c;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   GRID
+========================================= */
+
+.nr05-certificacao-grid {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        minmax(0, .9fr);
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+
+/* =========================================
+   INFORMAÇÕES
+========================================= */
+
+.nr05-certificacao-info {
+    min-width: 0;
+}
+
+.nr05-certificacao-intro {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+.nr05-certificacao-icon {
+    width: 62px;
+    height: 62px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 17px;
+
+    background: #e8f7ef;
+
+    color: #0ba44b;
+
+    font-size: 24px;
+}
+
+.nr05-certificacao-intro span {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: #0ba44b;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: .1em;
+}
+
+.nr05-certificacao-intro h3 {
+    margin: 0;
+
+    color: #0c2f5b;
+
+    font-size: 25px;
+
+    line-height: 1.3;
+}
+
+
+/* =========================================
+   TEXTO
+========================================= */
+
+.nr05-certificacao-texto {
+    max-width: 650px;
+
+    margin: 28px 0 0;
+
+    color: #66768c;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   LISTA
+========================================= */
+
+.nr05-certificacao-lista {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 16px;
+
+    margin: 30px 0 0;
+
+    padding: 0;
+
+    list-style: none;
+}
+
+.nr05-certificacao-lista li {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    min-width: 0;
+
+    color: #123d6d;
+
+    font-size: 15px;
+
+    font-weight: 600;
+}
+
+.nr05-certificacao-lista i {
+    flex-shrink: 0;
+
+    color: #0ba44b;
+
+    font-size: 17px;
+}
+
+
+/* =========================================
+   NOTA
+========================================= */
+
+.nr05-certificacao-nota {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    margin-top: 30px;
+
+    padding: 18px 20px;
+
+    border-radius: 15px;
+
+    background: #f1f6fb;
+
+    border: 1px solid #dfe9f1;
+}
+
+.nr05-certificacao-nota i {
+    flex-shrink: 0;
+
+    margin-top: 3px;
+
+    color: #0c5b91;
+}
+
+.nr05-certificacao-nota p {
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   VISUAL DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-visual {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 0;
+
+    padding: 30px;
+
+    border-radius: 28px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #edf8f2 0%,
+            #f8fbfa 100%
+        );
+
+    border: 1px solid #dcebe3;
+}
+
+
+/* =========================================
+   PAPEL
+========================================= */
+
+.nr05-certificado-papel {
+    position: relative;
+
+    width: 100%;
+
+    max-width: 470px;
+
+    aspect-ratio: 1.414 / 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px;
+
+    box-sizing: border-box;
+
+    background: #ffffff;
+
+    border: 8px solid #eef3f0;
+
+    outline: 1px solid #cfded6;
+
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, .12);
+
+    text-align: center;
+}
+
+
+/* =========================================
+   MARCA
+========================================= */
+
+.nr05-certificado-marca {
+    position: absolute;
+
+    top: 22px;
+    left: 25px;
+
+    color: #0c2f5b;
+
+    font-size: 13px;
+
+    font-weight: 900;
+
+    letter-spacing: .12em;
+}
+
+
+/* =========================================
+   TÍTULO DO CERTIFICADO
+========================================= */
+
+.nr05-certificado-label {
+    color: #0ba44b;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: .2em;
+}
+
+.nr05-certificado-papel h3 {
+    margin: 10px 0;
+
+    color: #0c2f5b;
+
+    font-size: 42px;
+
+    line-height: 1;
+
+    font-weight: 900;
+}
+
+.nr05-certificado-papel p {
+    max-width: 300px;
+
+    margin: 0;
+
+    color: #52687b;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   LINHA DECORATIVA
+========================================= */
+
+.nr05-certificado-linha {
+    width: 80px;
+    height: 2px;
+    margin-top: 22px;
+    background: #0ba44b;
+}
+
+
+/* =========================================
+   AVISO VISUAL
+========================================= */
+
+.nr05-certificado-exemplo {
+    position: absolute;
+    right: 18px;
+    bottom: 14px;
+    color: #9aa9b5;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+}
+
+
+/* =========================================
+   NOTEBOOK / TABLET
+========================================= */
+
+@media (max-width: 1000px) {
+    .nr05-certificacao {
+        padding: 90px 0;
+    }
+
+    .nr05-certificacao-grid {
+        gap: 45px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 25px;
+    }
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 800px) {
+
+    .nr05-certificacao {
+        padding: 80px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 700px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 50px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 17px;
+    }
+
+    .nr05-certificacao-grid {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .nr05-certificacao-info {
+        max-width: 700px;
+
+        margin: 0 auto;
+    }
+
+    .nr05-certificado-visual {
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+}
+
+
+/* =========================================
+   CELULAR
+========================================= */
+
+@media (max-width: 600px) {
+
+    .nr05-certificacao {
+        padding: 65px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: min(92%, 500px);
+    }
+
+    .nr05-certificacao-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 31px;
+    }
+
+    .nr05-certificacao-titulo p {
+        margin-top: 18px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-intro {
+        align-items: flex-start;
+
+        gap: 16px;
+    }
+
+    .nr05-certificacao-icon {
+        width: 52px;
+        height: 52px;
+
+        border-radius: 15px;
+
+        font-size: 20px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 21px;
+    }
+
+    .nr05-certificacao-texto {
+        margin-top: 22px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+    .nr05-certificacao-lista {
+        grid-template-columns: 1fr;
+
+        gap: 13px;
+
+        margin-top: 25px;
+    }
+
+    .nr05-certificacao-nota {
+        margin-top: 25px;
+
+        padding: 16px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 20px;
+
+        border-radius: 22px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 25px;
+
+        border-width: 6px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 34px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 13px;
+    }
+
+}
+
+
+/* =========================================
+   CELULARES PEQUENOS
+========================================= */
+
+@media (max-width: 400px) {
+
+    .nr05-certificacao {
+        padding: 55px 0;
+    }
+
+    .nr05-certificacao-container {
+        width: calc(100% - 32px);
+    }
+
+    .nr05-certificacao-titulo h2 {
+        font-size: 28px;
+    }
+
+    .nr05-certificacao-titulo p {
+        font-size: 15px;
+    }
+
+    .nr05-certificacao-intro h3 {
+        font-size: 19px;
+    }
+
+    .nr05-certificacao-texto {
+        font-size: 15px;
+    }
+
+    .nr05-certificado-visual {
+        padding: 15px;
+    }
+
+    .nr05-certificado-papel {
+        padding: 20px;
+    }
+
+    .nr05-certificado-papel h3 {
+        font-size: 30px;
+    }
+
+    .nr05-certificado-papel p {
+        font-size: 12px;
+    }
+
+    .nr05-certificado-marca {
+        top: 15px;
+        left: 18px;
+
+        font-size: 10px;
+    }
+
+}
+
+

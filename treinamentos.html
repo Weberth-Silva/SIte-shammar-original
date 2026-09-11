@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamentos</title>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="treinamentos.css">
+</head>
+
+<body>
+
+    <main>
+
+        <!-- HERO TREINAMENTOS -->
+
+        <section class="treinamentos-hero">
+            
+              <!-- IMAGEM DE FUNDO DO HERO -->
+
+             <div class="treinamentos-hero-bg" aria-hidden="true"></div>
+            
+            <!-- Elementos decorativos -->
+
+            <div class="hero-bg-shield">
+                <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div class="container">
+                <nav class="breadcrumb-treinamentos" aria-label="Navegação estrutural">
+                    <a href="index.html">
+                        <i class="fa-solid fa-house"></i>
+                        Ínicio
+                    </a>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <span>
+                        Treinamentos
+                    </span>
+                </nav>
+                <div class="treinamentos-grid">
+
+                    <!-- CONTEÚDO -->
+
+                    <div class="treinamentos-content">
+                        <span class="hero-tag">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            TREINAMENTOS • CERTIFICAÇÃO • SEGURANÇA
+                        </span>
+                        <h1>
+                            Treinamentos em <span>Segurança do Trabalho</span>
+                        </h1>
+                        <p>
+                            Capacitações completas para empresas que desejam atender ás Normas Regulamentadoras,
+                            proteger seus colaboradores e manter a conformidade com a legislção vigente.
+                        </p>
+                        <div class="hero-beneficios">
+                            <div class="beneficio-item">
+                                <i class="fa-solid fa-certificate"></i>
+                                <span>
+                                    Certificado Válido
+                                </span>
+                            </div>
+                            <div class="beneficio-item">
+                                <i class="fa-solid fa-user-graduate"></i>
+                                <span>
+                                    Instrutores Especializados
+                                </span>
+                            </div>
+                            <div class="beneficio-item">
+                                <i class="fa-solid fa-laptop"></i>
+                                <span>
+                                    Treinamentos Online
+                                </span>
+                            </div>
+                            <div class="beneficio-item">
+                                <i class="fa-solid fa-building"></i>
+                                <span>
+                                    Treinamentos Presenciais
+                                </span>
+                            </div>
+                        </div>
+                        <div class="hero-numeros">
+                            <div>
+                                <strong>+200</strong>
+                                <span>
+                                    Profissionais Capacitados
+                                </span>
+                            </div>
+                            <div>
+                                <strong>100%</strong>
+                                <span>
+                                    Conforme as NRs
+                                </span>
+                            </div>
+                            <div>
+                                <strong>Nacional</strong>
+                                <span>
+                                    Atendimento em todo o Brasil
+                                </span>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/5591982747641?text=Olá! Gostaria de solicitar um orçamento para treinamentos."
+                            target="_blank" class="btn-treinamentos">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            Solicitar Orçamento
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CARDS TREINAMENTOS -->
+        <section class="treinamentos-cards">
+            <div class="container">
+                <div class="titulo-secao">
+                    <span>
+                        NORMAS REGULAMENTADORAS
+                    </span>
+                    <h2>
+                        Treinamentos disponíveis
+                    </h2>
+                    <p>
+                        Escolha o treinamento ideal para sua empresa. Todos os cursos possuem certificado e seguem as
+                        exigências das Normas Regulamentadoras.
+                    </p>
+                </div>
+                <!-- ==================================
+                    FILTRO-TREINAMENTOS
+                ================================== -->
+                <div class="treinamentos-filtros">
+                    <div class="busca-treinamentos">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="buscarTreinamento" placeholder="Buscar treinamento...">
+                    </div>
+                    <div class="categorias-treinamentos">
+                        <button class="categoria-btn active" data-filter="todos">
+                            Todos
+                        </button>
+                        <button class="categoria-btn" data-filter="seguranca">
+                            Segurança
+                        </button>
+                        <button class="categoria-btn" data-filter="saude">
+                            Saúde
+                        </button>
+                        <button class="categoria-btn" data-filter="eletricidade">
+                            Eletricidade
+                        </button>
+                        <button class="categoria-btn" data-filter="maquinas">
+                            Máquinas
+                        </button>
+                        <button class="categoria-btn" data-filter="construcao">
+                            Construção
+                        </button>
+                        <button class="categoria-btn" data-filter="altura">
+                            Altura
+                        </button>
+                        <button class="categoria-btn" data-filter="emergencia">
+                            Emergência
+                        </button>
+                    </div>
+                </div>
+                <div class="cards-treinamentos">
+                    <!-- CARD-01 -->
+                    <article class="card-treinamento" data-categoria="seguranca"
+                        data-search="nr05 cipa comissão interna prevenção acidentes assédio treinamento sipat">
+                        <img src="img/treinamentos/nr05.png" alt="Imagem da NR 05">
+                        <div class="card-body">
+                            <span class="nr-tag">
+                                NR 05
+                            </span>
+                            <h3>
+                                CIPA
+                            </h3>
+                            <p>
+                                Capacitação para membros da Comissão Interna de Prevenção de Acidentes e Assédio.
+                            </p>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-users"></i>
+                                    Público-alvo
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-certificate"></i>
+                                    Certificado
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-clock"></i>
+                                    Carga horária
+                                </li>
+                            </ul>
+                            <a href="nr05.html" class="btn-card">
+                                Saiba mais
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+                    <!-- CARD-02 -->
+                    <article class="card-treinamento" data-categoria="seguranca"
+                        data-search="nr06 epi equipamentos proteção individual capacete luva óculos treinamento">
+                        <img src="img/treinamentos/nr06.png" alt="Imagem da NR 06">
+                        <div class="card-body">
+                            <span class="nr-tag">
+                                NR 06
+                            </span>
+                            <h3>
+                                EPI
+                            </h3>
+                            <p>
+                                Uso correto dos Equipamentos de Proteção Individual.
+                            </p>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-users"></i>
+                                    Público-alvo
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-certificate"></i>
+                                    Certificado
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-clock"></i>
+                                    Carga horária
+                                </li>
+                            </ul>
+                            <a href="nr06.html" class="btn-card">
+                                Saiba Mais
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+                    <!-- CARD-03 -->
+                    <article class="card-treinamento" data-categoria="eletricidade"
+                        data-search="nr10 eletrecidade painel sep choque elétrico alta tensão treinamento">
+                        <img src="img/treinamentos/nr10.png" alt="Imagem da NR 10">
+                        <div class="card-body">
+                            <span class="nr-tag">
+                                NR 10
+                            </span>
+                            <h3>
+                                Segurança em Instalações Elétricas
+                            </h3>
+                            <p>
+                                Capacitação para profissionais que trabalham com eletricidade.
+                            </p>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-users"></i>
+                                    Público-alvo
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-certificate"></i>
+                                    Certificado
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-clock"></i>
+                                    Carga horária
+                                </li>
+                            </ul>
+                            <a href="nr10.html" class="btn-card">
+                                Saiba Mais
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+                    <!-- CARD 04 -->
+                    <article class="card-treinamento" data-categoria="maquinas"
+                        data-search="nr12 máquinas equipamentos prensa torno manuntenção operação treinamento">
+                        <img src="img/treinamentos/nr12.png" alt="Imagem da NR 12">
+                        <div class="card-body">
+                            <span class="nr-tag">
+                                NR 12
+                            </span>
+                            <h3>
+                                Máquinas e Equipamentos
+                            </h3>
+                            <p>
+                                Segurança para operação, inspeção e manuntenção de máquinas industriais.
+                            </p>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-users"></i>
+                                    Público-alvo
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-certificate"></i>
+                                    Certificado
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-clock"></i>
+                                    Carga horária
+                                </li>
+                            </ul>
+                            <a href="nr12.html" class="btn-card">
+                                Saiba mais
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- MENSAGEM DE NENHUM RESULTADO -->
+
+                    <div id="nenhumResultado" class="nenhum-resultado">
+                        <div class="nenhum-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <h3>
+                            Nenhum treinamento encontrado
+                        </h3>
+                        <p>
+                            Não localizamos nenhum treinamento com os filtros selecionados. Experimente limpar a
+                            pesquisa ou escolher outra categoria.
+                        </p>
+                        <button id="limparFiltros" class="btn-limpar-filtros">
+                            <i class="fa-solid fa-rotate-left"></i>
+                            Limpar filtros
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+    <!-- ==================================
+
+    JAVASCRIPT - PESQUISA - FILTROS
+
+    ================================== -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+
+            const pesquisa = document.getElementById("buscarTreinamento");
+
+            const cards = document.querySelectorAll(".card-treinamento");
+
+            const botoes = document.querySelectorAll(".categoria-btn");
+
+            const limpar = document.getElementById("limparFiltros");
+
+            let categoriaAtual = "todos";
+
+            function filtrarTreinamentos() {
+
+                let encontrados = 0;
+                const mensagem = document.getElementById("nenhumResultado");
+
+                const texto = pesquisa.value.toLowerCase().trim();
+
+                cards.forEach(card => {
+
+                    const categoria = card.dataset.categoria.toLowerCase();
+
+                    const palavras = card.dataset.search.toLowerCase();
+
+                    const passouPesquisa =
+                        palavras.includes(texto);
+
+                    const passouCategoria =
+                        categoriaAtual === "todos" ||
+                        categoria === categoriaAtual;
+
+                    if (passouPesquisa && passouCategoria) {
+
+                        encontrados++;
+
+                        card.classList.remove("hidden");
+
+                    } else {
+
+                        card.classList.add("hidden");
+
+                    }
+
+                    limpar.addEventListener("click", () => {
+                        pesquisa.value = "";
+                        categoriaAtual = "todos";
+                        botoes.forEach(btn => btn.classList.remove("active"));
+
+                        document
+                            .querySelector('[data-filter="todos"]')
+                            .classList.add("active");
+
+                        document
+                            .querySelector('[data-filter="todos"]')
+                            .classList.add("active");
+
+                        filtrarTreinamentos();
+                    })
+
+                });
+
+                if (encontrados === 0) {
+
+                    mensagem.classList.add("show");
+
+                } else {
+
+                    mensagem.classList.remove("show");
+
+                }
+
+            }
+
+            pesquisa.addEventListener("input", filtrarTreinamentos);
+
+            botoes.forEach(botao => {
+
+                botao.addEventListener("click", () => {
+
+                    botoes.forEach(btn => btn.classList.remove("active"));
+
+                    botao.classList.add("active");
+
+                    categoriaAtual = botao.dataset.filter;
+
+                    filtrarTreinamentos();
+
+                });
+
+            });
+
+        });
+    </script>
+</body>
+
+</html>

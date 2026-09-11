@@ -1,0 +1,1525 @@
+/* =========================================================
+   HERO TREINAMENTOS
+========================================================= */
+
+.treinamentos-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 120px 0;
+
+    background:
+        linear-gradient(
+            180deg,
+            #ffffff 0%,
+            #f8fbfa 55%,
+            #f2f7f5 100%
+        );
+}
+
+
+/* =========================================================
+   IMAGEM DE FUNDO
+========================================================= */
+
+.treinamentos-hero-bg {
+    position: absolute;
+    inset: 0;
+
+    background-image: url("img/treinamentos-hero.png");
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+
+    opacity: .95;
+    z-index: 0;
+}
+
+
+/* =========================================================
+   DEGRADÊ SOBRE A IMAGEM
+========================================================= */
+
+.treinamentos-hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(
+            90deg,
+            #ffffff 0%,
+            rgba(255,255,255,.98) 28%,
+            rgba(255,255,255,.86) 45%,
+            rgba(255,255,255,.35) 65%,
+            rgba(255,255,255,0) 100%
+        );
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   CONTAINER
+========================================================= */
+
+.treinamentos-hero .container {
+    position: relative;
+    z-index: 2;
+
+    width: min(1400px, 92%);
+    margin: auto;
+}
+
+/* =========================================================
+   GRID / CONTEÚDO
+========================================================= */
+
+.treinamentos-grid {
+    position: relative;
+    z-index: 2;
+    display: block;
+}
+
+.hero-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 28px;
+    border-radius: 60px;
+    border: 1px solid #d9e9df;
+    background: white;
+    color: #157d48;
+    font-weight: 700;
+    font-size: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .05);
+}
+
+/* =========================================================
+   CONTEÚDO
+========================================================= */
+
+.treinamentos-content {
+    position: relative;
+    z-index: 3;
+
+    max-width: 850px;
+}
+
+.treinamentos-content h1 {
+    margin-top: 35px;
+    font-size: 66px;
+    line-height: 1.08;
+    color: #0b3c66;
+    font-weight: 800;
+}
+
+.treinamentos-content h1 span {
+    display: block;
+    color: #0aa35d;
+}
+
+.treinamentos-content p {
+    margin-top: 30px;
+    font-size: 22px;
+    line-height: 1.8;
+    color: #4c5966;
+    max-width: 720px;
+}
+
+.hero-beneficios {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.beneficio-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: white;
+    border-radius: 18px;
+    padding: 22px;
+    border: 1px solid #e9efec;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, .05);
+}
+
+.beneficio-item i {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: #eef8f2;
+    color: #0b9b57;
+    font-size: 22px;
+}
+
+.beneficio-item span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #123d6d;
+}
+
+.hero-numeros {
+    display: flex;
+    gap: 60px;
+    margin-top: 55px;
+}
+
+.hero-numeros strong {
+    display: block;
+    color: #42d48b;
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.hero-numeros span {
+    color: #55626e;
+    line-height: 1.5;
+}
+
+.btn-treinamentos {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 55px;
+    background: #0d8f50;
+    color: white;
+    text-decoration: none;
+    padding: 18px 42px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 19px;
+    transition: .35s;
+}
+
+.btn-treinamentos:hover {
+    background: #087842;
+    transform: translateY(-4px);
+}
+
+
+.hero-bg-shield {
+    position: absolute;
+    right: -50px;
+    top: 120px;
+    font-size: 280px;
+    color: #f3f8f5;
+}
+
+/* ==================================
+TREINAMENTOS - BREADCRUMB
+================================== */
+.breadcrumb-treinamentos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 35px;
+    font-size: 15px;
+}
+
+.breadcrumb-treinamentos a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #5d7288;
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+.breadcrumb-treinamentos a:hover {
+    color: #0ba44b;
+}
+
+.breadcrumb-treinamentos a i {
+    color: #0ba44b;
+}
+
+.breadcrumb-treinamentos > i {
+    color: #aab5bf;
+    font-size: 12px;
+}
+
+.breadcrumb-treinamentos span {
+    color: #0caf5b;
+    font-weight: 700;
+}
+
+/* ==================================
+TREINAMENTOS - CARDS
+================================== */
+.treinamentos-cards {
+    padding: 100px 0;
+    background: #f7f9fc;
+}
+
+.treinamentos-cards .container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+.titulo-secao {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 70px;
+}
+
+.titulo-secao span {
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 40px;
+    background: #e9f8ef;
+    color: #0a8f47;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .08em;
+}
+
+.titulo-secao h2 {
+    margin-top: 25px;
+    font-size: 52px;
+    color: #0c2f5b;
+    font-weight: 800;
+}
+
+.titulo-secao p {
+    margin-top: 20px;
+    color: #5f6f83;
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+.cards-treinamentos {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+.card-treinamento {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 18px 50px rgba(0, 0, 0, .08);
+    transition: .35s;
+}
+
+.card-treinamento:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, .12);
+}
+
+.card-treinamento img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 30px;
+}
+
+.nr-tag {
+    display: inline-block;
+    background: #0ba44b;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.card-body h3 {
+    margin-top: 20px;
+    color: #0c2f5b;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.card-body p {
+    margin-top: 18px;
+    color: #66768c;
+    line-height: 1.4;
+}
+
+.card-body ul {
+    margin-top: 25px;
+    list-style: none;
+    padding: 0;
+}
+
+.card-body li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+    color: #0c2f5b;
+    font-weight: 500;
+}
+
+.card-body li i {
+    color: #0ba44b;
+    width: 22px;
+}
+
+.btn-card {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    background: #0ba44b;
+    color: white;
+    padding: 16px;
+    border-radius: 14px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.btn-card:hover {
+    background: #087f39;
+}
+
+.btn-card i {
+    transition: .3s;
+}
+
+.btn-card:hover i {
+    transform: translateX(5px);
+}
+
+/*==================================
+
+ANIMAÇÃO DOS CARDS
+
+==================================*/
+.card-treinamento {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity .35s ease,
+    transform .35s ease,
+    box-shadow .30s ease;
+}
+
+.card-treinamento.hidden {
+    opacity: 0;
+    transform: scale(.92);
+    pointer-events: none;
+    position: absolute;
+    visibility: hidden;
+}
+
+/*=============================
+
+SEM RESULTADOS
+
+==============================*/
+.nenhum-resultado {
+    display: none;
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.nenhum-resultado.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nenhum-icon {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background: #eef9f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.nenhum-icon i {
+    font-size: 42px;
+    color: #0ba44b;
+}
+
+.nenhum-resultado h3 {
+    color: #0c2f5b;
+    font-size: 34px;
+    margin-bottom: 18px;
+}
+
+.nenhum-resultado p {
+    max-width: 520px;
+    color: #66768c;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.btn-limpar-filtros {
+    margin-top: 35px;
+    border: none;
+    cursor: pointer;
+    background: #0ba44b;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 16px 34px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: .30s;
+}
+
+.btn-limpar-filtros:hover {
+    background: #08863e;
+    transform: translateY(-3px);
+}
+
+
+/*==================================
+
+PESQUISA - FILTROS
+
+==================================*/
+
+.treinamentos-filtros {
+    margin: 60px auto;
+    max-width: 900px;
+}
+
+.busca-treinamentos {
+    position: relative;
+}
+
+.busca-treinamentos i {
+    position: absolute;
+    left: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #0ba44b;
+    font-size: 18px;
+}
+
+.busca-treinamentos input {
+    width: 100%;
+    padding: 18px 25px 18px 58px;
+    border-radius: 18px;
+    border: 2px solid #dfe7ea;
+    font-size: 17px;
+    transition: .3s;
+    outline: none;
+}
+
+.busca-treinamentos input:focus {
+    border-color: #0ba44b;
+    box-shadow: 0 0 0 5px rgba(11, 164, 75, .10);
+}
+
+.categorias-treinamentos {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.categoria-btn {
+    padding: 13px 25px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    background: white;
+    color: #0c2f5b;
+    font-weight: 600;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .05);
+    transition: .3s;
+}
+
+.categoria-btn:hover {
+    transform: translateY(-3px);
+}
+
+.categoria-btn.active {
+    background: #0ba44b;
+    color: white;
+}
+
+/* =========================================================
+   RESPONSIVIDADE — 1180px
+========================================================= */
+
+@media (max-width: 1180px) {
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .treinamentos-hero {
+        padding: 100px 0;
+    }
+
+    .treinamentos-hero-bg {
+        background-position: 75% center;
+    }
+
+    .treinamentos-content {
+        max-width: 760px;
+    }
+
+
+    .treinamentos-content h1 {
+        font-size: 58px;
+    }
+
+    .treinamentos-content p {
+        font-size: 20px;
+    }
+
+    .hero-beneficios {
+       max-width: 760px;
+    }
+
+    .beneficio-item {
+        padding: 18px;
+    }
+
+    .beneficio-item span {
+        font-size: 16px;
+    }
+
+    .hero-numeros {
+        gap: 35px;
+    }
+
+    .hero-numeros strong {
+        font-size: 40px;
+    }
+
+    .btn-treinamentos {
+        margin-top: 45px;
+    }
+
+    .image-box img {
+        height: 580px;
+    }
+
+    .hero-bg-shield {
+        font-size: 220px;
+        right: -70px;
+        top: 100px;
+    }
+
+
+    /* =========================
+       BREADCRUMB
+    ========================= */
+
+    .breadcrumb-treinamentos {
+        margin-bottom: 30px;
+    }
+
+
+    /* =========================
+       SEÇÃO DOS CARDS
+    ========================= */
+
+    .treinamentos-cards {
+        padding: 90px 0;
+    }
+
+    .treinamentos-cards .container {
+        padding: 0 25px;
+    }
+
+    .titulo-secao {
+        margin-bottom: 60px;
+    }
+
+    .titulo-secao h2 {
+        font-size: 46px;
+    }
+
+    .titulo-secao p {
+        font-size: 18px;
+    }
+
+
+    /* =========================
+       GRID DOS TREINAMENTOS
+    ========================= */
+
+    .cards-treinamentos {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 25px;
+    }
+
+    .card-treinamento img {
+        height: 220px;
+    }
+
+    .card-body {
+        padding: 25px;
+    }
+
+    .card-body h3 {
+        font-size: 27px;
+    }
+
+
+    /* =========================
+       FILTROS
+    ========================= */
+
+    .treinamentos-filtros {
+        margin: 50px auto;
+        max-width: 850px;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE — 1024px
+========================================================= */
+
+@media (max-width: 1024px) {
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .treinamentos-hero {
+        padding: 90px 0;
+    }
+
+    .treinamentos-hero-bg {
+        background-position: 80% center;
+        opacity: .55;
+    }
+
+     .treinamentos-hero::after {
+        background:
+            linear-gradient(
+                90deg,
+                rgba(255,255,255,1) 0%,
+                rgba(255,255,255,.97) 40%,
+                rgba(255,255,255,.78) 65%,
+                rgba(255,255,255,.45) 100%
+            );
+    }
+
+    .treinamentos-content {
+        max-width: 780px;
+    }
+
+    .treinamentos-content h1 {
+        font-size: 54px;
+    }
+
+    .treinamentos-content p {
+        max-width: 800px;
+    }
+
+    .hero-beneficios {
+        max-width: 760px;
+    }
+
+    .hero-numeros {
+        gap: 50px;
+    }
+
+    .image-box {
+        width: 100%;
+        max-width: 850px;
+        margin: 0 auto;
+    }
+
+    .image-box img {
+        height: 520px;
+    }
+
+    .hero-bg-shield {
+        font-size: 190px;
+        right: -80px;
+        top: 180px;
+    }
+
+
+    /* =========================
+       CARDS
+    ========================= */
+
+    .treinamentos-cards {
+        padding: 80px 0;
+    }
+
+    .titulo-secao {
+        margin-bottom: 55px;
+    }
+
+    .titulo-secao h2 {
+        font-size: 44px;
+    }
+
+    .cards-treinamentos {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 25px;
+    }
+
+    .card-treinamento img {
+        height: 230px;
+    }
+
+
+    /* =========================
+       FILTROS
+    ========================= */
+
+    .treinamentos-filtros {
+        max-width: 800px;
+        margin: 45px auto;
+    }
+}
+
+
+
+/* =========================================================
+   RESPONSIVIDADE — 768px
+========================================================= */
+
+@media (max-width: 768px) {
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .treinamentos-hero {
+        padding: 75px 0;
+    }
+
+    .treinamentos-hero-bg {
+        background-position: 78% center;
+        opacity: .28;
+    }
+
+     .treinamentos-hero::after {
+        background:
+            linear-gradient(
+                180deg,
+                rgba(255,255,255,.98) 0%,
+                rgba(255,255,255,.94) 45%,
+                rgba(255,255,255,.82) 100%
+            );
+    }
+
+    .treinamentos-hero .container {
+        width: min(100% - 40px, 700px);
+    }
+
+
+    .breadcrumb-treinamentos {
+        margin-bottom: 25px;
+        font-size: 14px;
+        flex-wrap: wrap;
+    }
+
+    .hero-tag {
+        padding: 11px 18px;
+        font-size: 13px;
+        gap: 8px;
+    }
+
+    .treinamentos-content {
+        max-width: 100%;
+    }
+
+    .treinamentos-content h1 {
+        font-size: 46px;
+    }
+
+    .treinamentos-content p {
+        font-size: 18px;
+    }
+
+
+    /* =========================
+       BENEFÍCIOS
+    ========================= */
+
+    .hero-beneficios {
+          max-width: 700px;
+    }
+
+    .beneficio-item {
+        padding: 17px;
+        gap: 12px;
+    }
+
+    .beneficio-item i {
+        width: 48px;
+        height: 48px;
+        font-size: 19px;
+        flex-shrink: 0;
+    }
+
+    .beneficio-item span {
+        font-size: 15px;
+    }
+
+
+    /* =========================
+       NÚMEROS
+    ========================= */
+
+    .hero-numeros {
+        gap: 30px;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+
+    .hero-numeros strong {
+        font-size: 36px;
+    }
+
+
+    /* =========================
+       BOTÃO
+    ========================= */
+
+    .btn-treinamentos {
+        width: 100%;
+        justify-content: center;
+        margin-top: 40px;
+        padding: 17px 25px;
+        box-sizing: border-box;
+    }
+
+    .hero-bg-shield {
+       display: none;
+    }
+
+
+    /* =========================
+       SEÇÃO DOS CARDS
+    ========================= */
+
+    .treinamentos-cards {
+        padding: 70px 0;
+    }
+
+    .treinamentos-cards .container {
+        padding: 0 20px;
+    }
+
+    .titulo-secao {
+        margin-bottom: 45px;
+    }
+
+    .titulo-secao span {
+        padding: 9px 18px;
+        font-size: 13px;
+    }
+
+    .titulo-secao h2 {
+        margin-top: 20px;
+        font-size: 40px;
+        line-height: 1.15;
+    }
+
+    .titulo-secao p {
+        margin-top: 16px;
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+
+    /* =========================
+       FILTROS
+    ========================= */
+
+    .treinamentos-filtros {
+        margin: 40px auto;
+    }
+
+    .busca-treinamentos input {
+        padding: 16px 20px 16px 52px;
+        font-size: 16px;
+    }
+
+    .categorias-treinamentos {
+        gap: 10px;
+        margin-top: 22px;
+    }
+
+    .categoria-btn {
+        padding: 11px 18px;
+        font-size: 14px;
+    }
+
+
+    /* =========================
+       CARDS
+    ========================= */
+
+    .cards-treinamentos {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .card-treinamento img {
+        height: 210px;
+    }
+
+    .card-body {
+        padding: 22px;
+    }
+
+    .nr-tag {
+        padding: 7px 15px;
+        font-size: 13px;
+    }
+
+    .card-body h3 {
+        font-size: 25px;
+    }
+
+    .card-body p {
+        font-size: 15px;
+    }
+
+    .card-body li {
+        font-size: 14px;
+        gap: 9px;
+    }
+
+    .btn-card {
+        padding: 14px;
+    }
+
+
+    /* =========================
+       SEM RESULTADOS
+    ========================= */
+
+    .nenhum-resultado {
+        padding: 55px 15px;
+    }
+
+    .nenhum-resultado h3 {
+        font-size: 30px;
+    }
+
+    .nenhum-resultado p {
+        font-size: 16px;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE — 720px
+========================================================= */
+
+@media (max-width: 720px) {
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .treinamentos-hero {
+        padding: 60px 0 70px;
+    }
+
+    .treinamentos-hero-bg {
+        background-position: 72% bottom;
+        background-size: auto 55%;
+        opacity: .22;
+    }
+
+     .treinamentos-hero::after {
+        background:
+            linear-gradient(
+                180deg,
+                #ffffff 0%,
+                rgba(255,255,255,.98) 45%,
+                rgba(255,255,255,.90) 72%,
+                rgba(255,255,255,.72) 100%
+            );
+    }
+
+    .treinamentos-hero .container {
+        width: calc(100% - 32px);
+    }
+
+    
+
+
+    /* =========================
+       BREADCRUMB
+    ========================= */
+
+    .breadcrumb-treinamentos {
+        gap: 7px;
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+
+
+    /* =========================
+       TÍTULO
+    ========================= */
+
+    .hero-tag {
+        padding: 10px 15px;
+        font-size: 12px;
+        gap: 7px;
+    }
+
+    .treinamentos-content h1 {
+        font-size: 40px;
+    }
+
+    .treinamentos-content p {
+        font-size: 17px;
+    }
+
+
+    /* =========================
+       BENEFÍCIOS
+    ========================= */
+
+    .hero-beneficios {
+        grid-template-columns: 1fr;
+    }
+
+    .beneficio-item {
+        padding: 16px;
+        border-radius: 15px;
+    }
+
+    .beneficio-item i {
+        width: 46px;
+        height: 46px;
+        border-radius: 12px;
+        font-size: 18px;
+    }
+
+    .beneficio-item span {
+        font-size: 15px;
+    }
+
+
+    /* =========================
+       NÚMEROS
+    ========================= */
+
+    .hero-numeros {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-numeros strong {
+        font-size: 34px;
+    }
+
+    .hero-numeros span {
+        font-size: 14px;
+    }
+
+
+    /* =========================
+       BOTÃO
+    ========================= */
+
+    .btn-treinamentos {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero-bg-shield {
+        display: none;
+    }
+
+
+    /* =========================
+       SEÇÃO DOS CARDS
+    ========================= */
+
+    .treinamentos-cards {
+        padding: 60px 0;
+    }
+
+    .treinamentos-cards .container {
+        padding: 0 16px;
+    }
+
+    .titulo-secao {
+        margin-bottom: 35px;
+    }
+
+    .titulo-secao span {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+
+    .titulo-secao h2 {
+        margin-top: 18px;
+        font-size: 34px;
+    }
+
+    .titulo-secao p {
+        font-size: 16px;
+        line-height: 1.65;
+    }
+
+
+    /* =========================
+       FILTROS
+    ========================= */
+
+    .treinamentos-filtros {
+        margin: 30px auto;
+    }
+
+    .busca-treinamentos input {
+        padding: 15px 18px 15px 48px;
+        border-radius: 15px;
+        font-size: 15px;
+    }
+
+    .busca-treinamentos i {
+        left: 18px;
+        font-size: 16px;
+    }
+
+    .categorias-treinamentos {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding: 3px 2px 8px;
+        gap: 9px;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .categorias-treinamentos::-webkit-scrollbar {
+        display: none;
+    }
+
+    .categoria-btn {
+        flex: 0 0 auto;
+        padding: 10px 16px;
+        font-size: 13px;
+        white-space: nowrap;
+    }
+
+
+    /* =========================
+       CARDS
+    ========================= */
+
+    .cards-treinamentos {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+
+    .card-treinamento img {
+        height: 230px;
+    }
+
+    .card-body {
+        padding: 24px;
+    }
+
+    .card-body h3 {
+        font-size: 27px;
+    }
+
+    .card-body p {
+        font-size: 16px;
+    }
+
+    .card-body li {
+        font-size: 15px;
+    }
+
+
+    /* =========================
+       SEM RESULTADOS
+    ========================= */
+
+    .nenhum-resultado {
+        padding: 50px 10px;
+    }
+
+    .nenhum-icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .nenhum-icon i {
+        font-size: 34px;
+    }
+
+    .nenhum-resultado h3 {
+        font-size: 27px;
+    }
+
+    .nenhum-resultado p {
+        font-size: 15px;
+    }
+
+    .btn-limpar-filtros {
+        width: 100%;
+        justify-content: center;
+        padding: 15px 20px;
+        font-size: 15px;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE — 480px
+========================================================= */
+
+@media (max-width: 480px) {
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .treinamentos-hero {
+        padding: 50px 0 60px;
+    }
+
+    .treinamentos-hero-bg {
+        background-position: 68% bottom;
+        background-size: auto 48%;
+        opacity: .18;
+    }
+
+    .treinamentos-content h1 {
+        font-size: 34px;
+    }
+
+    .treinamentos-content p {
+        font-size: 16px;
+    }
+
+    .hero-tag {
+        font-size: 11px;
+        padding: 9px 13px;
+    }
+
+    .image-box img {
+        height: 320px;
+    }
+
+
+    /* =========================
+       NÚMEROS
+    ========================= */
+
+    .hero-numeros {
+        gap: 17px;
+    }
+
+    .hero-numeros strong {
+        font-size: 30px;
+    }
+
+
+    /* =========================
+       TÍTULO DA SEÇÃO
+    ========================= */
+
+    .titulo-secao h2 {
+        font-size: 30px;
+    }
+
+    .titulo-secao p {
+        font-size: 15px;
+    }
+
+
+    /* =========================
+       CARDS
+    ========================= */
+
+    .card-treinamento img {
+        height: 210px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .card-body h3 {
+        font-size: 24px;
+    }
+
+    .card-body p {
+        font-size: 15px;
+    }
+
+    .card-body li {
+        font-size: 14px;
+    }
+
+    .btn-card {
+        padding: 14px;
+        font-size: 14px;
+    }
+
+
+    /* =========================
+       SEM RESULTADOS
+    ========================= */
+
+    .nenhum-resultado h3 {
+        font-size: 24px;
+    }
+
+    .nenhum-resultado p {
+        font-size: 14px;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE — 400px
+========================================================= */
+
+@media (max-width: 400px) {
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .treinamentos-hero {
+        padding: 45px 0 55px;
+    }
+
+    .treinamentos-hero-bg {
+        background-size: auto 43%;
+        opacity: .14;
+    }
+
+    .treinamentos-hero .container {
+        width: calc(100% - 24px);
+    }
+
+    .treinamentos-content h1 {
+        font-size: 31px;
+    }
+
+    .treinamentos-content p {
+        font-size: 15px;
+    }
+
+    .hero-tag {
+        font-size: 10px;
+        padding: 8px 11px;
+    }
+
+    .beneficio-item {
+        padding: 14px;
+    }
+
+    .beneficio-item i {
+        width: 42px;
+        height: 42px;
+        font-size: 17px;
+    }
+
+    .beneficio-item span {
+        font-size: 14px;
+    }
+
+    .hero-numeros strong {
+        font-size: 28px;
+    }
+
+    .btn-treinamentos {
+        font-size: 16px;
+        padding: 16px;
+    }
+
+    .image-box img {
+        height: 280px;
+    }
+
+
+    /* =========================
+       CARDS
+    ========================= */
+
+    .treinamentos-cards {
+        padding: 50px 0;
+    }
+
+    .titulo-secao h2 {
+        font-size: 27px;
+    }
+
+    .titulo-secao p {
+        font-size: 14px;
+    }
+
+    .card-treinamento img {
+        height: 190px;
+    }
+
+    .card-body {
+        padding: 18px;
+    }
+
+    .nr-tag {
+        padding: 6px 13px;
+        font-size: 12px;
+    }
+
+    .card-body h3 {
+        font-size: 22px;
+    }
+
+    .card-body p {
+        font-size: 14px;
+    }
+
+    .card-body li {
+        font-size: 13px;
+    }
+
+    .btn-card {
+        padding: 13px;
+        font-size: 13px;
+    }
+
+
+    /* =========================
+       FILTROS
+    ========================= */
+
+    .busca-treinamentos input {
+        font-size: 14px;
+    }
+
+    .categoria-btn {
+        padding: 9px 14px;
+        font-size: 12px;
+    }
+}
