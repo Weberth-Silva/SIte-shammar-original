@@ -1,3 +1,15 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
 /* =========================================================
    HERO TREINAMENTOS
 ========================================================= */
@@ -8,12 +20,10 @@
     padding: 120px 0;
 
     background:
-        linear-gradient(
-            180deg,
+        linear-gradient(180deg,
             #ffffff 0%,
             #f8fbfa 55%,
-            #f2f7f5 100%
-        );
+            #f2f7f5 100%);
 }
 
 
@@ -45,14 +55,12 @@
     inset: 0;
 
     background:
-        linear-gradient(
-            90deg,
+        linear-gradient(90deg,
             #ffffff 0%,
-            rgba(255,255,255,.98) 28%,
-            rgba(255,255,255,.86) 45%,
-            rgba(255,255,255,.35) 65%,
-            rgba(255,255,255,0) 100%
-        );
+            rgba(255, 255, 255, .98) 28%,
+            rgba(255, 255, 255, .86) 45%,
+            rgba(255, 255, 255, .35) 65%,
+            rgba(255, 255, 255, 0) 100%);
 
     z-index: 1;
     pointer-events: none;
@@ -238,7 +246,7 @@ TREINAMENTOS - BREADCRUMB
     color: #0ba44b;
 }
 
-.breadcrumb-treinamentos > i {
+.breadcrumb-treinamentos>i {
     color: #aab5bf;
     font-size: 12px;
 }
@@ -295,7 +303,7 @@ TREINAMENTOS - CARDS
 
 .cards-treinamentos {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
 }
 
@@ -407,8 +415,8 @@ ANIMAÇÃO DOS CARDS
     opacity: 1;
     transform: scale(1);
     transition: opacity .35s ease,
-    transform .35s ease,
-    box-shadow .30s ease;
+        transform .35s ease,
+        box-shadow .30s ease;
 }
 
 .card-treinamento.hidden {
@@ -592,7 +600,7 @@ PESQUISA - FILTROS
     }
 
     .hero-beneficios {
-       max-width: 760px;
+        max-width: 760px;
     }
 
     .beneficio-item {
@@ -712,15 +720,13 @@ PESQUISA - FILTROS
         opacity: .55;
     }
 
-     .treinamentos-hero::after {
+    .treinamentos-hero::after {
         background:
-            linear-gradient(
-                90deg,
-                rgba(255,255,255,1) 0%,
-                rgba(255,255,255,.97) 40%,
-                rgba(255,255,255,.78) 65%,
-                rgba(255,255,255,.45) 100%
-            );
+            linear-gradient(90deg,
+                rgba(255, 255, 255, 1) 0%,
+                rgba(255, 255, 255, .97) 40%,
+                rgba(255, 255, 255, .78) 65%,
+                rgba(255, 255, 255, .45) 100%);
     }
 
     .treinamentos-content {
@@ -817,14 +823,12 @@ PESQUISA - FILTROS
         opacity: .28;
     }
 
-     .treinamentos-hero::after {
+    .treinamentos-hero::after {
         background:
-            linear-gradient(
-                180deg,
-                rgba(255,255,255,.98) 0%,
-                rgba(255,255,255,.94) 45%,
-                rgba(255,255,255,.82) 100%
-            );
+            linear-gradient(180deg,
+                rgba(255, 255, 255, .98) 0%,
+                rgba(255, 255, 255, .94) 45%,
+                rgba(255, 255, 255, .82) 100%);
     }
 
     .treinamentos-hero .container {
@@ -862,7 +866,7 @@ PESQUISA - FILTROS
     ========================= */
 
     .hero-beneficios {
-          max-width: 700px;
+        max-width: 700px;
     }
 
     .beneficio-item {
@@ -910,7 +914,7 @@ PESQUISA - FILTROS
     }
 
     .hero-bg-shield {
-       display: none;
+        display: none;
     }
 
 
@@ -1046,26 +1050,24 @@ PESQUISA - FILTROS
 
     .treinamentos-hero-bg {
         background-position: 72% bottom;
-        background-size: auto 55%;
-        opacity: .22;
+        background-size: auto 58%;
+        opacity: .42;
     }
 
-     .treinamentos-hero::after {
+    .treinamentos-hero::after {
         background:
-            linear-gradient(
-                180deg,
-                #ffffff 0%,
-                rgba(255,255,255,.98) 45%,
-                rgba(255,255,255,.90) 72%,
-                rgba(255,255,255,.72) 100%
-            );
+            linear-gradient(180deg,
+                rgba(255, 255, 255, .98) 0%,
+                rgba(255, 255, 255, .94) 35%,
+                rgba(255, 255, 255, .72) 62%,
+                rgba(255, 255, 255, .42) 100%);
     }
 
     .treinamentos-hero .container {
         width: calc(100% - 32px);
     }
 
-    
+
 
 
     /* =========================
@@ -1191,10 +1193,23 @@ PESQUISA - FILTROS
     ========================= */
 
     .treinamentos-filtros {
-        margin: 30px auto;
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        margin: 30px 0;
+    }
+
+    .busca-treinamentos {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
     }
 
     .busca-treinamentos input {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
         padding: 15px 18px 15px 48px;
         border-radius: 15px;
         font-size: 15px;
@@ -1205,10 +1220,21 @@ PESQUISA - FILTROS
         font-size: 16px;
     }
 
+/* =========================
+    CATEGORIAS
+ ========================= */
+
     .categorias-treinamentos {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+
         justify-content: flex-start;
         flex-wrap: nowrap;
+
         overflow-x: auto;
+        overflow-y: hidden;
+
         padding: 3px 2px 8px;
         gap: 9px;
         scrollbar-width: none;
@@ -1226,18 +1252,35 @@ PESQUISA - FILTROS
         white-space: nowrap;
     }
 
+    .treinamentos-cards,
+    .treinamentos-cards .container,
+    .treinamentos-filtros {
+        min-width: 0;
+    }
+
 
     /* =========================
        CARDS
     ========================= */
 
     .cards-treinamentos {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+
         grid-template-columns: 1fr;
         gap: 22px;
     }
 
-    .card-treinamento img {
-        height: 230px;
+    .card-treinamento {
+        min-width: 0;
+    }
+
+    .card-treinamento img { 
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
     }
 
     .card-body {
@@ -1359,10 +1402,6 @@ PESQUISA - FILTROS
        CARDS
     ========================= */
 
-    .card-treinamento img {
-        height: 210px;
-    }
-
     .card-body {
         padding: 20px;
     }
@@ -1479,9 +1518,6 @@ PESQUISA - FILTROS
         font-size: 14px;
     }
 
-    .card-treinamento img {
-        height: 190px;
-    }
 
     .card-body {
         padding: 18px;
