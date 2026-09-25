@@ -1,4 +1,5 @@
-/*HERO NR05*/
+
+
 .hero-nr {
     padding: 120px 0;
     background: linear-gradient(180deg, #ffffff 0%, #f9fbfa 60%, #f4f8f6 100%);
@@ -141,6 +142,7 @@
 /* -----------------------------------------
    TÍTULO
 ----------------------------------------- */
+
 .nr05-sobre-titulo {
     max-width: 850px;
     margin: 0 auto 65px;
@@ -229,6 +231,7 @@
 /* -----------------------------------------
    CONTEÚDO DO CARD
 ----------------------------------------- */
+
 .nr05-info-card span {
     display: block;
     margin-bottom: 8px;
@@ -358,198 +361,6 @@
     font-size: 19px;
 }
 
-/* =========================================
-   RESPONSIVIDADE
-========================================= */
-
-@media (max-width: 900px) {
-    .nr05-sobre {
-        padding: 80px 0;
-    }
-
-    .nr05-sobre-titulo h2 {
-        font-size: 38px;
-    }
-
-    .nr05-info-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .nr05-sobre-cta {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-}
-
-@media (max-width: 600px) {
-    .hero-nr {
-        padding: 55px 0 70px;
-    }
-
-    .hero-nr .container {
-        width: min(92%, 500px);
-    }
-
-    .hero-nr-grid {
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-    }
-
-    .hero-nr-content {
-        width: 100%;
-    }
-
-    .hero-nr-content h1 {
-        font-size: 42px;
-        line-height: 1.08;
-    }
-
-    .hero-nr-content h1 span {
-        font-size: 24px;
-        line-height: 1.3;
-    }
-
-    .hero-nr-content p {
-        font-size: 17px;
-        line-height: 1.7;
-    }
-
-    /* IMAGEM */
-
-    .hero-nr-image {
-        width: 100%;
-        order: 2;
-    }
-
-    .hero-image-box {
-        width: 100%;
-        aspect-ratio: 10/7;
-        border-radius: 22px;
-        overflow: hidden;
-    }
-
-    .hero-image-box img {
-        width: 100%;
-        height: 100%;
-        display: block;
-        object-fit: cover;
-        object-position: center 35%;
-    }
-
-    /* BOTÃO DO HERO */
-
-    .btn-nr {
-        display: flex;
-        width: fit-content;
-        max-width: 100%;
-        margin: 40px auto 0;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        box-sizing: border-box;
-    }
-
-    /* =========================================
-       SOBRE O TREINAMENTO
-    ========================================= */
-
-    .nr05-sobre {
-        padding: 65px 0;
-    }
-
-    .nr05-sobre-container {
-        width: min(92%, 500px);
-    }
-
-    .nr05-sobre-titulo {
-        margin-bottom: 40px;
-    }
-
-    .nr05-sobre-titulo h2 {
-        font-size: 32px;
-    }
-
-    .nr05-sobre-titulo p {
-        font-size: 16px;
-        line-height: 1.7;
-    }
-
-    /* =========================================
-       CARDS
-    ========================================= */
-
-    .nr05-info-card {
-        padding: 24px;
-        gap: 16px;
-    }
-
-    .nr05-info-icon {
-        width: 50px;
-        height: 50px;
-        font-size: 19px;
-    }
-
-    .nr05-info-card h3 {
-        font-size: 18px;
-    }
-
-    /* =========================================
-       DESTAQUE
-    ========================================= */
-
-    .nr05-modalidade-destaque {
-        align-items: flex-start;
-        padding: 25px;
-        gap: 18px;
-    }
-
-    .nr05-modalidade-icon {
-        width: 52px;
-        height: 52px;
-        font-size: 20px;
-    }
-
-    .nr05-modalidade-texto h3 {
-        font-size: 21px;
-    }
-
-    /* =========================================
-       CTA — MOBILE
-    ========================================= */
-
-    .nr05-sobre-cta {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 25px;
-        padding: 28px 25px;
-        box-sizing: border-box;
-    }
-
-    .nr05-sobre-cta h3 {
-        font-size: 21px;
-    }
-
-    .nr05-sobre-cta p {
-        font-size: 15px;
-        line-height: 1.6;
-    }
-
-    /* BOTÃO */
-
-    .nr05-btn-cta {
-        display: flex;
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-        align-self: stretch;
-        justify-content: center;
-        padding: 16px 20px;
-        white-space: normal;
-        text-align: center;
-    }
-}
 
 /* =========================================
    ETAPA 3 — CONTEÚDO PROGRAMÁTICO NR 05
@@ -698,176 +509,7 @@
         0 15px 40px rgba(0, 0, 0, .07);
 }
 
-/* =========================================
-   TABLETS / NOTEBOOKS MENORES
-   Até 1100px
-========================================= */
 
-@media (max-width: 1100px) {
-    .nr05-conteudo {
-        padding: 90px 0;
-    }
-
-    .nr05-modulos {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 22px;
-    }
-
-    .nr05-modulo {
-        padding: 26px;
-    }
-}
-
-/* =========================================
-   TABLETS
-   Até 900px
-========================================= */
-
-@media (max-width: 900px) {
-    .nr05-conteudo {
-        padding: 80px 0;
-    }
-
-    .nr05-conteudo-container {
-        width: min(92%, 700px);
-    }
-
-    .nr05-conteudo-titulo {
-        margin-bottom: 50px;
-    }
-
-    .nr05-conteudo-titulo h2 {
-        font-size: 38px;
-    }
-
-    .nr05-conteudo-titulo p {
-        font-size: 17px;
-        line-height: 1.7;
-    }
-
-    .nr05-modulos {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 20px;
-    }
-
-    .nr05-modulo {
-        padding: 25px;
-    }
-}
-
-/* =========================================
-   CELULARES
-   Até 600px
-========================================= */
-
-@media (max-width: 600px) {
-    .nr05-conteudo {
-        padding: 65px 0;
-    }
-
-    .nr05-conteudo-container {
-        width: min(92%, 500px);
-    }
-
-    .nr05-conteudo-titulo {
-        margin-bottom: 40px;
-    }
-
-    .nr05-conteudo-titulo .nr05-label {
-        font-size: 11px;
-        padding: 8px 16px;
-    }
-
-    .nr05-conteudo-titulo h2 {
-        margin-top: 18px;
-        font-size: 31px;
-        line-height: 1.2;
-    }
-
-    .nr05-conteudo-titulo p {
-        margin-top: 18px;
-        font-size: 16px;
-        line-height: 1.7;
-    }
-
-    .nr05-modulos {
-        grid-template-columns: 1fr;
-        gap: 18px;
-    }
-
-    .nr05-modulo {
-        padding: 24px;
-        border-radius: 20px;
-    }
-
-    .nr05-modulo-icon {
-        width: 52px;
-        height: 52px;
-        margin-bottom: 18px;
-        border-radius: 15px;
-        font-size: 20px;
-    }
-
-    .nr05-modulo-conteudo h3 {
-        font-size: 19px;
-    }
-
-    .nr05-modulo-conteudo p {
-        font-size: 15px;
-        line-height: 1.65;
-    }
-}
-
-/* =========================================
-   CELULARES PEQUENOS
-   Até 400px
-========================================= */
-
-@media (max-width: 400px) {
-    .nr05-conteudo {
-        padding: 55px 0;
-    }
-
-    .nr05-conteudo-container {
-        width: calc(100% - 32px);
-    }
-
-    .nr05-conteudo-titulo {
-        margin-bottom: 35px;
-    }
-
-    .nr05-conteudo-titulo h2 {
-        font-size: 28px;
-    }
-
-    .nr05-conteudo-titulo p {
-        font-size: 15px;
-    }
-
-    .nr05-modulo {
-        padding: 22px;
-        border-radius: 18px;
-    }
-
-    .nr05-modulo-conteudo h3 {
-        font-size: 18px;
-    }
-}
-
-/* =========================================
-   REDUÇÃO DE MOVIMENTO
-   ACESSIBILIDADE
-========================================= */
-
-@media (prefers-reduced-motion: reduce) {
-    .nr05-modulo {
-        transition: none;
-    }
-
-    .nr05-modulo:hover {
-        transform: none;
-    }
-}
 
 /* =========================================
    ETAPA 4 — LEGISLAÇÃO E NORMAS
@@ -1105,151 +747,6 @@
     font-size: 14px;
 }
 
-/* =========================================
-   NOTEBOOK / TABLET GRANDE
-========================================= */
-
-@media (max-width: 1000px) {
-    .nr05-legislacao {
-        padding: 90px 0;
-    }
-
-    .nr05-legislacao-grid {
-        gap: 20px;
-    }
-
-    .nr05-legislacao-card {
-        padding: 27px;
-    }
-}
-
-/* =========================================
-   TABLET
-========================================= */
-
-@media (max-width: 800px) {
-    .nr05-legislacao {
-        padding: 80px 0;
-    }
-
-    .nr05-legislacao-container {
-        width: min(92%, 700px);
-    }
-
-    .nr05-legislacao-titulo {
-        margin-bottom: 50px;
-    }
-
-    .nr05-legislacao-titulo p {
-        font-size: 17px;
-        line-height: 1.7;
-    }
-
-    .nr05-legislacao-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* =========================================
-   CELULAR
-========================================= */
-
-@media (max-width: 600px) {
-    .nr05-legislacao {
-        padding: 65px 0;
-    }
-
-    .nr05-legislacao-container {
-        width: min(92%, 500px);
-    }
-
-    .nr05-legislacao-titulo {
-        margin-bottom: 40px;
-    }
-
-    .nr05-legislacao-titulo h2 {
-        font-size: 31px;
-    }
-
-    .nr05-legislacao-titulo p {
-        margin-top: 18px;
-        font-size: 16px;
-    }
-
-    .nr05-legislacao-card {
-        padding: 24px;
-        border-radius: 20px;
-    }
-
-    .nr05-legislacao-icon {
-        width: 52px;
-        height: 52px;
-        margin-bottom: 20px;
-        border-radius: 15px;
-        font-size: 20px;
-    }
-
-    .nr05-legislacao-conteudo h3 {
-        font-size: 21px;
-    }
-
-    .nr05-legislacao-conteudo h4 {
-        font-size: 16px;
-    }
-
-    .nr05-legislacao-conteudo p {
-        font-size: 15px;
-    }
-
-    .nr05-legislacao-aviso {
-        flex-direction: column;
-        padding: 24px;
-        gap: 16px;
-    }
-
-    .nr05-legislacao-aviso h3 {
-        font-size: 18px;
-    }
-
-    .nr05-legislacao-fonte a {
-        font-size: 14px;
-        line-height: 1.6;
-    }
-}
-
-/* =========================================
-   CELULARES PEQUENOS
-========================================= */
-
-@media (max-width: 400px) {
-    .nr05-legislacao {
-        padding: 55px 0;
-    }
-
-    .nr05-legislacao-container {
-        width: calc(100% - 32px);
-    }
-
-    .nr05-legislacao-titulo h2 {
-        font-size: 28px;
-    }
-
-    .nr05-legislacao-titulo p {
-        font-size: 15px;
-    }
-
-    .nr05-legislacao-card {
-        padding: 21px;
-    }
-
-    .nr05-legislacao-conteudo h3 {
-        font-size: 19px;
-    }
-
-    .nr05-legislacao-conteudo p {
-        font-size: 14px;
-    }
-}
 
 /* =========================================
    ETAPA 5 — COMO FUNCIONA
@@ -1460,210 +957,6 @@
     line-height: 1.65;
 }
 
-/* =========================================
-   NOTEBOOK / TABLET GRANDE
-========================================= */
-
-@media (max-width: 1100px) {
-    .nr05-como-funciona {
-        padding: 90px 0;
-    }
-
-    .nr05-etapas {
-        grid-template-columns: 
-            minmax(0, 1fr)
-            35px
-            minmax(0, 1fr)
-            35px
-            minmax(0, 1fr);
-        gap: 10px;
-    }
-
-    .nr05-etapa {
-        padding: 27px;
-    }
-
-    .nr05-etapa-conteudo h3 {
-        font-size: 21px;
-    }
-}
-
-/* =========================================
-   TABLET
-========================================= */
-
-@media (max-width: 850px) {
-    .nr05-como-funciona {
-        padding: 80px 0;
-    }
-
-    .nr05-como-container {
-        width: min(92%, 700px);
-    }
-
-    .nr05-como-titulo {
-        margin-bottom: 50px;
-    }
-
-    .nr05-como-titulo p {
-        font-size: 17px;
-    }
-
-    .nr05-etapas {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 18px;
-    }
-
-    .nr05-etapa-conector {
-        height: 20px;
-        transform: rotate(90deg);
-    }
-
-    .nr05-etapa {
-        padding: 28px;
-    }
-}
-
-/* =========================================
-   CELULAR
-========================================= */
-
-@media (max-width: 600px) {
-    .nr05-como-funciona {
-        padding: 65px 0;
-    }
-
-    .nr05-como-container {
-        width: min(92%, 500px);
-    }
-
-    .nr05-como-titulo {
-        margin-bottom: 40px;
-    }
-
-    .nr05-como-titulo h2 {
-        font-size: 31px;
-    }
-
-    .nr05-como-titulo p {
-        margin-top: 18px;
-        font-size: 16px;
-        line-height: 1.7;
-    }
-
-    .nr05-etapas {
-        gap: 12px;
-    }
-
-    .nr05-etapa {
-        padding: 24px;
-        border-radius: 20px;
-    }
-
-    .nr05-etapa-numero {
-        top: 19px;
-        right: 20px;
-        font-size: 32px;
-    }
-
-    .nr05-etapa-icon {
-        width: 52px;
-        height: 52px;
-        margin-bottom: 18px;
-        border-radius: 15px;
-        font-size: 20px;
-    }
-
-    .nr05-etapa-conteudo h3 {
-        font-size: 19px;
-    }
-
-    .nr05-etapa-conteudo p {
-        font-size: 15px;
-        line-height: 1.65;
-    }
-
-    .nr05-etapa-conector {
-        height: 18px;
-        font-size: 17px;
-    }
-
-    .nr05-como-destaque {
-        align-items: flex-start;
-        gap: 17px;
-        margin-top: 28px;
-        padding: 25px;
-    }
-
-    .nr05-como-destaque-icon {
-        width: 52px;
-        height: 52px;
-        border-radius: 15px;
-        font-size: 20px;
-    }
-
-    .nr05-como-destaque h3 {
-        font-size: 21px;
-    }
-
-    .nr05-como-destaque p {
-        font-size: 15px;
-        line-height: 1.65;
-    }
-}
-
-/* =========================================
-   CELULARES PEQUENOS
-========================================= */
-
-@media (max-width: 400px) {
-    .nr05-como-funciona {
-        padding: 55px 0;
-    }
-
-    .nr05-como-container {
-        width: calc(100% - 32px);
-    }
-
-    .nr05-como-titulo h2 {
-        font-size: 15px;
-    }
-
-    .nr05-como-titulo p {
-        font-size: 15px;
-    }
-
-    .nr05-etapa {
-        padding: 22px;
-    }
-
-    .nr05-etapa-conteudo h3 {
-        font-size: 18px;
-    }
-
-    .nr05-etapa-conteudo p {
-        font-size: 14px;
-    }
-
-    .nr05-como-destaque {
-        padding: 22px;
-    }
-}
-
-/* =========================================
-   ACESSIBILIDADE
-========================================= */
-
-@media (prefers-reduced-motion: reduce) {
-    .nr05-etapa {
-        transition: none;
-    }
-
-    .nr05-etapa:hover {
-        transform: none;
-    }
-}
 
 /* =========================================
    ETAPA 6 — CERTIFICAÇÃO
@@ -1900,162 +1193,160 @@
 }
 
 /* =========================================
-   VISUAL DO CERTIFICADO
+   DOCUMENTO DO CERTIFICADO
 ========================================= */
 
 .nr05-certificado-visual {
     display: flex;
-
     align-items: center;
     justify-content: center;
 
     min-width: 0;
 
-    padding: 30px;
+    padding: 24px;
 
-    border-radius: 28px;
+    border-radius: 24px;
 
-    background:
-        linear-gradient(
-            145deg,
-            #edf8f2 0%,
-            #f8fbfa 100%
-        );
+    background: #f5f7f9;
 
-    border: 1px solid #dcebe3;
-}
-
-/* =========================================
-   PAPEL
-========================================= */
-
-.nr05-certificado-papel {
-    position: relative;
-
-    width: 100%;
-
-    max-width: 470px;
-
-    aspect-ratio: 1.414 / 1;
-
-    display: flex;
-
-    flex-direction: column;
-
-    align-items: center;
-    justify-content: center;
-
-    padding: 40px;
-
-    box-sizing: border-box;
-
-    background: #ffffff;
-
-    border: 8px solid #eef3f0;
-
-    outline: 1px solid #cfded6;
+    border: 1px solid #e2e8ed;
 
     box-shadow:
-        0 25px 60px rgba(0, 0, 0, .12);
+        0 18px 45px rgba(12, 47, 91, .06);
+}
+
+
+/* =========================================
+   DOCUMENTO
+========================================= */
+
+.nr05-certificado-documento {
+    width: 100%;
+    max-width: 620px;
 
     text-align: center;
 }
 
-/* =========================================
-   MARCA
-========================================= */
-
-.nr05-certificado-marca {
-    position: absolute;
-
-    top: 22px;
-    left: 25px;
-
-    color: #0c2f5b;
-
-    font-size: 13px;
-
-    font-weight: 900;
-
-    letter-spacing: .12em;
-}
 
 /* =========================================
-   TÍTULO DO CERTIFICADO
+   IMAGEM DO CERTIFICADO
 ========================================= */
 
-.nr05-certificado-label {
-    color: #0ba44b;
+.nr05-certificado-documento img {
+    display: block;
 
-    font-size: 12px;
+    width: 100%;
+    height: auto;
 
-    font-weight: 800;
+    border-radius: 3px;
 
-    letter-spacing: .2em;
+    box-shadow:
+        0 18px 40px rgba(0, 0, 0, .16);
 }
 
-.nr05-certificado-papel h3 {
-    margin: 10px 0;
-
-    color: #0c2f5b;
-
-    font-size: 42px;
-
-    line-height: 1;
-
-    font-weight: 900;
-}
-
-.nr05-certificado-papel p {
-    max-width: 300px;
-
-    margin: 0;
-
-    color: #52687b;
-
-    font-size: 15px;
-
-    line-height: 1.5;
-}
 
 /* =========================================
-   LINHA DECORATIVA
+   LEGENDA
 ========================================= */
 
-.nr05-certificado-linha {
-    width: 80px;
+.nr05-certificado-legenda {
+    display: block;
 
-    height: 2px;
+    margin-top: 14px;
 
-    margin-top: 22px;
+    color: #7a8896;
 
-    background: #0ba44b;
-}
+    font-size: 11px;
 
-/* =========================================
-   AVISO VISUAL
-========================================= */
+    font-weight: 600;
 
-.nr05-certificado-exemplo {
-    position: absolute;
-
-    right: 18px;
-    bottom: 14px;
-
-    color: #9aa9b5;
-
-    font-size: 9px;
+    letter-spacing: .04em;
 
     text-transform: uppercase;
-
-    letter-spacing: .08em;
 }
 
-/* =========================================
-   NOTEBOOK / TABLET
-========================================= */
 
-@media (max-width: 1000px) {
+
+/* NOTEBOOK / TABLET GRANDE — até 1180px */
+
+@media (max-width: 1180px) {
+    .nr05-conteudo {
+        padding: 90px 0;
+    }
+
+    .nr05-modulos {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 22px;
+    }
+
+    .nr05-modulo {
+        padding: 26px;
+    }
+
+    .nr05-como-funciona {
+        padding: 90px 0;
+    }
+
+    .nr05-etapas {
+        grid-template-columns: minmax(0, 1fr)
+                35px
+                minmax(0, 1fr)
+                35px
+                minmax(0, 1fr);
+        gap: 10px;
+    }
+
+    .nr05-etapa {
+        padding: 27px;
+    }
+
+    .nr05-etapa-conteudo h3 {
+        font-size: 21px;
+    }
+}
+
+/* TABLET / NOTEBOOK — até 1024px */
+
+@media (max-width: 1024px) {
+    /* HERO — tablet/notebook: uma coluna para evitar a imagem estreita */
+    .hero-nr-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .hero-nr-content {
+        max-width: 760px;
+    }
+
+    .hero-nr-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-image-box {
+        width: min(100%, 620px);
+        height: 360px;
+    }
+
+    .hero-image-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center 35%;
+    }
+
+    .nr05-legislacao {
+        padding: 90px 0;
+    }
+
+    .nr05-legislacao-grid {
+        gap: 20px;
+    }
+
+    .nr05-legislacao-card {
+        padding: 27px;
+    }
 
     .nr05-certificacao {
         padding: 90px 0;
@@ -2068,14 +1359,109 @@
     .nr05-certificado-visual {
         padding: 25px;
     }
-
 }
 
-/* =========================================
-   TABLET
-========================================= */
+/* TABLET — até 768px */
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
+    .nr05-sobre {
+        padding: 80px 0;
+    }
+
+    .nr05-sobre-titulo h2 {
+        font-size: 38px;
+    }
+
+    .nr05-info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .nr05-sobre-cta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nr05-conteudo {
+        padding: 80px 0;
+    }
+
+    .nr05-conteudo-container {
+        width: min(92%, 700px);
+    }
+
+    .nr05-conteudo-titulo {
+        margin-bottom: 50px;
+    }
+
+    .nr05-conteudo-titulo h2 {
+        font-size: 38px;
+    }
+
+    .nr05-conteudo-titulo p {
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    .nr05-modulos {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .nr05-modulo {
+        padding: 25px;
+    }
+
+    .nr05-legislacao {
+        padding: 80px 0;
+    }
+
+    .nr05-legislacao-container {
+        width: min(92%, 700px);
+    }
+
+    .nr05-legislacao-titulo {
+        margin-bottom: 50px;
+    }
+
+    .nr05-legislacao-titulo p {
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    .nr05-legislacao-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .nr05-como-funciona {
+        padding: 80px 0;
+    }
+
+    .nr05-como-container {
+        width: min(92%, 700px);
+    }
+
+    .nr05-como-titulo {
+        margin-bottom: 50px;
+    }
+
+    .nr05-como-titulo p {
+        font-size: 17px;
+    }
+
+    .nr05-etapas {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .nr05-etapa-conector {
+        height: 20px;
+        transform: rotate(90deg);
+    }
+
+    .nr05-etapa {
+        padding: 28px;
+    }
 
     .nr05-certificacao {
         padding: 80px 0;
@@ -2095,29 +1481,367 @@
 
     .nr05-certificacao-grid {
         grid-template-columns: 1fr;
-
         gap: 45px;
     }
 
     .nr05-certificacao-info {
         max-width: 700px;
-
         margin: 0 auto;
     }
 
     .nr05-certificado-visual {
         width: 100%;
+        box-sizing: border-box;
+    }
+}
 
+/* MOBILE — até 720px */
+
+@media (max-width: 720px) {
+    .hero-nr {
+        padding: 55px 0 70px;
+    }
+
+    .hero-nr .container {
+        width: min(92%, 500px);
+    }
+
+    .hero-nr-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .hero-nr-content {
+        width: 100%;
+    }
+
+    .hero-nr-content h1 {
+        font-size: 42px;
+        line-height: 1.08;
+    }
+
+    .hero-nr-content h1 span {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    .hero-nr-content p {
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    .hero-nr-image {
+        width: 100%;
+        order: 2;
+    }
+
+    .hero-image-box {
+        width: 100%;
+        aspect-ratio: 10/7;
+        border-radius: 22px;
+        overflow: hidden;
+    }
+
+    .hero-image-box img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+        object-position: center 35%;
+    }
+
+    .btn-nr {
+        display: flex;
+        width: fit-content;
+        max-width: 100%;
+        margin: 40px auto 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         box-sizing: border-box;
     }
 
-}
+    .nr05-sobre {
+        padding: 65px 0;
+    }
 
-/* =========================================
-   CELULAR
-========================================= */
+    .nr05-sobre-container {
+        width: min(92%, 500px);
+    }
 
-@media (max-width: 600px) {
+    .nr05-sobre-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr05-sobre-titulo h2 {
+        font-size: 32px;
+    }
+
+    .nr05-sobre-titulo p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .nr05-info-card {
+        padding: 24px;
+        gap: 16px;
+    }
+
+    .nr05-info-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 19px;
+    }
+
+    .nr05-info-card h3 {
+        font-size: 18px;
+    }
+
+    .nr05-modalidade-destaque {
+        align-items: flex-start;
+        padding: 25px;
+        gap: 18px;
+    }
+
+    .nr05-modalidade-icon {
+        width: 52px;
+        height: 52px;
+        font-size: 20px;
+    }
+
+    .nr05-modalidade-texto h3 {
+        font-size: 21px;
+    }
+
+    .nr05-sobre-cta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 28px 25px;
+        box-sizing: border-box;
+    }
+
+    .nr05-sobre-cta h3 {
+        font-size: 21px;
+    }
+
+    .nr05-sobre-cta p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .nr05-btn-cta {
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        align-self: stretch;
+        justify-content: center;
+        padding: 16px 20px;
+        white-space: normal;
+        text-align: center;
+    }
+
+    .nr05-conteudo {
+        padding: 65px 0;
+    }
+
+    .nr05-conteudo-container {
+        width: min(92%, 500px);
+    }
+
+    .nr05-conteudo-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr05-conteudo-titulo .nr05-label {
+        font-size: 11px;
+        padding: 8px 16px;
+    }
+
+    .nr05-conteudo-titulo h2 {
+        margin-top: 18px;
+        font-size: 31px;
+        line-height: 1.2;
+    }
+
+    .nr05-conteudo-titulo p {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .nr05-modulos {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .nr05-modulo {
+        padding: 24px;
+        border-radius: 20px;
+    }
+
+    .nr05-modulo-icon {
+        width: 52px;
+        height: 52px;
+        margin-bottom: 18px;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+
+    .nr05-modulo-conteudo h3 {
+        font-size: 19px;
+    }
+
+    .nr05-modulo-conteudo p {
+        font-size: 15px;
+        line-height: 1.65;
+    }
+
+    .nr05-legislacao {
+        padding: 65px 0;
+    }
+
+    .nr05-legislacao-container {
+        width: min(92%, 500px);
+    }
+
+    .nr05-legislacao-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr05-legislacao-titulo h2 {
+        font-size: 31px;
+    }
+
+    .nr05-legislacao-titulo p {
+        margin-top: 18px;
+        font-size: 16px;
+    }
+
+    .nr05-legislacao-card {
+        padding: 24px;
+        border-radius: 20px;
+    }
+
+    .nr05-legislacao-icon {
+        width: 52px;
+        height: 52px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+
+    .nr05-legislacao-conteudo h3 {
+        font-size: 21px;
+    }
+
+    .nr05-legislacao-conteudo h4 {
+        font-size: 16px;
+    }
+
+    .nr05-legislacao-conteudo p {
+        font-size: 15px;
+    }
+
+    .nr05-legislacao-aviso {
+        flex-direction: column;
+        padding: 24px;
+        gap: 16px;
+    }
+
+    .nr05-legislacao-aviso h3 {
+        font-size: 18px;
+    }
+
+    .nr05-legislacao-fonte a {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .nr05-como-funciona {
+        padding: 65px 0;
+    }
+
+    .nr05-como-container {
+        width: min(92%, 500px);
+    }
+
+    .nr05-como-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr05-como-titulo h2 {
+        font-size: 31px;
+    }
+
+    .nr05-como-titulo p {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .nr05-etapas {
+        gap: 12px;
+    }
+
+    .nr05-etapa {
+        padding: 24px;
+        border-radius: 20px;
+    }
+
+    .nr05-etapa-numero {
+        top: 19px;
+        right: 20px;
+        font-size: 32px;
+    }
+
+    .nr05-etapa-icon {
+        width: 52px;
+        height: 52px;
+        margin-bottom: 18px;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+
+    .nr05-etapa-conteudo h3 {
+        font-size: 19px;
+    }
+
+    .nr05-etapa-conteudo p {
+        font-size: 15px;
+        line-height: 1.65;
+    }
+
+    .nr05-etapa-conector {
+        height: 18px;
+        font-size: 17px;
+    }
+
+    .nr05-como-destaque {
+        align-items: flex-start;
+        gap: 17px;
+        margin-top: 28px;
+        padding: 25px;
+    }
+
+    .nr05-como-destaque-icon {
+        width: 52px;
+        height: 52px;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+
+    .nr05-como-destaque h3 {
+        font-size: 21px;
+    }
+
+    .nr05-como-destaque p {
+        font-size: 15px;
+        line-height: 1.65;
+    }
 
     .nr05-certificacao {
         padding: 65px 0;
@@ -2137,24 +1861,19 @@
 
     .nr05-certificacao-titulo p {
         margin-top: 18px;
-
         font-size: 16px;
-
         line-height: 1.7;
     }
 
     .nr05-certificacao-intro {
         align-items: flex-start;
-
         gap: 16px;
     }
 
     .nr05-certificacao-icon {
         width: 52px;
         height: 52px;
-
         border-radius: 15px;
-
         font-size: 20px;
     }
 
@@ -2164,53 +1883,131 @@
 
     .nr05-certificacao-texto {
         margin-top: 22px;
-
         font-size: 16px;
-
         line-height: 1.7;
     }
 
     .nr05-certificacao-lista {
         grid-template-columns: 1fr;
-
         gap: 13px;
-
         margin-top: 25px;
     }
 
     .nr05-certificacao-nota {
         margin-top: 25px;
-
         padding: 16px;
     }
 
     .nr05-certificado-visual {
         padding: 20px;
-
         border-radius: 22px;
     }
 
-    .nr05-certificado-papel {
-        padding: 25px;
-
-        border-width: 6px;
+    .nr05-certificado-visual {
+    padding: 16px;
+    border-radius: 20px;
     }
 
-    .nr05-certificado-papel h3 {
-        font-size: 34px;
+    .nr05-certificado-documento {
+    max-width: 100%;
     }
 
-    .nr05-certificado-papel p {
-        font-size: 13px;
+    .nr05-certificado-legenda {
+    font-size: 10px;
+    }
     }
 
-}
-
-/* =========================================
-   CELULARES PEQUENOS
-========================================= */
+/* TELAS PEQUENAS — até 400px */
 
 @media (max-width: 400px) {
+    .nr05-conteudo {
+        padding: 55px 0;
+    }
+
+    .nr05-conteudo-container {
+        width: calc(100% - 32px);
+    }
+
+    .nr05-conteudo-titulo {
+        margin-bottom: 35px;
+    }
+
+    .nr05-conteudo-titulo h2 {
+        font-size: 28px;
+    }
+
+    .nr05-conteudo-titulo p {
+        font-size: 15px;
+    }
+
+    .nr05-modulo {
+        padding: 22px;
+        border-radius: 18px;
+    }
+
+    .nr05-modulo-conteudo h3 {
+        font-size: 18px;
+    }
+
+    .nr05-legislacao {
+        padding: 55px 0;
+    }
+
+    .nr05-legislacao-container {
+        width: calc(100% - 32px);
+    }
+
+    .nr05-legislacao-titulo h2 {
+        font-size: 28px;
+    }
+
+    .nr05-legislacao-titulo p {
+        font-size: 15px;
+    }
+
+    .nr05-legislacao-card {
+        padding: 21px;
+    }
+
+    .nr05-legislacao-conteudo h3 {
+        font-size: 19px;
+    }
+
+    .nr05-legislacao-conteudo p {
+        font-size: 14px;
+    }
+
+    .nr05-como-funciona {
+        padding: 55px 0;
+    }
+
+    .nr05-como-container {
+        width: calc(100% - 32px);
+    }
+
+    .nr05-como-titulo h2 {
+        font-size: 15px;
+    }
+
+    .nr05-como-titulo p {
+        font-size: 15px;
+    }
+
+    .nr05-etapa {
+        padding: 22px;
+    }
+
+    .nr05-etapa-conteudo h3 {
+        font-size: 18px;
+    }
+
+    .nr05-etapa-conteudo p {
+        font-size: 14px;
+    }
+
+    .nr05-como-destaque {
+        padding: 22px;
+    }
 
     .nr05-certificacao {
         padding: 55px 0;
@@ -2237,26 +2034,36 @@
     }
 
     .nr05-certificado-visual {
-        padding: 15px;
+    padding: 12px;
+    border-radius: 18px;
     }
 
-    .nr05-certificado-papel {
-        padding: 20px;
-    }
-
-    .nr05-certificado-papel h3 {
-        font-size: 30px;
-    }
-
-    .nr05-certificado-papel p {
-        font-size: 12px;
+    .nr05-certificado-legenda {
+    margin-top: 10px;
+    font-size: 9px;
     }
 
     .nr05-certificado-marca {
         top: 15px;
         left: 18px;
-
         font-size: 10px;
     }
+}
 
+@media (prefers-reduced-motion: reduce) {
+    .nr05-modulo {
+        transition: none;
+    }
+
+    .nr05-modulo:hover {
+        transform: none;
+    }
+
+    .nr05-etapa {
+        transition: none;
+    }
+
+    .nr05-etapa:hover {
+        transform: none;
+    }
 }
