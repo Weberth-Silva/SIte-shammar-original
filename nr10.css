@@ -1,0 +1,2312 @@
+
+/* =========================================
+   HERO NR 10 — PADRÃO VISUAL NR 05
+   SHAMMAR
+========================================= */
+
+.nr10-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 55px 0 80px;
+
+    background:
+        radial-gradient(
+            circle at 85% 35%,
+            rgba(13, 134, 83, 0.06),
+            transparent 34%
+        ),
+        linear-gradient(135deg, #ffffff 0%, #f7faf8 100%);
+
+    /* Tipografia serifada para acompanhar a NR05 */
+    font-family: "Times New Roman", serif;
+}
+
+/* CONTAINER */
+
+.nr10-hero .container {
+    width: min(92%, 1400px);
+    margin-inline: auto;
+}
+
+/* BREADCRUMB */
+
+.nr10-hero .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+
+    margin-bottom: 55px;
+
+    color: #64748b;
+    font-size: 17px;
+}
+
+.nr10-hero .breadcrumb a {
+    color: #123d6d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nr10-hero .breadcrumb a:hover {
+    color: #0aa35d;
+}
+
+.nr10-hero .breadcrumb i {
+    color: #123d6d;
+    font-size: 13px;
+}
+
+.nr10-hero .breadcrumb span {
+    color: #0aa35d;
+    font-weight: 700;
+}
+
+/* GRID PRINCIPAL */
+
+.nr10-hero .hero-nr-grid {
+    display: grid;
+    grid-template-columns: 1fr .9fr;
+    gap: 80px;
+    align-items: center;
+}
+
+/* CONTEÚDO */
+
+.nr10-hero .hero-nr-content {
+    min-width: 0;
+}
+
+/* SELO */
+
+.nr10-hero .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+
+    margin-bottom: 8px;
+    padding: 13px 26px;
+
+    background: #eef8f2;
+    color: #0aa35d;
+
+    border: none;
+    border-radius: 50px;
+
+    font-family: "Times New Roman", serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.nr10-hero .hero-badge i {
+    font-size: 19px;
+}
+
+/* TÍTULO PRINCIPAL */
+
+.nr10-hero .hero-nr-content h1 {
+    margin-top: 30px;
+    margin-bottom: 0;
+
+    color: #0b3c66;
+
+    font-family: "Times New Roman", serif;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: normal;
+}
+
+/* SUBTÍTULO */
+
+.nr10-hero .hero-nr-content h1 span {
+    display: block;
+
+    margin-top: 18px;
+
+    color: #157d48;
+
+    font-family: "Times New Roman", serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+/* DESCRIÇÃO */
+
+.nr10-hero .hero-nr-content > p {
+    max-width: 780px;
+
+    margin-top: 35px;
+    margin-bottom: 0;
+
+    color: #5b6977;
+
+    font-family: "Times New Roman", serif;
+    font-size: 21px;
+    line-height: 1.9;
+}
+
+/* BENEFÍCIOS */
+
+.nr10-hero .hero-beneficios {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 18px;
+
+    margin-top: 45px;
+}
+
+/* CARTÕES */
+
+.nr10-hero .hero-beneficio {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    min-height: 70px;
+    padding: 18px 22px;
+
+    background: #ffffff;
+
+    border-radius: 18px;
+    border: 1px solid #e5efea;
+
+    color: #123d6d;
+
+    font-family: "Times New Roman", serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* TERCEIRO CARTÃO */
+
+.nr10-hero .hero-beneficio:last-child {
+    grid-column: 1 / -1;
+}
+
+/* ÍCONES DOS CARTÕES */
+
+.nr10-hero .hero-beneficio i {
+    flex: 0 0 auto;
+
+    color: #0aa35d;
+    font-size: 20px;
+}
+
+/* BOTÃO ORÇAMENTO */
+
+.nr10-hero .btn-nr {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+
+    margin-top: 50px;
+    padding: 18px 36px;
+
+    background: #0ba44b;
+    color: #ffffff;
+
+    border: none;
+    border-radius: 15px;
+
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: 700;
+
+    text-decoration: none;
+
+    transition: .3s;
+}
+
+.nr10-hero .btn-nr:hover {
+    background: #087d39;
+    color: #ffffff;
+    transform: translateY(-4px);
+}
+
+.nr10-hero .btn-nr i {
+    font-size: 20px;
+}
+
+/* IMAGEM */
+
+.nr10-hero .hero-nr-image {
+    min-width: 0;
+}
+
+.nr10-hero .hero-image-box {
+    width: 100%;
+    aspect-ratio: 10 / 7;
+
+    overflow: hidden;
+
+    border-radius: 28px;
+    border: 2px solid #0ba44b;
+
+    background: #e8efed;
+}
+
+.nr10-hero .hero-image-box img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center 35%;
+}
+
+/* =========================================
+   TABLET / NOTEBOOK
+========================================= */
+
+@media (max-width: 1024px) {
+
+    .nr10-hero {
+        padding: 45px 0 70px;
+    }
+
+    .nr10-hero .hero-nr-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .nr10-hero .hero-nr-content {
+        width: 100%;
+    }
+
+    .nr10-hero .hero-nr-content h1 {
+        font-size: 56px;
+    }
+
+    .nr10-hero .hero-nr-content h1 span {
+        font-size: 32px;
+    }
+
+    .nr10-hero .hero-nr-image {
+        width: 100%;
+    }
+
+    .nr10-hero .hero-image-box {
+        aspect-ratio: 16 / 9;
+    }
+
+}
+
+/* =========================================
+   CELULAR
+========================================= */
+
+@media (max-width: 600px) {
+
+    .nr10-hero {
+        padding: 35px 0 55px;
+    }
+
+    .nr10-hero .container {
+        width: min(92%, 500px);
+    }
+
+    .nr10-hero .breadcrumb {
+        gap: 10px;
+        margin-bottom: 35px;
+        font-size: 14px;
+    }
+
+    .nr10-hero .hero-nr-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .nr10-hero .hero-nr-content {
+        width: 100%;
+    }
+
+    .nr10-hero .hero-badge {
+        padding: 11px 20px;
+        font-size: 14px;
+    }
+
+    .nr10-hero .hero-nr-content h1 {
+        margin-top: 25px;
+        font-size: 42px;
+        line-height: 1.08;
+    }
+
+    .nr10-hero .hero-nr-content h1 span {
+        margin-top: 15px;
+        font-size: 25px;
+        line-height: 1.3;
+    }
+
+    .nr10-hero .hero-nr-content > p {
+        margin-top: 25px;
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    .nr10-hero .hero-beneficios {
+        grid-template-columns: 1fr;
+        gap: 13px;
+        margin-top: 30px;
+    }
+
+    .nr10-hero .hero-beneficio {
+        grid-column: auto;
+        min-height: 62px;
+        padding: 15px 18px;
+        font-size: 16px;
+    }
+
+    .nr10-hero .btn-nr {
+        display: flex;
+        width: fit-content;
+        max-width: 100%;
+
+        margin: 35px auto 0;
+        padding: 16px 25px;
+
+        font-size: 17px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .nr10-hero .hero-nr-image {
+        width: 100%;
+        order: 2;
+    }
+
+    .nr10-hero .hero-image-box {
+        width: 100%;
+        aspect-ratio: 10 / 7;
+        border-radius: 22px;
+    }
+
+}
+
+
+/* =========================================
+   PARTE 02 — SOBRE O TREINAMENTO NR 10
+   PADRÃO VISUAL NR 05
+========================================= */
+
+.nr10-sobre {
+    position: relative;
+    padding: 100px 24px;
+
+    background: #ffffff;
+
+    font-family: "Times New Roman", serif;
+}
+
+.nr10-sobre-container {
+    width: min(100%, 1400px);
+    margin-inline: auto;
+}
+
+/* CABEÇALHO */
+
+.nr10-sobre-titulo {
+    max-width: 850px;
+    margin: 0 auto 55px;
+    text-align: center;
+}
+
+/* IDENTIFICAÇÃO DA SEÇÃO */
+
+.nr10-label {
+    display: inline-block;
+
+    margin-bottom: 18px;
+    padding: 10px 22px;
+
+    background: #eef8f2;
+    color: #0aa35d;
+
+    border-radius: 50px;
+
+    font-family: "Times New Roman", serif;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+
+/* TÍTULO */
+
+.nr10-sobre-titulo h2 {
+    margin: 0;
+
+    color: #0b3c66;
+
+    font-family: "Times New Roman", serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+/* DESTAQUE VERDE */
+
+.nr10-sobre-titulo h2 strong {
+    display: block;
+
+    margin-top: 8px;
+
+    color: #157d48;
+
+    font-weight: 700;
+}
+
+/* DESCRIÇÃO */
+
+.nr10-sobre-titulo > p {
+    max-width: 780px;
+
+    margin: 24px auto 0;
+
+    color: #5b6977;
+
+    font-family: "Times New Roman", serif;
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+/* GRID DE INFORMAÇÕES */
+
+.nr10-info-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 22px;
+}
+
+/* CARTÕES */
+
+.nr10-info-card {
+    display: flex;
+    align-items: flex-start;
+
+    gap: 20px;
+
+    min-height: 190px;
+    padding: 30px;
+
+    background: #ffffff;
+
+    border: 1px solid #e5efea;
+    border-radius: 20px;
+
+    box-shadow: 0 8px 28px rgba(15, 45, 65, 0.045);
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        border-color .3s ease;
+}
+
+.nr10-info-card:hover {
+    transform: translateY(-4px);
+
+    border-color: rgba(10, 163, 93, .35);
+
+    box-shadow: 0 14px 32px rgba(15, 45, 65, 0.08);
+}
+
+/* ÍCONES */
+
+.nr10-info-icon {
+    display: grid;
+    place-items: center;
+
+    width: 55px;
+    height: 55px;
+
+    flex: 0 0 55px;
+
+    background: #eef8f2;
+    color: #0aa35d;
+
+    border-radius: 15px;
+
+    font-size: 22px;
+}
+
+/* TEXTO DOS CARTÕES */
+
+.nr10-info-card > div:last-child {
+    min-width: 0;
+}
+
+.nr10-info-card span {
+    display: block;
+
+    margin-bottom: 9px;
+
+    color: #0a8f47;
+
+    font-family: "Times New Roman", serif;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+
+.nr10-info-card h3 {
+    margin: 0 0 12px;
+
+    color: #123d6d;
+
+    font-family: "Times New Roman", serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.nr10-info-card p {
+    margin: 0;
+
+    color: #5b6977;
+
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 900px) {
+
+    .nr10-sobre {
+        padding: 80px 24px;
+    }
+
+    .nr10-info-grid {
+        gap: 18px;
+    }
+
+    .nr10-info-card {
+        padding: 24px;
+    }
+
+    .nr10-sobre-titulo h2 {
+        font-size: 40px;
+    }
+
+}
+
+/* =========================================
+   CELULAR
+========================================= */
+
+@media (max-width: 600px) {
+
+    .nr10-sobre {
+        padding: 65px 18px;
+    }
+
+    .nr10-sobre-titulo {
+        margin-bottom: 38px;
+    }
+
+    .nr10-sobre-titulo h2 {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+
+    .nr10-sobre-titulo > p {
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    .nr10-info-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .nr10-info-card {
+        min-height: auto;
+        gap: 15px;
+        padding: 22px 18px;
+        border-radius: 17px;
+    }
+
+    .nr10-info-icon {
+        width: 46px;
+        height: 46px;
+        flex-basis: 46px;
+        border-radius: 12px;
+        font-size: 19px;
+    }
+
+    .nr10-info-card h3 {
+        font-size: 20px;
+    }
+
+    .nr10-info-card p {
+        font-size: 15px;
+        line-height: 1.65;
+    }
+
+}
+
+
+/* =========================================
+   PARTE 03 - CONTEÚDO PROGRAMÁTICO NR10
+========================================= */
+
+.nr10-conteudo {
+    width: 100%;
+    padding: 100px 24px;
+    background: #f8faf9;
+    font-family: "Times New Roman", serif;
+}
+
+.nr10-conteudo-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* TÍTULO */
+
+.nr10-conteudo-titulo {
+    max-width: 780px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.nr10-conteudo-titulo .nr10-label {
+    display: inline-block;
+    padding: 10px 22px;
+    margin-bottom: 22px;
+    border-radius: 50px;
+    background: #e8f5ed;
+    color: #157d48;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nr10-conteudo-titulo h2 {
+    margin: 0 0 22px;
+    color: #102d46;
+    font-size: 46px;
+    line-height: 1.15;
+    font-weight: 700;
+}
+
+.nr10-conteudo-titulo h2 strong {
+    color: #157d48;
+}
+
+.nr10-conteudo-titulo p {
+    margin: 0;
+    color: #64748b;
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+/* GRID */
+
+.nr10-conteudo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+/* CARDS */
+
+.nr10-conteudo-card {
+    position: relative;
+    padding: 32px;
+    background: #ffffff;
+    border: 1px solid #e5efea;
+    border-radius: 22px;
+    box-shadow: 0 8px 28px rgba(16, 45, 70, 0.05);
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease,
+                border-color 0.3s ease;
+}
+
+.nr10-conteudo-card:hover {
+    transform: translateY(-5px);
+    border-color: #b9dfc8;
+    box-shadow: 0 15px 35px rgba(16, 45, 70, 0.09);
+}
+
+/* ÍCONES */
+
+.nr10-conteudo-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 58px;
+    margin-bottom: 22px;
+    border-radius: 16px;
+    background: #e8f5ed;
+    color: #157d48;
+    font-size: 24px;
+}
+
+/* IDENTIFICAÇÃO DO MÓDULO */
+
+.nr10-conteudo-numero {
+    display: block;
+    margin-bottom: 10px;
+    color: #157d48;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+/* TÍTULOS E DESCRIÇÕES */
+
+.nr10-conteudo-card h3 {
+    margin: 0 0 14px;
+    color: #102d46;
+    font-size: 25px;
+    line-height: 1.3;
+}
+
+.nr10-conteudo-card p {
+    margin: 0 0 22px;
+    color: #64748b;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* LISTA DE CONTEÚDOS */
+
+.nr10-conteudo-card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nr10-conteudo-card ul li {
+    position: relative;
+    padding-left: 25px;
+    color: #475569;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.nr10-conteudo-card ul li::before {
+    content: "\f00c";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    color: #159653;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 13px;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+    .nr10-conteudo {
+        padding: 80px 24px;
+    }
+
+    .nr10-conteudo-grid {
+        gap: 20px;
+    }
+
+    .nr10-conteudo-card {
+        padding: 26px;
+    }
+
+    .nr10-conteudo-card h3 {
+        font-size: 23px;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+    .nr10-conteudo {
+        padding: 65px 20px;
+    }
+
+    .nr10-conteudo-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr10-conteudo-titulo h2 {
+        font-size: 36px;
+    }
+
+    .nr10-conteudo-titulo p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .nr10-conteudo-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .nr10-conteudo-card {
+        padding: 25px 22px;
+        border-radius: 18px;
+    }
+
+    .nr10-conteudo-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 21px;
+    }
+
+    .nr10-conteudo-card h3 {
+        font-size: 22px;
+    }
+
+    .nr10-conteudo-card p {
+        font-size: 15px;
+    }
+
+    .nr10-conteudo-card ul li {
+        font-size: 15px;
+    }
+}
+
+
+/* =========================================
+   PARTE 04 — LEGISLAÇÃO E NORMAS NR10
+========================================= */
+
+.nr10-legislacao {
+    width: 100%;
+    padding: 100px 24px;
+    background: #ffffff;
+    font-family: "Times New Roman", serif;
+}
+
+.nr10-legislacao-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* CABEÇALHO */
+
+.nr10-legislacao-titulo {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.nr10-legislacao-titulo .nr10-label {
+    display: inline-block;
+    padding: 10px 22px;
+    margin-bottom: 22px;
+    border-radius: 50px;
+    background: #e8f5ed;
+    color: #157d48;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nr10-legislacao-titulo h2 {
+    margin: 0 0 22px;
+    color: #102d46;
+    font-size: 46px;
+    line-height: 1.15;
+}
+
+.nr10-legislacao-titulo h2 strong {
+    color: #157d48;
+}
+
+.nr10-legislacao-titulo p {
+    margin: 0;
+    color: #64748b;
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+/* GRID */
+
+.nr10-legislacao-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+}
+
+/* CARDS */
+
+.nr10-legislacao-card {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #e5efea;
+    border-radius: 22px;
+    box-shadow: 0 8px 28px rgba(16, 45, 70, 0.05);
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease,
+                border-color 0.3s ease;
+}
+
+.nr10-legislacao-card:hover {
+    transform: translateY(-5px);
+    border-color: #b9dfc8;
+    box-shadow: 0 15px 35px rgba(16, 45, 70, 0.09);
+}
+
+/* CARD EM DESTAQUE */
+
+.nr10-legislacao-card.destaque {
+    border: 2px solid #157d48;
+    background: #f9fdfb;
+}
+
+/* ÍCONES */
+
+.nr10-legislacao-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 58px;
+    margin-bottom: 22px;
+    border-radius: 16px;
+    background: #e8f5ed;
+    color: #157d48;
+    font-size: 24px;
+}
+
+/* CONTEÚDO */
+
+.nr10-legislacao-conteudo > span {
+    display: block;
+    margin-bottom: 10px;
+    color: #157d48;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nr10-legislacao-conteudo h3 {
+    margin: 0 0 10px;
+    color: #102d46;
+    font-size: 28px;
+    line-height: 1.25;
+}
+
+.nr10-legislacao-conteudo h4 {
+    margin: 0 0 15px;
+    color: #334e68;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.nr10-legislacao-conteudo p {
+    margin: 0;
+    color: #64748b;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+/* STATUS */
+
+.nr10-legislacao-status {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 25px;
+    padding-top: 18px;
+    border-top: 1px solid #e5efea;
+    color: #157d48;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nr10-legislacao-status i {
+    font-size: 16px;
+}
+
+/* AVISO */
+
+.nr10-legislacao-aviso {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 45px;
+    padding: 28px 32px;
+    background: #f0f7f3;
+    border: 1px solid #dceee3;
+    border-radius: 20px;
+}
+
+.nr10-legislacao-aviso-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    background: #dcefe3;
+    color: #157d48;
+    font-size: 21px;
+}
+
+.nr10-legislacao-aviso h3 {
+    margin: 0 0 8px;
+    color: #102d46;
+    font-size: 20px;
+}
+
+.nr10-legislacao-aviso p {
+    margin: 0;
+    color: #526579;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* FONTE OFICIAL */
+
+.nr10-legislacao-fonte {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.nr10-legislacao-fonte a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #157d48;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nr10-legislacao-fonte a:hover {
+    color: #0b5832;
+    text-decoration: underline;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+    .nr10-legislacao {
+        padding: 80px 24px;
+    }
+
+    .nr10-legislacao-grid {
+        gap: 20px;
+    }
+
+    .nr10-legislacao-card {
+        padding: 26px;
+    }
+
+    .nr10-legislacao-titulo h2 {
+        font-size: 40px;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+    .nr10-legislacao {
+        padding: 65px 20px;
+    }
+
+    .nr10-legislacao-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr10-legislacao-titulo h2 {
+        font-size: 35px;
+    }
+
+    .nr10-legislacao-titulo p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .nr10-legislacao-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .nr10-legislacao-card {
+        padding: 24px 22px;
+        border-radius: 18px;
+    }
+
+    .nr10-legislacao-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 21px;
+    }
+
+    .nr10-legislacao-conteudo h3 {
+        font-size: 25px;
+    }
+
+    .nr10-legislacao-conteudo h4 {
+        font-size: 17px;
+    }
+
+    .nr10-legislacao-conteudo p {
+        font-size: 15px;
+    }
+
+    .nr10-legislacao-aviso {
+        flex-direction: column;
+        gap: 14px;
+        padding: 24px 20px;
+    }
+
+    .nr10-legislacao-aviso h3 {
+        font-size: 19px;
+    }
+
+    .nr10-legislacao-aviso p {
+        font-size: 15px;
+    }
+
+    .nr10-legislacao-fonte a {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
+
+
+/* =========================================
+   PARTE 04 — LEGISLAÇÃO E NORMAS NR10
+========================================= */
+
+.nr10-legislacao {
+    width: 100%;
+    padding: 100px 24px;
+    background: #ffffff;
+    font-family: "Times New Roman", serif;
+}
+
+.nr10-legislacao-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* CABEÇALHO */
+
+.nr10-legislacao-titulo {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.nr10-legislacao-titulo .nr10-label {
+    display: inline-block;
+    padding: 10px 22px;
+    margin-bottom: 22px;
+    border-radius: 50px;
+    background: #e8f5ed;
+    color: #157d48;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nr10-legislacao-titulo h2 {
+    margin: 0 0 22px;
+    color: #102d46;
+    font-size: 46px;
+    line-height: 1.15;
+}
+
+.nr10-legislacao-titulo h2 strong {
+    color: #157d48;
+}
+
+.nr10-legislacao-titulo p {
+    margin: 0;
+    color: #64748b;
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+/* GRID */
+
+.nr10-legislacao-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+}
+
+/* CARDS */
+
+.nr10-legislacao-card {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #e5efea;
+    border-radius: 22px;
+    box-shadow: 0 8px 28px rgba(16, 45, 70, 0.05);
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease,
+                border-color 0.3s ease;
+}
+
+.nr10-legislacao-card:hover {
+    transform: translateY(-5px);
+    border-color: #b9dfc8;
+    box-shadow: 0 15px 35px rgba(16, 45, 70, 0.09);
+}
+
+/* CARD EM DESTAQUE */
+
+.nr10-legislacao-card.destaque {
+    border: 2px solid #157d48;
+    background: #f9fdfb;
+}
+
+/* ÍCONES */
+
+.nr10-legislacao-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 58px;
+    margin-bottom: 22px;
+    border-radius: 16px;
+    background: #e8f5ed;
+    color: #157d48;
+    font-size: 24px;
+}
+
+/* CONTEÚDO */
+
+.nr10-legislacao-conteudo > span {
+    display: block;
+    margin-bottom: 10px;
+    color: #157d48;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nr10-legislacao-conteudo h3 {
+    margin: 0 0 10px;
+    color: #102d46;
+    font-size: 28px;
+    line-height: 1.25;
+}
+
+.nr10-legislacao-conteudo h4 {
+    margin: 0 0 15px;
+    color: #334e68;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.nr10-legislacao-conteudo p {
+    margin: 0;
+    color: #64748b;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+/* STATUS */
+
+.nr10-legislacao-status {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 25px;
+    padding-top: 18px;
+    border-top: 1px solid #e5efea;
+    color: #157d48;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nr10-legislacao-status i {
+    font-size: 16px;
+}
+
+/* AVISO */
+
+.nr10-legislacao-aviso {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 45px;
+    padding: 28px 32px;
+    background: #f0f7f3;
+    border: 1px solid #dceee3;
+    border-radius: 20px;
+}
+
+.nr10-legislacao-aviso-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    background: #dcefe3;
+    color: #157d48;
+    font-size: 21px;
+}
+
+.nr10-legislacao-aviso h3 {
+    margin: 0 0 8px;
+    color: #102d46;
+    font-size: 20px;
+}
+
+.nr10-legislacao-aviso p {
+    margin: 0;
+    color: #526579;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* FONTE OFICIAL */
+
+.nr10-legislacao-fonte {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.nr10-legislacao-fonte a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #157d48;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nr10-legislacao-fonte a:hover {
+    color: #0b5832;
+    text-decoration: underline;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+    .nr10-legislacao {
+        padding: 80px 24px;
+    }
+
+    .nr10-legislacao-grid {
+        gap: 20px;
+    }
+
+    .nr10-legislacao-card {
+        padding: 26px;
+    }
+
+    .nr10-legislacao-titulo h2 {
+        font-size: 40px;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+    .nr10-legislacao {
+        padding: 65px 20px;
+    }
+
+    .nr10-legislacao-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr10-legislacao-titulo h2 {
+        font-size: 35px;
+    }
+
+    .nr10-legislacao-titulo p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .nr10-legislacao-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .nr10-legislacao-card {
+        padding: 24px 22px;
+        border-radius: 18px;
+    }
+
+    .nr10-legislacao-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 21px;
+    }
+
+    .nr10-legislacao-conteudo h3 {
+        font-size: 25px;
+    }
+
+    .nr10-legislacao-conteudo h4 {
+        font-size: 17px;
+    }
+
+    .nr10-legislacao-conteudo p {
+        font-size: 15px;
+    }
+
+    .nr10-legislacao-aviso {
+        flex-direction: column;
+        gap: 14px;
+        padding: 24px 20px;
+    }
+
+    .nr10-legislacao-aviso h3 {
+        font-size: 19px;
+    }
+
+    .nr10-legislacao-aviso p {
+        font-size: 15px;
+    }
+
+    .nr10-legislacao-fonte a {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
+
+
+/* =========================================
+   PARTE 05 — COMO FUNCIONA O TREINAMENTO NR10
+========================================= */
+
+.nr10-como-funciona {
+    width: 100%;
+    padding: 100px 24px;
+    background: #f8faf9;
+    font-family: "Times New Roman", serif;
+}
+
+.nr10-como-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* CABEÇALHO */
+
+.nr10-como-titulo {
+    max-width: 800px;
+    margin: 0 auto 65px;
+    text-align: center;
+}
+
+.nr10-como-titulo .nr10-label {
+    display: inline-block;
+    padding: 10px 22px;
+    margin-bottom: 22px;
+    border-radius: 50px;
+    background: #e8f5ed;
+    color: #157d48;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nr10-como-titulo h2 {
+    margin: 0 0 22px;
+    color: #102d46;
+    font-size: 46px;
+    line-height: 1.15;
+}
+
+.nr10-como-titulo h2 strong {
+    color: #157d48;
+}
+
+.nr10-como-titulo p {
+    margin: 0;
+    color: #64748b;
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+/* ETAPAS */
+
+.nr10-etapas {
+    display: grid;
+    grid-template-columns: 1fr 45px 1fr 45px 1fr;
+    align-items: center;
+    gap: 12px;
+}
+
+/* CARD DA ETAPA */
+
+.nr10-etapa {
+    position: relative;
+    height: 100%;
+    min-height: 340px;
+    padding: 32px 25px;
+    background: #ffffff;
+    border: 1px solid #e5efea;
+    border-radius: 22px;
+    box-shadow: 0 8px 28px rgba(16, 45, 70, 0.05);
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease,
+                border-color 0.3s ease;
+}
+
+.nr10-etapa:hover {
+    transform: translateY(-5px);
+    border-color: #b9dfc8;
+    box-shadow: 0 15px 35px rgba(16, 45, 70, 0.09);
+}
+
+/* NÚMERO */
+
+.nr10-etapa-numero {
+    position: absolute;
+    top: 20px;
+    right: 22px;
+    color: #e2eee7;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+/* ÍCONE */
+
+.nr10-etapa-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 58px;
+    margin-bottom: 25px;
+    border-radius: 16px;
+    background: #e8f5ed;
+    color: #157d48;
+    font-size: 24px;
+}
+
+/* CONTEÚDO */
+
+.nr10-etapa-conteudo > span {
+    display: block;
+    margin-bottom: 12px;
+    color: #157d48;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nr10-etapa-conteudo h3 {
+    margin: 0 0 16px;
+    color: #102d46;
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.nr10-etapa-conteudo p {
+    margin: 0;
+    color: #64748b;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+/* CONECTORES */
+
+.nr10-etapa-conector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #e8f5ed;
+    color: #157d48;
+    font-size: 18px;
+}
+
+/* DESTAQUE FINAL */
+
+.nr10-como-destaque {
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+    margin-top: 55px;
+    padding: 32px;
+    background: #f0f7f3;
+    border: 1px solid #dceee3;
+    border-radius: 22px;
+}
+
+.nr10-como-destaque-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 58px;
+    height: 58px;
+    border-radius: 17px;
+    background: #dcefe3;
+    color: #157d48;
+    font-size: 24px;
+}
+
+.nr10-como-destaque > div:last-child > span {
+    display: block;
+    margin-bottom: 9px;
+    color: #157d48;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nr10-como-destaque h3 {
+    margin: 0 0 12px;
+    color: #102d46;
+    font-size: 24px;
+}
+
+.nr10-como-destaque p {
+    margin: 0;
+    color: #526579;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+/* TABLET */
+
+@media (max-width: 1000px) {
+    .nr10-como-funciona {
+        padding: 80px 24px;
+    }
+
+    .nr10-etapas {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .nr10-etapa {
+        min-height: auto;
+        padding: 30px;
+    }
+
+    .nr10-etapa-conector {
+        margin: 0 auto;
+        transform: rotate(90deg);
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+    .nr10-como-funciona {
+        padding: 65px 20px;
+    }
+
+    .nr10-como-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr10-como-titulo h2 {
+        font-size: 35px;
+    }
+
+    .nr10-como-titulo p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .nr10-etapa {
+        padding: 25px 22px;
+        border-radius: 18px;
+    }
+
+    .nr10-etapa-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 21px;
+    }
+
+    .nr10-etapa-conteudo h3 {
+        font-size: 22px;
+    }
+
+    .nr10-etapa-conteudo p {
+        font-size: 15px;
+    }
+
+    .nr10-como-destaque {
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 35px;
+        padding: 25px 22px;
+        border-radius: 18px;
+    }
+
+    .nr10-como-destaque h3 {
+        font-size: 21px;
+    }
+
+    .nr10-como-destaque p {
+        font-size: 15px;
+    }
+}
+
+
+/* =========================================
+   PARTE 06 — CERTIFICAÇÃO NR10
+========================================= */
+
+.nr10-certificacao {
+    padding: 110px 0;
+    background: linear-gradient(
+        180deg,
+        #f7f9fc 0%,
+        #ffffff 100%
+    );
+}
+
+.nr10-certificacao-container {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+}
+
+/* CABEÇALHO */
+
+.nr10-certificacao-titulo {
+    max-width: 850px;
+    margin: 0 auto 65px;
+    text-align: center;
+}
+
+.nr10-certificacao-titulo h2 {
+    margin-top: 22px;
+    color: #0c2f5b;
+    font-size: clamp(34px, 4vw, 46px);
+    line-height: 1.15;
+    font-weight: 800;
+}
+
+.nr10-certificacao-titulo h2 strong {
+    color: #0ba44b;
+}
+
+.nr10-certificacao-titulo p {
+    max-width: 780px;
+    margin: 22px auto 0;
+    color: #66768c;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* GRID */
+
+.nr10-certificacao-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, .9fr);
+    gap: 70px;
+    align-items: center;
+}
+
+/* INFORMAÇÕES */
+
+.nr10-certificacao-info {
+    min-width: 0;
+}
+
+.nr10-certificacao-intro {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nr10-certificacao-icon {
+    width: 62px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 17px;
+    background: #e8f7ef;
+    color: #0ba44b;
+    font-size: 24px;
+}
+
+.nr10-certificacao-intro span {
+    display: block;
+    margin-bottom: 6px;
+    color: #0ba44b;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .1em;
+}
+
+.nr10-certificacao-intro h3 {
+    margin: 0;
+    color: #0c2f5b;
+    font-size: 25px;
+    line-height: 1.3;
+}
+
+/* TEXTO */
+
+.nr10-certificacao-texto {
+    max-width: 650px;
+    margin: 28px 0 0;
+    color: #66768c;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* LISTA */
+
+.nr10-certificacao-lista {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+    margin: 30px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nr10-certificacao-lista li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
+    color: #123d6d;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.nr10-certificacao-lista i {
+    flex-shrink: 0;
+    color: #0ba44b;
+    font-size: 17px;
+}
+
+/* NOTA */
+
+.nr10-certificacao-nota {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-top: 30px;
+    padding: 18px 20px;
+    border-radius: 15px;
+    background: #f1f6fb;
+    border: 1px solid #dfe9f1;
+}
+
+.nr10-certificacao-nota i {
+    flex-shrink: 0;
+    margin-top: 3px;
+    color: #0c5b91;
+}
+
+.nr10-certificacao-nota p {
+    margin: 0;
+    color: #52687b;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* VISUAL DO CERTIFICADO */
+
+.nr10-certificado-visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    padding: 30px;
+    border-radius: 28px;
+    background: linear-gradient(
+        145deg,
+        #edf8f2 0%,
+        #f8fbfa 100%
+    );
+    border: 1px solid #dcebe3;
+}
+
+/* DOCUMENTO */
+
+.nr10-certificado-documento {
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, .12);
+}
+
+.nr10-certificado-documento img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* LEGENDA */
+
+.nr10-certificado-legenda {
+    display: block;
+    padding: 12px 15px;
+    color: #8493a1;
+    background: #ffffff;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+
+/* TABLET */
+
+@media (max-width: 1024px) {
+    .nr10-certificacao {
+        padding: 90px 0;
+    }
+
+    .nr10-certificacao-grid {
+        gap: 45px;
+    }
+
+    .nr10-certificado-visual {
+        padding: 25px;
+    }
+}
+
+/* TABLET MENOR */
+
+@media (max-width: 800px) {
+    .nr10-certificacao {
+        padding: 80px 0;
+    }
+
+    .nr10-certificacao-container {
+        width: min(92%, 700px);
+    }
+
+    .nr10-certificacao-titulo {
+        margin-bottom: 50px;
+    }
+
+    .nr10-certificacao-titulo p {
+        font-size: 17px;
+    }
+
+    .nr10-certificacao-grid {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    .nr10-certificacao-info {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .nr10-certificado-visual {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+    .nr10-certificacao {
+        padding: 65px 0;
+    }
+
+    .nr10-certificacao-container {
+        width: min(92%, 500px);
+    }
+
+    .nr10-certificacao-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr10-certificacao-titulo h2 {
+        font-size: 31px;
+    }
+
+    .nr10-certificacao-titulo p {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .nr10-certificacao-intro {
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .nr10-certificacao-icon {
+        width: 52px;
+        height: 52px;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+
+    .nr10-certificacao-intro h3 {
+        font-size: 21px;
+    }
+
+    .nr10-certificacao-texto {
+        margin-top: 22px;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .nr10-certificacao-lista {
+        grid-template-columns: 1fr;
+        gap: 13px;
+        margin-top: 25px;
+    }
+
+    .nr10-certificacao-nota {
+        margin-top: 25px;
+        padding: 16px;
+    }
+
+    .nr10-certificado-visual {
+        padding: 15px;
+        border-radius: 22px;
+    }
+
+    .nr10-certificado-documento {
+        border-radius: 6px;
+    }
+
+    .nr10-certificado-legenda {
+        padding: 10px;
+        font-size: 9px;
+    }
+}
+
+
+/* =========================================================
+   FOOTER SHAMMAR — NR 10
+========================================================= */
+
+.footer-shammar {
+    position: relative;
+    padding: 70px 24px 0;
+    color: #dce7f0;
+    background: #0b3c66;
+}
+
+.footer-shammar-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ÁREA PRINCIPAL */
+
+.footer-shammar-top {
+    display: grid;
+    grid-template-columns: 1.35fr .8fr .9fr 1.15fr;
+    gap: 42px;
+    padding-bottom: 50px;
+}
+
+.footer-shammar-brand,
+.footer-shammar-links,
+.footer-shammar-contato {
+    min-width: 0;
+}
+
+/* LOGO */
+
+.footer-shammar-brand img {
+    display: block;
+    width: 220px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: left center;
+}
+
+/* DESCRIÇÃO */
+
+.footer-shammar-brand p,
+.footer-shammar-contato p {
+    margin: 22px 0 0;
+    color: #d0dfeb;
+    font-size: .9rem;
+    line-height: 1.85;
+}
+
+/* TÍTULOS */
+
+.footer-shammar h3 {
+    margin: 5px 0 22px;
+    color: #80d9a7;
+    font-size: .95rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+/* LINKS */
+
+.footer-shammar-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.footer-shammar-links h3 {
+    margin-bottom: 8px;
+}
+
+.footer-shammar-links a,
+.footer-shammar-bottom a {
+    color: #dce7f0;
+    font-size: .88rem;
+    line-height: 1.6;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+.footer-shammar-links a:hover,
+.footer-shammar-bottom a:hover {
+    color: #80d9a7;
+}
+
+/* BOTÃO WHATSAPP */
+
+.footer-shammar-whatsapp {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 48px;
+    margin-top: 20px;
+    padding: 0 18px;
+    color: #ffffff;
+    background: #0aa35d;
+    border: 1px solid #0aa35d;
+    border-radius: 9px;
+    font-size: .88rem;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+    text-decoration: none;
+    transition: background .25s ease, transform .25s ease;
+}
+
+.footer-shammar-whatsapp i {
+    color: inherit;
+    font-size: 19px;
+}
+
+.footer-shammar-whatsapp:hover {
+    color: #ffffff;
+    background: #07884d;
+    border-color: #07884d;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+.footer-shammar-whatsapp:focus-visible {
+    outline: 3px solid #80d9a7;
+    outline-offset: 4px;
+}
+
+/* FAIXA INFERIOR */
+
+.footer-shammar-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 23px 0;
+    border-top: 1px solid rgba(255, 255, 255, .15);
+}
+
+.footer-shammar-bottom p {
+    margin: 0;
+    color: #c4d6e5;
+    font-size: .8rem;
+    line-height: 1.7;
+}
+
+.footer-shammar-bottom a {
+    font-size: .8rem;
+}
+
+/* TABLET */
+
+@media (max-width: 1024px) {
+    .footer-shammar-top {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 40px;
+    }
+}
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+    .footer-shammar {
+        padding: 55px 20px 0;
+    }
+
+    .footer-shammar-top {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        padding-bottom: 38px;
+    }
+
+    .footer-shammar-brand img {
+        width: 200px;
+    }
+
+    .footer-shammar-brand p,
+    .footer-shammar-contato p {
+        max-width: 420px;
+    }
+
+    .footer-shammar-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        padding: 20px 0;
+    }
+}
+
+/* CELULARES PEQUENOS */
+
+@media (max-width: 400px) {
+    .footer-shammar {
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+
+    .footer-shammar-whatsapp {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

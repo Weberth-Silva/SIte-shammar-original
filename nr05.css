@@ -2067,3 +2067,212 @@
         transform: none;
     }
 }
+
+
+/* =========================================================
+   FOOTER SHAMMAR — NR 05
+   ========================================================= */
+
+.footer-shammar {
+    position: relative;
+    padding: 70px 24px 0;
+    color: #dce7f0;
+    background: #0b3c66;
+}
+
+.footer-shammar-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ÁREA PRINCIPAL */
+
+.footer-shammar-top {
+    display: grid;
+    grid-template-columns: 1.35fr .8fr .9fr 1.15fr;
+    gap: 42px;
+    padding-bottom: 50px;
+}
+
+.footer-shammar-brand,
+.footer-shammar-links,
+.footer-shammar-contato {
+    min-width: 0;
+}
+
+/* LOGO */
+
+.footer-shammar-brand img {
+    display: block;
+    width: 220px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: left center;
+}
+
+.footer-shammar-brand p,
+.footer-shammar-contato p {
+    margin: 22px 0 0;
+    color: #d0dfeb;
+    font-size: .9rem;
+    line-height: 1.85;
+}
+
+/* TÍTULOS */
+
+.footer-shammar h3 {
+    margin: 5px 0 22px;
+    color: #80d9a7;
+    font-size: .95rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+/* LINKS */
+
+.footer-shammar-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.footer-shammar-links h3 {
+    margin-bottom: 8px;
+}
+
+.footer-shammar-links a,
+.footer-shammar-bottom a {
+    color: #dce7f0;
+    font-size: .88rem;
+    line-height: 1.6;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+.footer-shammar-links a:hover,
+.footer-shammar-bottom a:hover {
+    color: #80d9a7;
+}
+
+/* BOTÃO WHATSAPP */
+
+.footer-shammar-whatsapp {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    min-height: 48px;
+    margin-top: 20px;
+    padding: 0 18px;
+
+    color: #ffffff;
+    background: #0aa35d;
+    border: 1px solid #0aa35d;
+    border-radius: 9px;
+
+    font-size: .88rem;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+    text-decoration: none;
+
+    transition:
+        background .25s ease,
+        transform .25s ease;
+}
+
+.footer-shammar-whatsapp i {
+    color: inherit;
+    font-size: 19px;
+}
+
+.footer-shammar-whatsapp:hover {
+    color: #ffffff;
+    background: #07884d;
+    border-color: #07884d;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+.footer-shammar-whatsapp:focus-visible {
+    outline: 3px solid #80d9a7;
+    outline-offset: 4px;
+}
+
+/* FAIXA INFERIOR */
+
+.footer-shammar-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    padding: 23px 0;
+    border-top: 1px solid rgba(255, 255, 255, .15);
+}
+
+.footer-shammar-bottom p {
+    margin: 0;
+    color: #c4d6e5;
+    font-size: .8rem;
+    line-height: 1.7;
+}
+
+.footer-shammar-bottom a {
+    font-size: .8rem;
+}
+
+/* TABLET */
+
+@media (max-width: 1024px) {
+    .footer-shammar-top {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 40px;
+    }
+}
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+    .footer-shammar {
+        padding: 55px 20px 0;
+    }
+
+    .footer-shammar-top {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        padding-bottom: 38px;
+    }
+
+    .footer-shammar-brand img {
+        width: 200px;
+    }
+
+    .footer-shammar-brand p,
+    .footer-shammar-contato p {
+        max-width: 420px;
+    }
+
+    .footer-shammar-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer-shammar {
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+
+    .footer-shammar-whatsapp {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

@@ -1,0 +1,2522 @@
+/* =========================================================
+   HERO NR 06
+   ========================================================= */
+
+.nr06-hero .hero-nr-content {
+    max-width: 680px;
+}
+
+.nr06-hero .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nr06-hero .hero-nr-content h1 {
+    max-width: 700px;
+}
+
+.nr06-hero .hero-nr-content h1 span {
+    display: block;
+}
+
+.nr06-hero .hero-nr-content > p {
+    max-width: 650px;
+}
+
+.nr06-hero .hero-beneficios {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 28px 0 32px;
+}
+
+.nr06-hero .hero-beneficio {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nr06-hero .hero-beneficio i {
+    width: 22px;
+    color: var(--green);
+    flex: 0 0 auto;
+}
+
+.nr06-hero .hero-beneficio span {
+    color: #34495e;
+    font-size: .98rem;
+    font-weight: 600;
+}
+
+.nr06-hero .hero-nr-image {
+    min-width: 0;
+}
+
+.nr06-hero .hero-image-box {
+    overflow: hidden;
+    border-radius: 24px;
+}
+
+.nr06-hero .hero-image-box img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* =========================================================
+   HERO BASE — NR 06
+   Complemento das regras específicas existentes
+   ========================================================= */
+
+.nr06-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 135px 24px 80px;
+    background: linear-gradient(
+        135deg,
+        #f7faf9 0%,
+        #ffffff 60%,
+        #f1f8f4 100%
+    );
+}
+
+.nr06-hero > .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* BREADCRUMB */
+
+.nr06-hero .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 38px;
+    color: #657687;
+    font-size: 0.88rem;
+}
+
+.nr06-hero .breadcrumb a {
+    color: #0b3c66;
+    text-decoration: none;
+}
+
+.nr06-hero .breadcrumb a:hover {
+    color: #0aa35d;
+}
+
+.nr06-hero .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 38px;
+    color: #64748b;
+    font-size: 1rem;
+}
+
+.nr06-hero .breadcrumb a {
+    color: #334155;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+.nr06-hero .breadcrumb a:hover {
+    color: #0aa35d;
+}
+
+.nr06-hero .breadcrumb > i {
+    color: #111827;
+    font-size: .85rem;
+}
+
+.nr06-hero .breadcrumb [aria-current="page"] {
+    color: #0aa35d;
+    font-weight: 700;
+}
+
+/* GRID PRINCIPAL */
+
+.nr06-hero .hero-nr-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.9fr);
+    align-items: center;
+    gap: 48px;
+}
+
+.nr06-hero .hero-nr-content {
+    min-width: 0;
+}
+
+.nr06-hero .hero-badge {
+    margin-bottom: 22px;
+    padding: 9px 14px;
+    color: #0aa35d;
+    background: rgba(10, 163, 93, 0.09);
+    border: 1px solid rgba(10, 163, 93, 0.16);
+    border-radius: 8px;
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0.07em;
+}
+
+/* TÍTULO E DESCRIÇÃO */
+
+.nr06-hero .hero-nr-content h1 {
+    margin: 0;
+    color: #0b3c66;
+    font-size: clamp(2.5rem, 4.3vw, 3.8rem);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -0.035em;
+}
+
+.nr06-hero .hero-nr-content h1 span {
+    color: #0aa35d;
+}
+
+.nr06-hero .hero-nr-content > p {
+    margin: 24px 0 0;
+    color: #617080;
+    font-size: 1.02rem;
+    line-height: 1.8;
+}
+
+/* BENEFÍCIOS */
+
+.nr06-hero .hero-beneficios {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 28px 0 32px;
+}
+
+.nr06-hero .hero-beneficio {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nr06-hero .hero-beneficio i {
+    width: 22px;
+    color: #0aa35d;
+    flex: 0 0 auto;
+}
+
+.nr06-hero .hero-beneficio span {
+    color: #34495e;
+    font-size: 0.98rem;
+    font-weight: 600;
+}
+
+/* BOTÃO */
+
+.nr06-hero .btn-nr {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 56px;
+    padding: 0 24px;
+    color: #ffffff;
+    background: #0b3c66;
+    border: 1px solid #0b3c66;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.nr06-hero .btn-nr:hover {
+    background: #0aa35d;
+    border-color: #0aa35d;
+    transform: translateY(-2px);
+}
+
+.nr06-hero .btn-nr i {
+    font-size: 1.15rem;
+}
+
+/* IMAGEM */
+
+.nr06-hero .hero-nr-image {
+    min-width: 0;
+    width: 100%;
+}
+
+.nr06-hero .hero-image-box {
+    width: 100%;
+    height: 440px;
+    overflow: hidden;
+    border-radius: 24px;
+    box-shadow: 0 22px 55px rgba(12, 47, 91, 0.13);
+}
+
+.nr06-hero .hero-image-box img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* TABLET */
+
+@media (max-width: 1024px) {
+    .nr06-hero .hero-nr-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 36px;
+    }
+
+    .nr06-hero .hero-nr-content {
+        max-width: 760px;
+    }
+
+    .nr06-hero .hero-nr-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nr06-hero .hero-image-box {
+        width: min(100%, 680px);
+        height: 380px;
+    }
+}
+
+/* CELULAR */
+
+@media (max-width: 768px) {
+    .nr06-hero {
+        padding: 125px 20px 60px;
+    }
+
+    .nr06-hero .breadcrumb {
+        margin-bottom: 28px;
+    }
+
+    .nr06-hero .hero-nr-content h1 {
+        font-size: clamp(2rem, 7vw, 2.8rem);
+    }
+
+    .nr06-hero .hero-image-box {
+        height: 300px;
+        border-radius: 18px;
+    }
+}
+
+@media (max-width: 400px) {
+    .nr06-hero {
+        padding: 120px 14px 48px;
+    }
+
+    .nr06-hero .hero-image-box {
+        height: 240px;
+    }
+
+    .nr06-hero .btn-nr {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
+/* =========================================================
+   NR 06 — SOBRE O TREINAMENTO
+   ========================================================= */
+
+.nr06-sobre {
+    position: relative;
+    padding: 100px 24px;
+    background: #ffffff;
+}
+
+.nr06-sobre-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* CABEÇALHO */
+
+.nr06-sobre-header {
+    max-width: 760px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.nr06-label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+    color: var(--green);
+    font-size: .78rem;
+    font-weight: 800;
+    letter-spacing: .12em;
+}
+
+.nr06-sobre-header h2 {
+    margin: 0;
+    color: var(--blue);
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.12;
+    font-weight: 700;
+}
+
+.nr06-sobre-header h2 strong {
+    display: block;
+    color: var(--green);
+    font-weight: 700;
+}
+
+.nr06-sobre-header p {
+    max-width: 700px;
+    margin: 22px auto 0;
+    color: #617080;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+
+/* GRID */
+
+.nr06-sobre-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+
+/* CARDS */
+
+.nr06-info-card {
+    display: flex;
+    gap: 18px;
+    padding: 28px;
+    background: #ffffff;
+    border: 1px solid #e5ebef;
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(12, 47, 91, .05);
+}
+
+.nr06-info-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 48px;
+
+    border-radius: 13px;
+    background: rgba(10, 163, 93, .09);
+    color: var(--green);
+}
+
+.nr06-info-icon i {
+    font-size: 20px;
+}
+
+.nr06-info-card span {
+    display: block;
+    margin-bottom: 7px;
+    color: var(--green);
+    font-size: .70rem;
+    font-weight: 800;
+    letter-spacing: .1em;
+}
+
+.nr06-info-card h3 {
+    margin: 0 0 8px;
+    color: var(--blue);
+    font-size: 1.08rem;
+    line-height: 1.3;
+}
+
+.nr06-info-card p {
+    margin: 0;
+    color: #687786;
+    font-size: .92rem;
+    line-height: 1.65;
+}
+
+
+/* DESTAQUE */
+
+.nr06-sobre-destaque {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    margin-top: 20px;
+    padding: 30px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f4faf7 0%,
+            #ffffff 100%
+        );
+
+    border: 1px solid #dcebe3;
+    border-radius: 20px;
+}
+
+.nr06-destaque-icon {
+    width: 52px;
+    height: 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex: 0 0 52px;
+
+    border-radius: 14px;
+    background: var(--green);
+    color: #ffffff;
+}
+
+.nr06-destaque-icon i {
+    font-size: 22px;
+}
+
+.nr06-sobre-destaque span {
+    display: block;
+    margin-bottom: 7px;
+    color: var(--green);
+    font-size: .70rem;
+    font-weight: 800;
+    letter-spacing: .1em;
+}
+
+.nr06-sobre-destaque h3 {
+    margin: 0 0 8px;
+    color: var(--blue);
+    font-size: 1.18rem;
+}
+
+.nr06-sobre-destaque p {
+    max-width: 850px;
+    margin: 0;
+    color: #647383;
+    font-size: .94rem;
+    line-height: 1.7;
+}
+
+
+/* CTA */
+
+.nr06-sobre-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+    margin-top: 60px;
+    padding: 34px 38px;
+
+    background: var(--blue);
+    border-radius: 22px;
+}
+
+.nr06-sobre-cta > div {
+    min-width: 0;
+}
+
+.nr06-sobre-cta span {
+    display: block;
+    margin-bottom: 7px;
+    color: #74d39e;
+    font-size: .70rem;
+    font-weight: 800;
+    letter-spacing: .1em;
+}
+
+.nr06-sobre-cta h3 {
+    margin: 0 0 7px;
+    color: #ffffff;
+    font-size: 1.45rem;
+}
+
+.nr06-sobre-cta p {
+    margin: 0;
+    color: rgba(255,255,255,.75);
+    font-size: .92rem;
+}
+
+.nr06-sobre-cta .btn-nr {
+    flex: 0 0 auto;
+}
+
+
+
+
+/* =========================================================
+   NR 06 — CONTEÚDO DO TREINAMENTO
+   ========================================================= */
+
+.nr06-conteudo {
+    position: relative;
+    padding: 100px 24px;
+    overflow: hidden;
+    background: linear-gradient(
+        180deg,
+        #f7faf9 0%,
+        #ffffff 100%
+    );
+}
+
+.nr06-conteudo-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* CABEÇALHO */
+
+.nr06-conteudo-header {
+    max-width: 760px;
+    margin: 0 auto 56px;
+    text-align: center;
+}
+
+.nr06-conteudo-header h2 {
+    margin: 0;
+    color: var(--blue);
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.15;
+    font-weight: 700;
+}
+
+.nr06-conteudo-header h2 strong {
+    display: block;
+    color: var(--green);
+}
+
+.nr06-conteudo-header > p {
+    max-width: 680px;
+    margin: 20px auto 0;
+    color: #617080;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* GRID */
+
+.nr06-conteudo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+}
+
+/* CARDS */
+
+.nr06-conteudo-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 290px;
+    padding: 28px;
+    overflow: hidden;
+
+    background: #ffffff;
+    border: 1px solid #e4ebef;
+    border-radius: 20px;
+    box-shadow: 0 12px 34px rgba(12, 47, 91, .045);
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        border-color .25s ease;
+}
+
+.nr06-conteudo-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(10, 163, 93, .35);
+    box-shadow: 0 18px 40px rgba(12, 47, 91, .09);
+}
+
+.nr06-conteudo-card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.nr06-conteudo-numero {
+    color: #b6c5ce;
+    font-size: .86rem;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+
+.nr06-conteudo-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 52px;
+    height: 52px;
+    flex: 0 0 52px;
+
+    color: var(--green);
+    background: rgba(10, 163, 93, .09);
+    border: 1px solid rgba(10, 163, 93, .08);
+    border-radius: 15px;
+}
+
+.nr06-conteudo-icon i {
+    font-size: 22px;
+}
+
+.nr06-conteudo-card h3 {
+    margin: 0 0 12px;
+    color: var(--blue);
+    font-size: 1.16rem;
+    line-height: 1.35;
+    font-weight: 700;
+}
+
+.nr06-conteudo-card > p {
+    margin: 0 0 22px;
+    color: #687786;
+    font-size: .93rem;
+    line-height: 1.75;
+}
+
+.nr06-conteudo-tag {
+    display: inline-flex;
+    align-items: center;
+    align-self: flex-start;
+    gap: 7px;
+
+    margin-top: auto;
+    padding: 8px 11px;
+
+    color: #087a49;
+    background: #eff8f3;
+    border-radius: 8px;
+
+    font-size: .72rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+/* NOTA */
+
+.nr06-conteudo-nota {
+    display: flex;
+    align-items: flex-start;
+    gap: 13px;
+
+    margin-top: 28px;
+    padding: 20px 24px;
+
+    background: #ffffff;
+    border: 1px solid #e4ebef;
+    border-radius: 14px;
+}
+
+.nr06-conteudo-nota > i {
+    margin-top: 3px;
+    color: var(--green);
+    font-size: 18px;
+    flex: 0 0 auto;
+}
+
+.nr06-conteudo-nota p {
+    margin: 0;
+    color: #617080;
+    font-size: .88rem;
+    line-height: 1.7;
+}
+
+/* TABLET */
+
+@media (max-width: 1024px) {
+    .nr06-conteudo-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+    }
+
+    .nr06-conteudo-card {
+        min-height: 270px;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+    .nr06-conteudo {
+        padding: 80px 20px;
+    }
+
+    .nr06-conteudo-header {
+        margin-bottom: 38px;
+    }
+
+    .nr06-conteudo-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .nr06-conteudo-card {
+        min-height: 0;
+        padding: 24px;
+    }
+
+    .nr06-conteudo-card-top {
+        margin-bottom: 20px;
+    }
+
+    .nr06-conteudo-card > p {
+        margin-bottom: 20px;
+    }
+
+    .nr06-conteudo-nota {
+        padding: 18px;
+    }
+}
+
+/* CELULARES PEQUENOS */
+
+@media (max-width: 400px) {
+    .nr06-conteudo {
+        padding: 65px 14px;
+    }
+
+    .nr06-conteudo-card {
+        padding: 21px;
+        border-radius: 17px;
+    }
+
+    .nr06-conteudo-card h3 {
+        font-size: 1.08rem;
+    }
+
+    .nr06-conteudo-nota {
+        gap: 10px;
+        padding: 16px;
+    }
+}
+
+/* ACESSIBILIDADE */
+
+@media (prefers-reduced-motion: reduce) {
+    .nr06-conteudo-card {
+        transition: none;
+    }
+
+    .nr06-conteudo-card:hover {
+        transform: none;
+    }
+}
+
+
+/* =========================================================
+   NR 06 — COMO FUNCIONA O TREINAMENTO
+   ========================================================= */
+
+.nr06-como-funciona {
+    position: relative;
+    padding: 100px 24px;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.nr06-como-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* CABEÇALHO */
+
+.nr06-como-header {
+    max-width: 760px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.nr06-como-header h2 {
+    margin: 0;
+    color: var(--blue);
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.15;
+    font-weight: 700;
+}
+
+.nr06-como-header h2 strong {
+    display: block;
+    color: var(--green);
+}
+
+.nr06-como-header > p {
+    max-width: 690px;
+    margin: 20px auto 0;
+    color: #617080;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* GRID DE ETAPAS */
+
+.nr06-etapas {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+    align-items: stretch;
+}
+
+/* CARD */
+
+.nr06-etapa {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 25px 23px 27px;
+
+    background: #ffffff;
+    border: 1px solid #e3eaf0;
+    border-radius: 18px;
+    box-shadow: 0 12px 32px rgba(12, 47, 91, .045);
+
+    transition:
+        transform .25s ease,
+        border-color .25s ease,
+        box-shadow .25s ease;
+}
+
+.nr06-etapa:hover {
+    transform: translateY(-5px);
+    border-color: rgba(10, 163, 93, .4);
+    box-shadow: 0 18px 38px rgba(12, 47, 91, .09);
+}
+
+/* TOPO DO CARD */
+
+.nr06-etapa-topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.nr06-etapa-numero {
+    color: #bdcbd4;
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+
+.nr06-etapa-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50px;
+    height: 50px;
+    flex: 0 0 50px;
+
+    color: var(--green);
+    background: #edf8f2;
+    border: 1px solid #e1f0e7;
+    border-radius: 14px;
+}
+
+.nr06-etapa-icon i {
+    font-size: 21px;
+}
+
+/* CONTEÚDO */
+
+.nr06-etapa-label {
+    margin-bottom: 10px;
+    color: var(--green);
+    font-size: .67rem;
+    font-weight: 800;
+    letter-spacing: .09em;
+}
+
+.nr06-etapa h3 {
+    margin: 0 0 12px;
+    color: var(--blue);
+    font-size: 1.08rem;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.nr06-etapa p {
+    margin: 0;
+    color: #687786;
+    font-size: .89rem;
+    line-height: 1.75;
+}
+
+/* DESTAQUE FINAL */
+
+.nr06-como-destaque {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+
+    margin-top: 36px;
+    padding: 34px 36px;
+
+    background: linear-gradient(
+        120deg,
+        #f0f8f4 0%,
+        #f8fbfd 100%
+    );
+
+    border: 1px solid #dcebe3;
+    border-radius: 22px;
+}
+
+.nr06-como-destaque-conteudo {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    min-width: 0;
+}
+
+.nr06-como-destaque-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 54px;
+    height: 54px;
+    flex: 0 0 54px;
+
+    color: #ffffff;
+    background: var(--green);
+    border-radius: 15px;
+}
+
+.nr06-como-destaque-icon i {
+    font-size: 23px;
+}
+
+.nr06-como-destaque-conteudo > div:last-child {
+    min-width: 0;
+}
+
+.nr06-como-destaque-conteudo span {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--green);
+    font-size: .67rem;
+    font-weight: 800;
+    letter-spacing: .07em;
+}
+
+.nr06-como-destaque h3 {
+    margin: 0 0 10px;
+    color: var(--blue);
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+.nr06-como-destaque p {
+    max-width: 690px;
+    margin: 0;
+    color: #617080;
+    font-size: .91rem;
+    line-height: 1.75;
+}
+
+.nr06-como-destaque .btn-nr {
+    flex: 0 0 auto;
+}
+
+/* TABLET */
+
+@media (max-width: 1024px) {
+    .nr06-etapas {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .nr06-etapa {
+        padding: 27px;
+    }
+
+    .nr06-como-destaque {
+        align-items: flex-start;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+    .nr06-como-funciona {
+        padding: 80px 20px;
+    }
+
+    .nr06-como-header {
+        margin-bottom: 40px;
+    }
+
+    .nr06-etapas {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .nr06-etapa {
+        padding: 24px;
+    }
+
+    .nr06-etapa-topo {
+        margin-bottom: 20px;
+    }
+
+    .nr06-como-destaque {
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 26px;
+        padding: 27px;
+    }
+
+    .nr06-como-destaque .btn-nr {
+        align-self: flex-start;
+    }
+}
+
+/* CELULARES PEQUENOS */
+
+@media (max-width: 400px) {
+    .nr06-como-funciona {
+        padding: 65px 14px;
+    }
+
+    .nr06-etapa {
+        padding: 21px;
+        border-radius: 16px;
+    }
+
+    .nr06-etapa h3 {
+        font-size: 1.03rem;
+    }
+
+    .nr06-como-destaque {
+        padding: 22px;
+        border-radius: 18px;
+    }
+
+    .nr06-como-destaque-conteudo {
+        gap: 14px;
+    }
+
+    .nr06-como-destaque-icon {
+        width: 45px;
+        height: 45px;
+        flex-basis: 45px;
+        border-radius: 12px;
+    }
+
+    .nr06-como-destaque h3 {
+        font-size: 1.12rem;
+    }
+
+    .nr06-como-destaque-conteudo span {
+        font-size: .61rem;
+        line-height: 1.6;
+    }
+
+    .nr06-como-destaque .btn-nr {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* ACESSIBILIDADE */
+
+@media (prefers-reduced-motion: reduce) {
+    .nr06-etapa {
+        transition: none;
+    }
+
+    .nr06-etapa:hover {
+        transform: none;
+    }
+}
+
+
+/* =========================================================
+   NR 06 — LEGISLAÇÃO E CONFORMIDADE
+   ========================================================= */
+
+.nr06-legislacao {
+    position: relative;
+    padding: 100px 24px;
+    overflow: hidden;
+    background: #f7faf9;
+}
+
+.nr06-legislacao-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* CABEÇALHO */
+
+.nr06-legislacao-header {
+    max-width: 780px;
+    margin: 0 auto 56px;
+    text-align: center;
+}
+
+.nr06-legislacao-header h2 {
+    margin: 0;
+    color: var(--blue);
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.15;
+    font-weight: 700;
+}
+
+.nr06-legislacao-header h2 strong {
+    display: block;
+    color: var(--green);
+}
+
+.nr06-legislacao-header > p {
+    max-width: 700px;
+    margin: 20px auto 0;
+    color: #617080;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* GRID */
+
+.nr06-legislacao-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+    align-items: stretch;
+}
+
+/* CARDS */
+
+.nr06-lei-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 28px;
+
+    background: #ffffff;
+    border: 1px solid #e2eaf0;
+    border-radius: 20px;
+    box-shadow: 0 12px 34px rgba(12, 47, 91, .045);
+
+    transition:
+        transform .25s ease,
+        border-color .25s ease,
+        box-shadow .25s ease;
+}
+
+.nr06-lei-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(10, 163, 93, .4);
+    box-shadow: 0 18px 40px rgba(12, 47, 91, .09);
+}
+
+.nr06-lei-card-topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.nr06-lei-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 54px;
+    height: 54px;
+    flex: 0 0 54px;
+
+    color: var(--green);
+    background: #edf8f2;
+    border: 1px solid #e1f0e7;
+    border-radius: 15px;
+}
+
+.nr06-lei-icon i {
+    font-size: 22px;
+}
+
+.nr06-lei-numero {
+    color: #bdcbd4;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+
+.nr06-lei-tag {
+    display: block;
+    margin-bottom: 11px;
+    color: var(--green);
+    font-size: .66rem;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: .08em;
+}
+
+.nr06-lei-card h3 {
+    margin: 0 0 13px;
+    color: var(--blue);
+    font-size: 1.15rem;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.nr06-lei-card > p {
+    margin: 0 0 25px;
+    color: #687786;
+    font-size: .91rem;
+    line-height: 1.75;
+}
+
+/* LINKS */
+
+.nr06-lei-link {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 9px;
+
+    margin-top: auto;
+    padding-top: 17px;
+
+    color: var(--green);
+    border-top: 1px solid #edf1f4;
+
+    font-size: .83rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.nr06-lei-link i {
+    margin-top: 3px;
+    flex: 0 0 auto;
+    font-size: .75rem;
+}
+
+.nr06-lei-link:hover {
+    color: var(--blue);
+}
+
+.nr06-lei-link:focus-visible {
+    outline: 2px solid var(--green);
+    outline-offset: 4px;
+    border-radius: 3px;
+}
+
+/* NOTA INFORMATIVA */
+
+.nr06-legislacao-nota {
+    display: flex;
+    align-items: flex-start;
+    gap: 17px;
+
+    margin-top: 28px;
+    padding: 26px 28px;
+
+    background: #ffffff;
+    border: 1px solid #e2eaf0;
+    border-left: 4px solid var(--green);
+    border-radius: 15px;
+}
+
+.nr06-legislacao-nota-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 42px;
+    height: 42px;
+    flex: 0 0 42px;
+
+    color: var(--green);
+    background: #edf8f2;
+    border-radius: 12px;
+}
+
+.nr06-legislacao-nota-icon i {
+    font-size: 19px;
+}
+
+.nr06-legislacao-nota-texto h3 {
+    margin: 0 0 8px;
+    color: var(--blue);
+    font-size: 1.08rem;
+    line-height: 1.4;
+}
+
+.nr06-legislacao-nota-texto p {
+    margin: 0;
+    color: #617080;
+    font-size: .91rem;
+    line-height: 1.75;
+}
+
+/* CTA */
+
+.nr06-legislacao-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+    margin-top: 38px;
+    padding: 34px 36px;
+
+    background: var(--blue);
+    border-radius: 22px;
+}
+
+.nr06-legislacao-cta-texto {
+    min-width: 0;
+}
+
+.nr06-legislacao-cta-texto > span {
+    display: block;
+    margin-bottom: 9px;
+    color: #82d9a8;
+    font-size: .68rem;
+    font-weight: 800;
+    line-height: 1.6;
+    letter-spacing: .07em;
+}
+
+.nr06-legislacao-cta h3 {
+    margin: 0 0 9px;
+    color: #ffffff;
+    font-size: 1.35rem;
+    line-height: 1.4;
+}
+
+.nr06-legislacao-cta p {
+    max-width: 650px;
+    margin: 0;
+    color: rgba(255, 255, 255, .78);
+    font-size: .91rem;
+    line-height: 1.7;
+}
+
+.nr06-legislacao-cta .btn-nr {
+    flex: 0 0 auto;
+}
+
+/* RODAPÉ DA SEÇÃO */
+
+.nr06-legislacao-rodape {
+    margin: 22px auto 0;
+    color: #84919d;
+    font-size: .78rem;
+    line-height: 1.7;
+    text-align: center;
+}
+
+/* TABLET */
+
+@media (max-width: 1024px) {
+    .nr06-legislacao-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+    }
+
+    .nr06-lei-card:last-child {
+        grid-column: 1 / -1;
+    }
+
+    .nr06-legislacao-cta {
+        align-items: flex-start;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+    .nr06-legislacao {
+        padding: 80px 20px;
+    }
+
+    .nr06-legislacao-header {
+        margin-bottom: 40px;
+    }
+
+    .nr06-legislacao-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .nr06-lei-card:last-child {
+        grid-column: auto;
+    }
+
+    .nr06-lei-card {
+        padding: 25px;
+    }
+
+    .nr06-legislacao-nota {
+        padding: 22px;
+    }
+
+    .nr06-legislacao-cta {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        padding: 29px;
+    }
+}
+
+/* CELULARES PEQUENOS */
+
+@media (max-width: 400px) {
+    .nr06-legislacao {
+        padding: 65px 14px;
+    }
+
+    .nr06-lei-card {
+        padding: 21px;
+        border-radius: 17px;
+    }
+
+    .nr06-lei-card h3 {
+        font-size: 1.08rem;
+    }
+
+    .nr06-legislacao-nota {
+        gap: 12px;
+        padding: 18px;
+    }
+
+    .nr06-legislacao-cta {
+        padding: 23px;
+        border-radius: 18px;
+    }
+
+    .nr06-legislacao-cta h3 {
+        font-size: 1.18rem;
+    }
+
+    .nr06-legislacao-cta .btn-nr {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* ACESSIBILIDADE */
+
+@media (prefers-reduced-motion: reduce) {
+    .nr06-lei-card {
+        transition: none;
+    }
+
+    .nr06-lei-card:hover {
+        transform: none;
+    }
+}
+
+
+/* =========================================================
+   NR 06 — CERTIFICAÇÃO
+   ========================================================= */
+
+.nr06-certificacao {
+    position: relative;
+    padding: 100px 24px;
+    background: #ffffff;
+}
+
+.nr06-certificacao-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* CABEÇALHO */
+
+.nr06-certificacao-titulo {
+    max-width: 780px;
+    margin: 0 auto 58px;
+    text-align: center;
+}
+
+.nr06-certificacao-titulo h2 {
+    margin: 0;
+    color: var(--blue);
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.15;
+    font-weight: 700;
+}
+
+.nr06-certificacao-titulo h2 strong {
+    display: block;
+    color: var(--green);
+}
+
+.nr06-certificacao-titulo > p {
+    max-width: 700px;
+    margin: 20px auto 0;
+    color: #617080;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* GRID PRINCIPAL */
+
+.nr06-certificacao-grid {
+    display: grid;
+    grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+    align-items: center;
+    gap: 52px;
+}
+
+/* INFORMAÇÕES */
+
+.nr06-certificacao-info {
+    min-width: 0;
+}
+
+.nr06-certificacao-intro {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 25px;
+}
+
+.nr06-certificacao-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 54px;
+    height: 54px;
+    flex: 0 0 54px;
+
+    color: var(--green);
+    background: #edf8f2;
+    border: 1px solid #e1f0e7;
+    border-radius: 15px;
+}
+
+.nr06-certificacao-icon i {
+    font-size: 23px;
+}
+
+.nr06-certificacao-intro span {
+    display: block;
+    margin-bottom: 6px;
+    color: var(--green);
+    font-size: .68rem;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+
+.nr06-certificacao-intro h3 {
+    margin: 0;
+    color: var(--blue);
+    font-size: 1.35rem;
+    line-height: 1.4;
+}
+
+.nr06-certificacao-texto {
+    margin: 0 0 25px;
+    color: #617080;
+    font-size: .96rem;
+    line-height: 1.85;
+}
+
+/* LISTA */
+
+.nr06-certificacao-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nr06-certificacao-lista li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    color: #34495e;
+    font-size: .93rem;
+    line-height: 1.65;
+}
+
+.nr06-certificacao-lista li i {
+    margin-top: 4px;
+    color: var(--green);
+    font-size: 16px;
+    flex: 0 0 auto;
+}
+
+/* NOTA INFORMATIVA */
+
+.nr06-certificacao-nota {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+
+    margin-top: 30px;
+    padding: 19px;
+
+    background: #f5faf7;
+    border: 1px solid #dfeee5;
+    border-radius: 14px;
+}
+
+.nr06-certificacao-nota > i {
+    margin-top: 3px;
+    color: var(--green);
+    font-size: 17px;
+    flex: 0 0 auto;
+}
+
+.nr06-certificacao-nota p {
+    margin: 0;
+    color: #526777;
+    font-size: .85rem;
+    line-height: 1.75;
+}
+
+/* DOCUMENTO */
+
+.nr06-certificado-visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    padding: 24px;
+
+    background: #f5f7f9;
+    border: 1px solid #e2e8ed;
+    border-radius: 24px;
+    box-shadow: 0 18px 45px rgba(12, 47, 91, .06);
+}
+
+.nr06-certificado-documento {
+    width: 100%;
+    max-width: 620px;
+    min-width: 0;
+    text-align: center;
+}
+
+.nr06-certificado-documento img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    border-radius: 3px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, .16);
+}
+
+.nr06-certificado-legenda {
+    display: block;
+    margin-top: 14px;
+    color: #7a8896;
+    font-size: .68rem;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+}
+
+/* TABLET */
+
+@media (max-width: 1024px) {
+    .nr06-certificacao-grid {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 30px;
+    }
+
+    .nr06-certificado-visual {
+        padding: 18px;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+    .nr06-certificacao {
+        padding: 80px 20px;
+    }
+
+    .nr06-certificacao-titulo {
+        margin-bottom: 40px;
+    }
+
+    .nr06-certificacao-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .nr06-certificacao-info {
+        order: 1;
+    }
+
+    .nr06-certificado-visual {
+        order: 2;
+        padding: 16px;
+        border-radius: 20px;
+    }
+
+    .nr06-certificado-documento {
+        max-width: 100%;
+    }
+
+    .nr06-certificado-legenda {
+        font-size: .63rem;
+    }
+}
+
+/* CELULARES PEQUENOS */
+
+@media (max-width: 400px) {
+    .nr06-certificacao {
+        padding: 65px 14px;
+    }
+
+    .nr06-certificacao-intro {
+        gap: 12px;
+    }
+
+    .nr06-certificacao-icon {
+        width: 46px;
+        height: 46px;
+        flex-basis: 46px;
+    }
+
+    .nr06-certificacao-intro h3 {
+        font-size: 1.15rem;
+    }
+
+    .nr06-certificacao-nota {
+        padding: 15px;
+    }
+
+    .nr06-certificado-visual {
+        padding: 12px;
+        border-radius: 18px;
+    }
+
+    .nr06-certificado-legenda {
+        margin-top: 10px;
+        font-size: .57rem;
+    }
+}
+
+
+/* =========================================================
+   NR 06 — CTA FINAL
+   ========================================================= */
+
+.nr06-cta-final {
+    position: relative;
+    overflow: hidden;
+    padding: 85px 24px;
+    background: #0b3c66;
+}
+
+.nr06-cta-final-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(260px, .75fr);
+    align-items: center;
+    gap: 50px;
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nr06-cta-final-conteudo {
+    position: relative;
+    z-index: 1;
+    min-width: 0;
+}
+
+.nr06-cta-final-label {
+    display: inline-block;
+    margin-bottom: 18px;
+    color: #80d9a7;
+    font-size: .72rem;
+    font-weight: 800;
+    letter-spacing: .09em;
+    line-height: 1.7;
+}
+
+.nr06-cta-final h2 {
+    max-width: 700px;
+    margin: 0;
+    color: #ffffff;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.nr06-cta-final h2 strong {
+    display: block;
+    color: #80d9a7;
+}
+
+.nr06-cta-final-conteudo > p {
+    max-width: 650px;
+    margin: 22px 0 25px;
+    color: #dce7f0;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* BENEFÍCIOS */
+
+.nr06-cta-final-beneficios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 20px;
+    margin-bottom: 30px;
+}
+
+.nr06-cta-final-beneficios span {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #ffffff;
+    font-size: .84rem;
+    line-height: 1.6;
+}
+
+.nr06-cta-final-beneficios i {
+    color: #80d9a7;
+    font-size: 15px;
+}
+
+/* BOTÃO */
+
+.nr06-cta-final-botao {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+
+    min-height: 58px;
+    padding: 0 25px;
+
+    color: #ffffff;
+    background: #0aa35d;
+    border: 1px solid #0aa35d;
+    border-radius: 11px;
+
+    font-size: .95rem;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+    text-decoration: none;
+
+    transition:
+        background .25s ease,
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+.nr06-cta-final-botao i {
+    font-size: 22px;
+    flex: 0 0 auto;
+}
+
+.nr06-cta-final-botao:hover {
+    background: #07884d;
+    border-color: #07884d;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .16);
+}
+
+.nr06-cta-final-botao:focus-visible {
+    outline: 3px solid #80d9a7;
+    outline-offset: 4px;
+}
+
+.nr06-cta-final-nota {
+    display: block;
+    margin-top: 15px;
+    color: #c4d6e5;
+    font-size: .78rem;
+    line-height: 1.6;
+}
+
+/* ELEMENTO VISUAL */
+
+.nr06-cta-final-visual {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 340px;
+}
+
+.nr06-cta-final-circulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 250px;
+    height: 250px;
+
+    color: #80d9a7;
+    background: rgba(255, 255, 255, .055);
+    border: 1px solid rgba(128, 217, 167, .35);
+    border-radius: 50%;
+
+    box-shadow:
+        0 0 0 24px rgba(255, 255, 255, .025),
+        0 0 0 48px rgba(255, 255, 255, .018);
+}
+
+.nr06-cta-final-circulo i {
+    font-size: 112px;
+}
+
+.nr06-cta-final-selo {
+    position: absolute;
+    right: 0;
+    bottom: 22px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+
+    padding: 18px 22px;
+
+    color: #0b3c66;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
+}
+
+.nr06-cta-final-selo > i {
+    margin-bottom: 5px;
+    color: #0aa35d;
+    font-size: 23px;
+}
+
+.nr06-cta-final-selo span {
+    font-size: .65rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+}
+
+.nr06-cta-final-selo strong {
+    font-size: .88rem;
+}
+
+/* TABLET */
+
+@media (max-width: 1024px) {
+    .nr06-cta-final-container {
+        grid-template-columns: minmax(0, 1fr) 280px;
+        gap: 30px;
+    }
+
+    .nr06-cta-final-visual {
+        min-height: 290px;
+    }
+
+    .nr06-cta-final-circulo {
+        width: 210px;
+        height: 210px;
+    }
+
+    .nr06-cta-final-circulo i {
+        font-size: 90px;
+    }
+
+    .nr06-cta-final-selo {
+        right: -5px;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+    .nr06-cta-final {
+        padding: 70px 20px;
+    }
+
+    .nr06-cta-final-container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .nr06-cta-final-visual {
+        min-height: 230px;
+        grid-row: 1;
+    }
+
+    .nr06-cta-final-circulo {
+        width: 175px;
+        height: 175px;
+    }
+
+    .nr06-cta-final-circulo i {
+        font-size: 76px;
+    }
+
+    .nr06-cta-final-selo {
+        right: max(0px, calc(50% - 145px));
+        bottom: 0;
+        padding: 13px 16px;
+    }
+
+    .nr06-cta-final-beneficios {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nr06-cta-final-botao {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+/* CELULARES PEQUENOS */
+
+@media (max-width: 400px) {
+    .nr06-cta-final {
+        padding: 55px 14px;
+    }
+
+    .nr06-cta-final-visual {
+        min-height: 205px;
+    }
+
+    .nr06-cta-final-circulo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .nr06-cta-final-circulo i {
+        font-size: 65px;
+    }
+
+    .nr06-cta-final-selo {
+        right: 0;
+        padding: 11px 13px;
+    }
+
+    .nr06-cta-final-selo strong {
+        font-size: .78rem;
+    }
+
+    .nr06-cta-final h2 {
+        font-size: 2rem;
+    }
+
+    .nr06-cta-final-botao {
+        padding: 13px 15px;
+        font-size: .88rem;
+    }
+}
+
+/* ACESSIBILIDADE */
+
+@media (prefers-reduced-motion: reduce) {
+    .nr06-cta-final-botao {
+        transition: none;
+    }
+
+    .nr06-cta-final-botao:hover {
+        transform: none;
+    }
+}
+
+
+
+/* =========================================================
+   SHAMMAR — PADRONIZAÇÃO VISUAL DA PÁGINA NR 06
+   Paleta: azul-marinho, verde e verde-claro
+   ========================================================= */
+
+:root {
+    --nr06-blue: #0b3c66;
+    --nr06-green: #0aa35d;
+    --nr06-green-light: #eaf7f0;
+    --nr06-green-border: #d7ecdf;
+    --nr06-text: #617080;
+}
+
+/* ---------------------------------------------------------
+   1. HERO
+   --------------------------------------------------------- */
+
+.nr06-hero .breadcrumb [aria-current="page"],
+.nr06-hero .hero-badge,
+.nr06-hero .hero-beneficio i {
+    color: var(--nr06-green);
+}
+
+.nr06-hero .hero-nr-content h1 {
+    color: var(--nr06-blue);
+}
+
+.nr06-hero .hero-nr-content h1 span {
+    color: var(--nr06-green);
+}
+
+/* ---------------------------------------------------------
+   2. CABEÇALHOS DAS SEÇÕES
+   --------------------------------------------------------- */
+
+.nr06-sobre h2,
+.nr06-conteudo h2,
+.nr06-como-funciona h2,
+.nr06-legislacao h2,
+.nr06-certificacao-titulo h2 {
+    color: var(--nr06-blue);
+}
+
+/* Palavras destacadas em verde */
+
+.nr06-sobre h2 strong,
+.nr06-conteudo h2 strong,
+.nr06-como-funciona h2 strong,
+.nr06-legislacao h2 strong,
+.nr06-certificacao-titulo h2 strong {
+    color: var(--nr06-green);
+}
+
+/* Etiquetas superiores */
+
+.nr06-sobre .nr06-label,
+.nr06-conteudo .nr06-label,
+.nr06-como-funciona .nr06-label,
+.nr06-legislacao .nr06-label,
+.nr06-certificacao .nr06-label {
+    color: var(--nr06-green);
+    background: var(--nr06-green-light);
+}
+
+/* Textos introdutórios */
+
+.nr06-sobre header > p,
+.nr06-conteudo header > p,
+.nr06-como-funciona header > p,
+.nr06-legislacao-header > p,
+.nr06-certificacao-titulo > p {
+    color: var(--nr06-text);
+}
+
+/* ---------------------------------------------------------
+   3. SEÇÃO SOBRE O TREINAMENTO
+   --------------------------------------------------------- */
+
+.nr06-sobre .nr06-sobre-card h3,
+.nr06-sobre .nr06-info-card h3,
+.nr06-sobre .nr06-card h3 {
+    color: var(--nr06-blue);
+}
+
+.nr06-sobre .nr06-sobre-card > p,
+.nr06-sobre .nr06-info-card > p,
+.nr06-sobre .nr06-card > p {
+    color: var(--nr06-text);
+}
+
+/* Ícones dos cards */
+
+.nr06-sobre .nr06-sobre-icon,
+.nr06-sobre .nr06-info-icon,
+.nr06-sobre .nr06-card-icon {
+    color: var(--nr06-green);
+    background: var(--nr06-green-light);
+    border-color: var(--nr06-green-border);
+}
+
+/* ---------------------------------------------------------
+   4. CONTEÚDO DO TREINAMENTO
+   --------------------------------------------------------- */
+
+.nr06-conteudo h3 {
+    color: var(--nr06-blue);
+}
+
+.nr06-conteudo p {
+    color: var(--nr06-text);
+}
+
+.nr06-conteudo .nr06-conteudo-icon,
+.nr06-conteudo .nr06-card-icon,
+.nr06-conteudo .nr06-icon {
+    color: var(--nr06-green);
+    background: var(--nr06-green-light);
+    border-color: var(--nr06-green-border);
+}
+
+.nr06-conteudo .nr06-conteudo-numero,
+.nr06-conteudo .nr06-numero {
+    color: #b5c7d3;
+}
+
+.nr06-conteudo .nr06-conteudo-tag,
+.nr06-conteudo .nr06-tag {
+    color: #087d49;
+    background: var(--nr06-green-light);
+}
+
+/* ---------------------------------------------------------
+   5. COMO FUNCIONA
+   --------------------------------------------------------- */
+
+.nr06-como-funciona h3 {
+    color: var(--nr06-blue);
+}
+
+.nr06-como-funciona p {
+    color: var(--nr06-text);
+}
+
+.nr06-como-funciona .nr06-etapa-icon,
+.nr06-como-funciona .nr06-como-icon,
+.nr06-como-funciona .nr06-card-icon {
+    color: var(--nr06-green);
+    background: var(--nr06-green-light);
+    border-color: var(--nr06-green-border);
+}
+
+.nr06-como-funciona .nr06-etapa-numero,
+.nr06-como-funciona .nr06-numero {
+    color: #b5c7d3;
+}
+
+.nr06-como-funciona .nr06-etapa-label,
+.nr06-como-funciona .nr06-tag {
+    color: #087d49;
+}
+
+/* Painel informativo da seção */
+
+.nr06-como-funciona .nr06-como-cta,
+.nr06-como-funciona .nr06-etapa-destaque {
+    background: #f4faf7;
+    border-color: var(--nr06-green-border);
+}
+
+.nr06-como-funciona .nr06-como-cta h3,
+.nr06-como-funciona .nr06-etapa-destaque h3 {
+    color: var(--nr06-blue);
+}
+
+/* ---------------------------------------------------------
+   6. LEGISLAÇÃO E CONFORMIDADE
+   --------------------------------------------------------- */
+
+.nr06-legislacao .nr06-lei-card h3 {
+    color: var(--nr06-blue);
+}
+
+.nr06-legislacao .nr06-lei-card p {
+    color: var(--nr06-text);
+}
+
+.nr06-legislacao .nr06-lei-icon {
+    color: var(--nr06-green);
+    background: var(--nr06-green-light);
+    border-color: var(--nr06-green-border);
+}
+
+.nr06-legislacao .nr06-lei-tag,
+.nr06-legislacao .nr06-lei-link {
+    color: #087d49;
+}
+
+.nr06-legislacao .nr06-lei-numero {
+    color: #b5c7d3;
+}
+
+.nr06-legislacao .nr06-legislacao-nota {
+    border-left-color: var(--nr06-green);
+}
+
+.nr06-legislacao .nr06-legislacao-nota-icon {
+    color: var(--nr06-green);
+    background: var(--nr06-green-light);
+}
+
+.nr06-legislacao .nr06-legislacao-nota-texto h3 {
+    color: var(--nr06-blue);
+}
+
+/* ---------------------------------------------------------
+   7. CERTIFICAÇÃO
+   --------------------------------------------------------- */
+
+.nr06-certificacao .nr06-certificacao-intro h3 {
+    color: var(--nr06-blue);
+}
+
+.nr06-certificacao .nr06-certificacao-intro span {
+    color: var(--nr06-green);
+}
+
+.nr06-certificacao .nr06-certificacao-icon {
+    color: var(--nr06-green);
+    background: var(--nr06-green-light);
+    border-color: var(--nr06-green-border);
+}
+
+.nr06-certificacao .nr06-certificacao-texto,
+.nr06-certificacao .nr06-certificacao-lista li,
+.nr06-certificacao .nr06-certificacao-nota p {
+    color: var(--nr06-text);
+}
+
+.nr06-certificacao .nr06-certificacao-lista li i,
+.nr06-certificacao .nr06-certificacao-nota > i {
+    color: var(--nr06-green);
+}
+
+.nr06-certificacao .nr06-certificacao-nota {
+    background: #f4faf7;
+    border-color: var(--nr06-green-border);
+}
+
+/* ---------------------------------------------------------
+   8. CTA FINAL
+   Preserva o fundo azul e os textos brancos.
+   --------------------------------------------------------- */
+
+.nr06-cta-final {
+    background: var(--nr06-blue);
+}
+
+.nr06-cta-final h2 strong,
+.nr06-cta-final .nr06-cta-final-label {
+    color: #80d9a7;
+}
+
+.nr06-cta-final .nr06-cta-final-botao {
+    color: #ffffff;
+    background: var(--nr06-green);
+    border-color: var(--nr06-green);
+}
+
+.nr06-cta-final .nr06-cta-final-botao:hover {
+    background: #07884d;
+    border-color: #07884d;
+}
+
+/* ---------------------------------------------------------
+   9. ÍCONES DOS CARDS — PADRÃO SHAMMAR
+   --------------------------------------------------------- */
+
+.nr06-sobre .nr06-sobre-card i,
+.nr06-sobre .nr06-info-card i,
+.nr06-sobre .nr06-card i,
+.nr06-conteudo .nr06-conteudo-card i,
+.nr06-conteudo .nr06-card i,
+.nr06-como-funciona .nr06-etapa-card i,
+.nr06-como-funciona .nr06-card i {
+    color: var(--nr06-green);
+}
+
+
+
+/* =========================================================
+   NR 06 — BOTÕES SOLICITAR ORÇAMENTO
+   ========================================================= */
+
+.nr06-hero a.btn-nr,
+.nr06-sobre-cta a.btn-nr,
+.nr06-como-destaque a.btn-nr,
+.nr06-legislacao-cta a.btn-nr {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    min-height: 50px;
+    padding: 0 24px;
+
+    background: #0b3c66;
+    color: #ffffff;
+    border: 1px solid #0b3c66;
+    border-radius: 10px;
+
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-decoration: none;
+
+    cursor: pointer;
+    box-sizing: border-box;
+
+    transition:
+        background-color .25s ease,
+        border-color .25s ease,
+        transform .25s ease;
+}
+
+/* Ícone do WhatsApp */
+.nr06-hero a.btn-nr i,
+.nr06-sobre-cta a.btn-nr i,
+.nr06-como-destaque a.btn-nr i,
+.nr06-legislacao-cta a.btn-nr i {
+    color: inherit;
+    font-size: 18px;
+}
+
+/* Efeito ao passar o mouse */
+.nr06-hero a.btn-nr:hover,
+.nr06-sobre-cta a.btn-nr:hover,
+.nr06-como-destaque a.btn-nr:hover,
+.nr06-legislacao-cta a.btn-nr:hover {
+    background: #0aa35d;
+    color: #ffffff;
+    border-color: #0aa35d;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+/* Evita o estilo azul padrão nos estados do link */
+.nr06-hero a.btn-nr:visited,
+.nr06-sobre-cta a.btn-nr:visited,
+.nr06-como-destaque a.btn-nr:visited,
+.nr06-legislacao-cta a.btn-nr:visited {
+    color: #ffffff;
+}
+
+/* Acessibilidade */
+.nr06-hero a.btn-nr:focus-visible,
+.nr06-sobre-cta a.btn-nr:focus-visible,
+.nr06-como-destaque a.btn-nr:focus-visible,
+.nr06-legislacao-cta a.btn-nr:focus-visible {
+    outline: 3px solid #80d9a7;
+    outline-offset: 3px;
+}
+
+/* NR 06 — Legislação: corrigir contraste do título CTA */
+
+.nr06-legislacao-cta .nr06-legislacao-cta-texto h3 {
+    color: #0b3c66;
+}
