@@ -83,23 +83,26 @@ img {
 
 /* ESTRUTURA DA NAVBAR - CONTAINER */
 
+
 .navbar-inner {
-  width: 100%;
-  max-width: 1480px;
-  margin: 0 auto;
-  display: grid;
-  /*
-      Logo | Menu | WhatsApp | Orçamento
-    */
-  grid-template-columns: 
-    260px
-    minmax(0, 1fr)
-    52px
-    220px;
-  align-items: center;
-  gap: 18px;
-  min-width: 0;
+    width: 100%;
+    max-width: 1480px;
+    margin: 0 auto;
+
+    display: grid;
+
+    /* Logo | Menu | Instagram | WhatsApp */
+    grid-template-columns:
+        260px
+        minmax(0, 1fr)
+        52px
+        52px;
+
+    align-items: center;
+    gap: 18px;
+    min-width: 0;
 }
+
 
 
 section[id] {
@@ -2469,6 +2472,152 @@ h2::first-letter {
     .footer-shammar {
         padding-right: 16px;
         padding-left: 16px;
+    }
+
+}
+
+
+/* =========================================
+   CORREÇÃO FINAL — BOTÕES DA NAVBAR
+========================================= */
+
+/* ORGANIZAÇÃO DA NAVBAR */
+
+.navbar-inner {
+    display: grid !important;
+
+    grid-template-columns:
+        260px
+        minmax(0, 1fr)
+        52px
+        52px !important;
+
+    align-items: center !important;
+    gap: 18px !important;
+}
+
+/* INSTAGRAM */
+
+.navbar-inner .instagram-icon {
+    width: 52px !important;
+    height: 52px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    color: #0d8653 !important;
+    background: #ffffff !important;
+
+    border-radius: 10px !important;
+    box-shadow: var(--shadow) !important;
+
+    text-decoration: none !important;
+    flex-shrink: 0 !important;
+
+    transition: .25s ease;
+}
+
+.navbar-inner .instagram-icon i {
+    display: block !important;
+    font-size: 25px !important;
+    line-height: 1 !important;
+}
+
+.navbar-inner .instagram-icon:hover {
+    color: #ffffff !important;
+    background: #0d8653 !important;
+    transform: translateY(-2px);
+}
+
+/* WHATSAPP */
+
+.navbar-inner .nav-quote {
+    width: 52px !important;
+    height: 52px !important;
+    min-height: 52px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    color: #ffffff !important;
+    background: #0d8653 !important;
+
+    border: none !important;
+    border-radius: 10px !important;
+
+    box-shadow: 0 10px 24px rgba(8, 102, 63, .22);
+
+    text-decoration: none !important;
+    flex-shrink: 0 !important;
+
+    transition: .25s ease;
+}
+
+.navbar-inner .nav-quote i {
+    display: block !important;
+    font-size: 26px !important;
+    line-height: 1 !important;
+}
+
+.navbar-inner .nav-quote:hover {
+    color: #ffffff !important;
+    background: #08663f !important;
+    transform: translateY(-2px);
+}
+
+/* TABLET */
+
+@media (max-width: 1180px) {
+
+    .navbar-inner {
+        grid-template-columns:
+            220px
+            minmax(0, 1fr)
+            52px
+            52px !important;
+    }
+
+    .navbar-inner .nav-quote,
+    .navbar-inner .instagram-icon {
+        display: flex !important;
+    }
+
+}
+
+/* CELULAR */
+
+@media (max-width: 650px) {
+
+    .navbar-inner {
+        grid-template-columns:
+            minmax(130px, 1fr)
+            44px
+            44px !important;
+
+        gap: 10px !important;
+    }
+
+    .navbar-inner .brand {
+        grid-column: 1;
+    }
+
+    .navbar-inner .nav-links {
+        grid-column: 1 / -1;
+        grid-row: 2;
+    }
+
+    .navbar-inner .instagram-icon,
+    .navbar-inner .nav-quote {
+        width: 44px !important;
+        height: 44px !important;
     }
 
 }
