@@ -1187,312 +1187,6 @@
 }
 
 
-/* =========================================
-   PARTE 04 — LEGISLAÇÃO E NORMAS NR10
-========================================= */
-
-.nr10-legislacao {
-    width: 100%;
-    padding: 100px 24px;
-    background: #ffffff;
-    font-family: "Times New Roman", serif;
-}
-
-.nr10-legislacao-container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* CABEÇALHO */
-
-.nr10-legislacao-titulo {
-    max-width: 800px;
-    margin: 0 auto 60px;
-    text-align: center;
-}
-
-.nr10-legislacao-titulo .nr10-label {
-    display: inline-block;
-    padding: 10px 22px;
-    margin-bottom: 22px;
-    border-radius: 50px;
-    background: #e8f5ed;
-    color: #157d48;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-.nr10-legislacao-titulo h2 {
-    margin: 0 0 22px;
-    color: #102d46;
-    font-size: 46px;
-    line-height: 1.15;
-}
-
-.nr10-legislacao-titulo h2 strong {
-    color: #157d48;
-}
-
-.nr10-legislacao-titulo p {
-    margin: 0;
-    color: #64748b;
-    font-size: 19px;
-    line-height: 1.8;
-}
-
-/* GRID */
-
-.nr10-legislacao-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 24px;
-}
-
-/* CARDS */
-
-.nr10-legislacao-card {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    background: #ffffff;
-    border: 1px solid #e5efea;
-    border-radius: 22px;
-    box-shadow: 0 8px 28px rgba(16, 45, 70, 0.05);
-    transition: transform 0.3s ease,
-                box-shadow 0.3s ease,
-                border-color 0.3s ease;
-}
-
-.nr10-legislacao-card:hover {
-    transform: translateY(-5px);
-    border-color: #b9dfc8;
-    box-shadow: 0 15px 35px rgba(16, 45, 70, 0.09);
-}
-
-/* CARD EM DESTAQUE */
-
-.nr10-legislacao-card.destaque {
-    border: 2px solid #157d48;
-    background: #f9fdfb;
-}
-
-/* ÍCONES */
-
-.nr10-legislacao-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 58px;
-    height: 58px;
-    margin-bottom: 22px;
-    border-radius: 16px;
-    background: #e8f5ed;
-    color: #157d48;
-    font-size: 24px;
-}
-
-/* CONTEÚDO */
-
-.nr10-legislacao-conteudo > span {
-    display: block;
-    margin-bottom: 10px;
-    color: #157d48;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-.nr10-legislacao-conteudo h3 {
-    margin: 0 0 10px;
-    color: #102d46;
-    font-size: 28px;
-    line-height: 1.25;
-}
-
-.nr10-legislacao-conteudo h4 {
-    margin: 0 0 15px;
-    color: #334e68;
-    font-size: 18px;
-    line-height: 1.4;
-}
-
-.nr10-legislacao-conteudo p {
-    margin: 0;
-    color: #64748b;
-    font-size: 16px;
-    line-height: 1.75;
-}
-
-/* STATUS */
-
-.nr10-legislacao-status {
-    display: flex;
-    align-items: center;
-    gap: 9px;
-    margin-top: 25px;
-    padding-top: 18px;
-    border-top: 1px solid #e5efea;
-    color: #157d48;
-    font-size: 14px;
-    font-weight: 700;
-}
-
-.nr10-legislacao-status i {
-    font-size: 16px;
-}
-
-/* AVISO */
-
-.nr10-legislacao-aviso {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    margin-top: 45px;
-    padding: 28px 32px;
-    background: #f0f7f3;
-    border: 1px solid #dceee3;
-    border-radius: 20px;
-}
-
-.nr10-legislacao-aviso-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    width: 48px;
-    height: 48px;
-    border-radius: 14px;
-    background: #dcefe3;
-    color: #157d48;
-    font-size: 21px;
-}
-
-.nr10-legislacao-aviso h3 {
-    margin: 0 0 8px;
-    color: #102d46;
-    font-size: 20px;
-}
-
-.nr10-legislacao-aviso p {
-    margin: 0;
-    color: #526579;
-    font-size: 16px;
-    line-height: 1.7;
-}
-
-/* FONTE OFICIAL */
-
-.nr10-legislacao-fonte {
-    margin-top: 30px;
-    text-align: center;
-}
-
-.nr10-legislacao-fonte a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    color: #157d48;
-    font-size: 16px;
-    font-weight: 700;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.nr10-legislacao-fonte a:hover {
-    color: #0b5832;
-    text-decoration: underline;
-}
-
-/* TABLET */
-
-@media (max-width: 900px) {
-    .nr10-legislacao {
-        padding: 80px 24px;
-    }
-
-    .nr10-legislacao-grid {
-        gap: 20px;
-    }
-
-    .nr10-legislacao-card {
-        padding: 26px;
-    }
-
-    .nr10-legislacao-titulo h2 {
-        font-size: 40px;
-    }
-}
-
-/* MOBILE */
-
-@media (max-width: 600px) {
-    .nr10-legislacao {
-        padding: 65px 20px;
-    }
-
-    .nr10-legislacao-titulo {
-        margin-bottom: 40px;
-    }
-
-    .nr10-legislacao-titulo h2 {
-        font-size: 35px;
-    }
-
-    .nr10-legislacao-titulo p {
-        font-size: 16px;
-        line-height: 1.7;
-    }
-
-    .nr10-legislacao-grid {
-        grid-template-columns: 1fr;
-        gap: 18px;
-    }
-
-    .nr10-legislacao-card {
-        padding: 24px 22px;
-        border-radius: 18px;
-    }
-
-    .nr10-legislacao-icon {
-        width: 50px;
-        height: 50px;
-        font-size: 21px;
-    }
-
-    .nr10-legislacao-conteudo h3 {
-        font-size: 25px;
-    }
-
-    .nr10-legislacao-conteudo h4 {
-        font-size: 17px;
-    }
-
-    .nr10-legislacao-conteudo p {
-        font-size: 15px;
-    }
-
-    .nr10-legislacao-aviso {
-        flex-direction: column;
-        gap: 14px;
-        padding: 24px 20px;
-    }
-
-    .nr10-legislacao-aviso h3 {
-        font-size: 19px;
-    }
-
-    .nr10-legislacao-aviso p {
-        font-size: 15px;
-    }
-
-    .nr10-legislacao-fonte a {
-        font-size: 14px;
-        line-height: 1.5;
-    }
-}
-
 
 /* =========================================
    PARTE 05 — COMO FUNCIONA O TREINAMENTO NR10
@@ -2309,4 +2003,183 @@
         width: 100%;
         box-sizing: border-box;
     }
+}
+
+
+/* =====================================================
+   NR10 — CORREÇÃO DE LARGURA NO MOBILE
+   Evita elementos ultrapassando a tela
+===================================================== */
+
+/* Dimensionamento correto de todos os elementos */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Impede que os containers ultrapassem a largura disponível */
+
+.nr10-hero,
+.nr10-sobre,
+.nr10-conteudo,
+.nr10-legislacao,
+.nr10-como-funciona,
+.nr10-certificacao,
+.footer-shammar {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+}
+
+/* Corrige seções com width: 100% e padding horizontal */
+
+.nr10-conteudo,
+.nr10-legislacao,
+.nr10-como-funciona {
+    box-sizing: border-box;
+}
+
+/* Evita que os grids sejam alargados pelo conteúdo interno */
+
+.nr10-hero .hero-nr-grid,
+.nr10-info-grid,
+.nr10-conteudo-grid,
+.nr10-legislacao-grid,
+.nr10-etapas,
+.nr10-certificacao-grid,
+.footer-shammar-top {
+    min-width: 0;
+}
+
+.nr10-info-card,
+.nr10-conteudo-card,
+.nr10-legislacao-card,
+.nr10-etapa,
+.nr10-certificacao-info,
+.nr10-certificado-visual,
+.footer-shammar-brand,
+.footer-shammar-links,
+.footer-shammar-contato {
+    min-width: 0;
+    max-width: 100%;
+}
+
+/* Permite quebra de textos longos */
+
+.nr10-info-card h3,
+.nr10-info-card p,
+.nr10-conteudo-card h3,
+.nr10-conteudo-card p,
+.nr10-conteudo-card li,
+.nr10-legislacao-card h3,
+.nr10-legislacao-card h4,
+.nr10-legislacao-card p,
+.nr10-etapa h3,
+.nr10-etapa p,
+.nr10-certificacao-info,
+.footer-shammar p,
+.footer-shammar a {
+    overflow-wrap: anywhere;
+}
+
+/* Corrige colunas dos grids */
+
+.nr10-info-grid,
+.nr10-conteudo-grid,
+.nr10-legislacao-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* Imagens não podem ultrapassar seus containers */
+
+.nr10-hero img,
+.nr10-certificacao img,
+.footer-shammar img {
+    max-width: 100%;
+}
+
+/* =====================================================
+   NR10 — AJUSTES PARA CELULAR
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .nr10-hero,
+    .nr10-sobre,
+    .nr10-conteudo,
+    .nr10-legislacao,
+    .nr10-como-funciona {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: clip;
+    }
+
+    .nr10-hero .container {
+        width: 92%;
+        max-width: 500px;
+        min-width: 0;
+    }
+
+    .nr10-info-grid,
+    .nr10-conteudo-grid,
+    .nr10-legislacao-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .nr10-conteudo-container,
+    .nr10-legislacao-container,
+    .nr10-como-container {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .nr10-etapas {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .nr10-certificacao-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .nr10-certificado-visual,
+    .nr10-certificado-documento {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .footer-shammar-top {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+}
+
+/* =====================================================
+   CELULARES PEQUENOS
+===================================================== */
+
+@media (max-width: 400px) {
+
+    .nr10-hero .container {
+        width: 92%;
+    }
+
+    .nr10-sobre,
+    .nr10-conteudo,
+    .nr10-legislacao,
+    .nr10-como-funciona {
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+
+    .nr10-info-card,
+    .nr10-conteudo-card,
+    .nr10-legislacao-card,
+    .nr10-etapa {
+        max-width: 100%;
+    }
+
 }
