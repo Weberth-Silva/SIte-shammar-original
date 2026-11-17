@@ -1,3 +1,45 @@
+/* =========================================
+   AJUSTE GLOBAL DE RESPONSIVIDADE
+========================================= */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+body {
+    min-width: 0;
+}
+/* EVITA ESTOURO DE LARGURA NAS SEÇÕES NR12 */
+
+.nr12-hero,
+.nr12-sobre,
+.nr12-conteudo,
+.nr12-legislacao,
+.nr12-como-funciona,
+.nr12-certificacao,
+.footer-shammar {
+    width: 100%;
+    max-width: 100%;
+}
+
+.nr12-hero *,
+.nr12-sobre *,
+.nr12-conteudo *,
+.nr12-legislacao *,
+.nr12-como-funciona *,
+.nr12-certificacao *,
+.footer-shammar * {
+    min-width: 0;
+}
 
 /* =========================================
    HERO NR12 — MÁQUINAS E EQUIPAMENTOS
